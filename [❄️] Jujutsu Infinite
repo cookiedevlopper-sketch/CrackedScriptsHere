@@ -1,0 +1,289 @@
+-- Cracked by Cookie_Devlopper/Risax enjoyy
+
+local _ = pcall(function(...)
+    local Game = "game";
+    -- local _ = game or (unknown_value)
+    local var3 = "https://sirius.menu/rayfield";
+    local var4 = game:HttpGet(var3);
+    local var5 = loadstring(var4);
+    local Loaded_Var4 = var5();
+    -- local _ = game or (unknown_value)
+    local GetService = "GetService";
+    local ReplicatedStorage = game:GetService("ReplicatedStorage");
+    local Remotes = "Remotes";
+    local Remotes_2 = ReplicatedStorage[Remotes];
+    local Server = "Server";
+    local Server_2 = Remotes_2[Server];
+    local Combat = "Combat";
+    local Combat_2 = Server_2[Combat];
+    local M1 = Combat_2.M1;
+    -- local _ = game or (unknown_value)
+    local CollectionService = game:GetService("CollectionService");
+    -- local _ = game or (unknown_value)
+    local UserInputService = game:GetService("UserInputService");
+    -- local _ = game or (unknown_value)
+    local ContextActionService = game:GetService("ContextActionService");
+    -- local _ = game or (unknown_value)
+    local RunService = "RunService";
+    local RunService_2 = game:GetService(RunService);
+    -- local _ = game or (unknown_value)
+    local Players = "Players";
+    local Players_2 = game:GetService(Players);
+    -- local _ = game or (unknown_value)
+    local ReplicatedStorage_2 = game:GetService("ReplicatedStorage");
+    -- local _ = game or (unknown_value)
+    local SoundService = game:GetService("SoundService");
+    local Name = "Name";
+    local Icon = "Icon";
+    local By_Qwenzy = "By qwenzy";
+    local Rayfield = "Rayfield";
+    local Default = "Default";
+    local Theme = "Theme";
+    local Enabled = "Enabled";
+    local FolderName = "FolderName";
+    local FileName = "FileName";
+    local Invite = "Invite";
+    local Discord = "Discord";
+    local Untitled = "Untitled";
+    local Title = "Title";
+    local Key_System = "Key System";
+    local Subtitle = "Subtitle";
+    local str = "No method of obtaining the key is provided";
+    local Note = "Note";
+    local Key = "Key";
+    local Hello = "Hello";
+    local CreateWindow = Loaded_Var4.CreateWindow;
+    local Window = Loaded_Var4:CreateWindow({
+        LoadingTitle = "@mrqwenzy on discord",
+        KeySettings = {
+            [Note] = str,
+            [Title] = Untitled,
+            [Key] = {
+                Hello,
+            },
+            GrabKeyFromSite = false,
+            SaveKey = true,
+            [FileName] = Key,
+            [Subtitle] = Key_System,
+        },
+        KeySystem = false,
+        DisableBuildWarnings = false,
+        [Discord] = {
+            [Enabled] = true,
+            RememberJoins = true,
+            [Invite] = "TTAnNjnqrq",
+        },
+        ConfigurationSaving = {
+            [Enabled] = true,
+            [FolderName] = "Qwenzy Hub",
+            [FileName] = "BigProQwenzyHubJJS",
+        },
+        DisableRayfieldPrompts = false,
+        ShowText = Rayfield,
+        [Name] = "by Qwenzy  (@mrqwenzy)",
+        ToggleUIKeybind = "M",
+        LoadingSubtitle = By_Qwenzy,
+        [Icon] = 0,
+        [Theme] = Default,
+    });
+    local Main = "Main";
+    local CreateTab = "CreateTab";
+    local CreateTab_2 = Window[CreateTab];
+    local Main_2 = Window:CreateTab(Main, 4483362458);
+    local Cast_Skill = "Cast Skill";
+    local CreateTab_3 = Window[CreateTab];
+    local Cast_Skill_2 = Window:CreateTab(Cast_Skill, 4483362458);
+    local By_Qwenzy_2 = "by qwenzy";
+    local CreateSection = Main_2.CreateSection;
+    local By_Qwenzy_3 = Main_2:CreateSection(By_Qwenzy_2);
+    local Have_Fun = "Have fun";
+    local Content = "Content";
+    local Duration = "Duration";
+    local Image = "Image";
+    local Notify = "Notify";
+    local Notify_2 = Loaded_Var4[Notify];
+    local Notify_3 = Loaded_Var4:Notify({
+        [Image] = 4483362458,
+        [Duration] = 6.5,
+        [Content] = "By @mrqwenzy",
+        [Title] = Have_Fun,
+    });
+    -- local _ = workspace or (unknown_value)
+    local QwenzyBoosting = workspace:FindFirstChild("QwenzyBoosting");
+    if not QwenzyBoosting then
+        return
+    end -- won't run
+    local Value = "Value";
+    local Value_2 = QwenzyBoosting[Value];
+    local var43 = Value_2 + 1;
+    QwenzyBoosting[Value] = var43;
+    local Value_3 = QwenzyBoosting[Value];
+    local Speed = "Speed";
+    local Range = "Range";
+    local Tick = "tick";
+    local var47 = tick();
+    local Last = "Last";
+    local Offset = "Offset";
+    local Farm_Mobs = "Farm mobs";
+    local Flag = "Flag";
+    local Callback = "Callback";
+    local CreateToggle = Main_2.CreateToggle;
+    local Toggle = Main_2:CreateToggle({
+        CurrentValue = false,
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+        end,
+        [Name] = Farm_Mobs,
+        [Flag] = "Farmss",
+    });
+    local Distance = "Distance";
+    local Increment = "Increment";
+    local Suffix = "Suffix";
+    local CreateSlider = Main_2.CreateSlider;
+    local Slider = Main_2:CreateSlider({
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+        end,
+        [Name] = Distance,
+        [Suffix] = "Studs",
+        CurrentValue = 20,
+        [Increment] = 1,
+        [Range] = {
+            -99,
+            99,
+        },
+        [Flag] = "farmoffset",
+    });
+    local CreateDivider = Main_2.CreateDivider;
+    local Divider = Main_2:CreateDivider();
+    local Killaura = "Killaura";
+    local CreateToggle_2 = Main_2.CreateToggle;
+    local Toggle_2 = Main_2:CreateToggle({
+        CurrentValue = false,
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+        end,
+        [Name] = Killaura,
+        [Flag] = Killaura,
+    });
+    local Killaura_Speed = "Killaura speed";
+    local CreateSlider_2 = Main_2.CreateSlider;
+    local Slider_2 = Main_2:CreateSlider({
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+        end,
+        [Name] = Killaura_Speed,
+        [Suffix] = "s.",
+        CurrentValue = 0.33,
+        [Increment] = 0.01,
+        [Range] = {
+            0.33,
+            1,
+        },
+        [Flag] = "killauraSpeed",
+    });
+    local CreateDivider_2 = Main_2.CreateDivider;
+    local Divider_2 = Main_2:CreateDivider();
+    local Electric_Staff = "Electric Staff";
+    local Split_Soul = "Split Soul";
+    local Vengeance = "Vengeance";
+    local Turbo_Mask = "Turbo Mask";
+    local Weapon_Name = "Weapon name";
+    local Name_2 = "name";
+    local CreateInput = Main_2.CreateInput;
+    local Input = Main_2:CreateInput({
+        RemoveTextAfterFocusLost = false,
+        [Flag] = "Input1",
+        CurrentValue = Turbo_Mask,
+        PlaceholderText = Name_2,
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+        end,
+        [Name] = Weapon_Name,
+    });
+    local Get_Weapon = "Get weapon";
+    local CreateButton = Main_2.CreateButton;
+    local Button = Main_2:CreateButton({
+        [Name] = Get_Weapon,
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+            local Success_7, Error_Message_7 = pcall(function(...)
+                local Instance = "Instance";
+                local New = "new";
+                -- local _ = Instance or (unknown_value)
+                local Tool = "Tool";
+                -- local _ = game or (unknown_value)
+                local Players_3 = game[Players];
+                local LocalPlayer = Players_2.LocalPlayer;
+                local Backpack = LocalPlayer.Backpack;
+                local Tool_2 = Instance.new(Tool);
+                Tool_2.Parent = Backpack;
+                Tool_2[Name] = ext_1_0;
+                Tool_2.RequiresHandle = false;
+                local CanBeDropped = "CanBeDropped";
+                Tool_2[CanBeDropped] = false;
+                Tool_2.ToolTip = "By Qwenzy";
+            end) -- true
+        end,
+    });
+    local Get_Mastery_For_Weapons = "Get Mastery (for weapons)";
+    local CreateButton_2 = Main_2.CreateButton;
+    local Button_2 = Main_2:CreateButton({
+        [Name] = Get_Mastery_For_Weapons,
+        [Callback] = function(ext_1_0, ext_2_0, ext_3_0, ext_4_0, ext_5_0, ...)
+            local Success_8, Error_Message_8 = pcall(function(...)
+                -- local _ = game or (unknown_value)
+                local Players_4 = game:GetService(Players);
+                local LocalPlayer_2 = Players_2.LocalPlayer;
+                local ReplicatedData = LocalPlayer.ReplicatedData;
+                local Masteries = ReplicatedData.masteries;
+                local GetChildren_2 = Masteries.GetChildren;
+                local Children_2 = Masteries:GetChildren();
+                local var92 = typeof(Children_2);
+                local var92_is_string = (var92 == "function");
+                -- true, eq id 4
+                local Not_Var92_Is_String = not var92_is_string;
+                -- false
+                local var93 = typeof(Children_2);
+                local var93_is_string = (var93 == "function");
+                -- true, eq id 5
+                if not var93_is_string then
+                    return
+                end -- won't run
+                local _call94 = Children_2(nil, nil);
+                local call94_Exists = (_call94 ~= nil);
+                -- true, eq id 6
+                if not call94_Exists then
+                    return
+                end -- won't run
+                local Level = "level";
+                local var96 = (nil)[Level];
+            end) -- false, "[script]:1: attempt to index nil with 'level'"
+        end,
+    });
+    local CreateDivider_3 = Main_2.CreateDivider;
+    local Divider_3 = Main_2:CreateDivider();
+    local Skills = "Skills";
+    local Innates = "Innates";
+    local Reverse_Curse_Technique = "Reverse Curse Technique";
+    -- local _ = game or (unknown_value)
+    local ReplicatedStorage_3 = game:GetService("ReplicatedStorage");
+    local Skills_2 = ReplicatedStorage[Skills];
+    local Six_Eyed_Calamity = "Six Eyed Calamity";
+    local Rot = "Rot";
+    local Finger = "Finger";
+    local GetChildren = Skills_2.GetChildren;
+    local Children = Skills_2:GetChildren();
+    local var83 = typeof(Children);
+    local var83_is_string = (var83 == "function");
+    -- true, eq id 1
+    local Not_Var83_Is_String = not var83_is_string;
+    -- false
+    local var84 = typeof(Children);
+    local var84_is_string = (var84 == "function");
+    -- true, eq id 2
+    if not var84_is_string then
+        return
+    end -- won't run
+    local _call85 = Children(nil, nil);
+    local call85_Exists = (_call85 ~= nil);
+    -- true, eq id 3
+    if not call85_Exists then
+        return
+    end -- won't run
+    local var86 = (nil)[Name];
+end)
