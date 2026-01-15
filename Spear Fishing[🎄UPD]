@@ -1,0 +1,2527 @@
+-- Cracked by Cookie_Devlopper/Risax enjoy it :)
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+game:GetService("Workspace")
+game:GetService("CoreGui")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local PlayerGui_2 = LocalPlayer:WaitForChild("PlayerGui")
+local Remotes_2 = ReplicatedStorage:WaitForChild("Remotes")
+Remotes_2:WaitForChild("FireRE")
+Remotes_2:WaitForChild("FishRE")
+local Color3_FromRGB = Color3.fromRGB
+local Color3_Value_2 = Color3_FromRGB(35, 35, 35)
+local Color3_Value_4 = Color3_FromRGB(0, 120, 215)
+Color3_FromRGB(0, 140, 255)
+local Color3_Value_6 = Color3_FromRGB(240, 240, 240)
+local Color3_Value_7 = Color3_FromRGB(160, 160, 160)
+local Color3_Value_8 = Color3_FromRGB(96, 205, 24)
+Color3_FromRGB(255, 204, 0)
+local Color3_Value_10 = Color3_FromRGB(255, 69, 58)
+local Enum_Font_2 = Enum["Font"]
+local GothamMedium = Enum_Font_2.GothamMedium
+local GothamBold_2 = Enum_Font_2["GothamBold"]
+local _ = task.spawn(function(p1_0, p2_0, p3_0, p4_0)
+    local Success_19, Error_Message_18 = pcall(function(...)
+        local Config = "Config";
+        local Config_2 = ReplicatedStorage:FindFirstChild(Config);
+        local var1226 = (Config_2 and 71048); -- 71048
+        local var1227 = (var1226 or 16509236);
+        local ResFish = Config_2:FindFirstChild("ResFish");
+        local var1229 = (ResFish and 16468639); -- 16468639
+        local ResFish_Module = require(ResFish);
+    end) -- true
+end)
+Color3_FromRGB(255, 255, 255)
+Color3_FromRGB(0, 255, 0)
+Color3_FromRGB(0, 150, 255)
+Color3_FromRGB(180, 0, 255)
+Color3_FromRGB(255, 165, 0)
+Color3_FromRGB(255, 215, 0)
+Color3_FromRGB(255, 0, 100)
+Color3_FromRGB(255, 0, 0)
+local CatchModGUI = PlayerGui_2:FindFirstChild("CatchModGUI")
+local _ = ((CatchModGUI and 15833078); -- 15833078 or 16319467)
+local CatchModGUI_2 = PlayerGui_2.CatchModGUI
+CatchModGUI_2:Destroy()
+local ScreenGui_2 = "Instance".new("ScreenGui")
+ScreenGui_2["ResetOnSpawn"] = false
+ScreenGui_2["Name"] = "CatchModGUI"
+ScreenGui_2.DisplayOrder = 10
+if not PlayerGui_2 then return end -- won't run
+ScreenGui_2["Parent"] = PlayerGui_2
+local CurrentCamera = workspace.CurrentCamera
+local UDim2_New = UDim2["new"]
+local TouchEnabled_2 = UserInputService.TouchEnabled
+local _ = (TouchEnabled_2 and 14209647)
+local _ = (TouchEnabled_2 and 12116036)
+local Frame_2 = Instance.new("Frame")
+Frame_2.ClipsDescendants = true
+Frame_2["Name"] = "MainFrame"
+Frame_2["Position"] = UDim2_New(0.5, -210, 0.5, -160)
+Frame_2.BackgroundColor3 = Color3_FromRGB(25, 25, 25)
+Frame_2.BorderSizePixel = 0
+Frame_2["Size"] = UDim2_New(0, 420, 0, 320)
+if not ScreenGui_2 then return end -- won't run
+Frame_2[Parent] = ScreenGui_2
+local UDim_New = UDim[New]
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim_New(0, 14)
+if not Frame_2 then return end -- won't run
+UICorner[Parent] = Frame_2
+local Color3_New = Color3[New]
+local Color3_Value_19 = Color3_New(1, 1, 1)
+local _ = (Color3_Value_19 and 10314208); -- 10314208
+local UIStroke = Instance.new("UIStroke")
+UIStroke["Color"] = Color3_Value_19
+UIStroke["Transparency"] = 0.5
+UIStroke["Thickness"] = 1
+UIStroke[Parent] = Frame_2
+local ImageLabel_2 = Instance.new("ImageLabel")
+ImageLabel_2.ImageColor3 = Color3_New(0, 0, 0)
+ImageLabel_2[ScaleType_2] = Enum["ScaleType"][Slice]
+ImageLabel_2.ImageTransparency = 0.4
+ImageLabel_2.Image = "rbxassetid://5554236805"
+ImageLabel_2["Name"] = "Shadow"
+ImageLabel_2["Position"] = UDim2_New(0, -25, 0, -25)
+ImageLabel_2[Size] = UDim2_New(1, 50, 1, 50)
+ImageLabel_2.ZIndex = -1
+ImageLabel_2.BackgroundTransparency = 1
+ImageLabel_2.SliceCenter = Rect["new"](23, 23, 277, 277)
+ImageLabel_2[Parent] = Frame_2
+local Frame_3 = Instance.new(Frame)
+Frame_3["Name"] = "Header"
+Frame_3.BackgroundColor3 = Color3_Value_2
+Frame_3.BorderSizePixel = 0
+Frame_3[Size] = UDim2_New(1, 0, 0, 45)
+Frame_3[Parent] = Frame_2
+local TextLabel_2 = Instance.new("TextLabel")
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2["Position"] = UDim2_New(0, 12, 0.5, -12)
+TextLabel_2.Text = "🐟"
+TextLabel_2.TextSize = 18
+TextLabel_2[Size] = UDim2_New(0, 24, 0, 24)
+if not Frame_3 then return end -- won't run
+TextLabel_2[Parent] = Frame_3
+local Enum_TextXAlignment = Enum.TextXAlignment
+local TextLabel_4 = Instance.new(TextLabel_3)
+TextLabel_4.TextColor3 = Color3_Value_6
+TextLabel_4.Text = "Spear Fishing"
+TextLabel_4.Font = GothamBold_2
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4["Position"] = UDim2_New(0, 44, 0, 0)
+TextLabel_4.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_4.TextSize = 16
+TextLabel_4[Size] = UDim2_New(1, -100, 1, 0)
+TextLabel_4[Parent] = Frame_3
+local TextButton_2 = Instance.new("TextButton")
+TextButton_2.TextColor3 = Color3_Value_7
+TextButton_2.Font = GothamBold_2
+TextButton_2.BackgroundColor3 = Color3_Value_2
+TextButton_2["Position"] = UDim2_New(1, -85, 0.5, -15)
+TextButton_2.Text = "−"
+TextButton_2.TextSize = 20
+TextButton_2[Size] = UDim2_New(0, 40, 0, 30)
+TextButton_2[Parent] = Frame_3
+local UICorner_2 = Instance.new("UICorner")
+UICorner_2.CornerRadius = UDim_New(0, 6)
+if not TextButton_2 then return end -- won't run
+UICorner_2[Parent] = TextButton_2
+local Connection
+Connection = TextButton_2.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+    -- false
+    local _ = (not UserInputService.MouseEnabled and 13946887)
+    UDim2_New(0, 420, 0, 320)
+    local Enum_EasingStyle = Enum.EasingStyle
+    local Enum_EasingDirection = Enum.EasingDirection
+    local TweenInfo_2 = Env["TweenInfo"]
+    local str = TweenService:Create(Frame_2, TweenInfo_2["new"](0.3, Enum_EasingStyle["Back"], Enum_EasingDirection.In), {
+        [Size] = UDim2_New(0, 0, 0, 0),
+    })
+    str:Play()
+    task.wait(0.2)
+    Frame_2[Visible] = false
+    ImageButton[Visible] = true
+    local str_2 = TweenService:Create(ImageButton, TweenInfo_2["new"](0.3, Enum_EasingStyle["Elastic"], Enum_EasingDirection["Out"]), {
+        [Size] = UDim2_New(0, 50, 0, 50),
+    })
+    str_2:Play()
+end)
+local Connection_2
+Connection_2 = TextButton_2["MouseEnter"]:Connect(function(X, Y_7, p3_0) -- args: X_2, Y_8
+    local str_3 = TweenService:Create(TextButton_2, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_FromRGB(45, 45, 45),
+    })
+    str_3:Play()
+end)
+local Connection_3
+Connection_3 = TextButton_2["MouseLeave"]:Connect(function(X_3, Y_9, p3_0, p4_0) -- args: X_4, Y_10
+    local str_4 = TweenService:Create(TextButton_2, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_4:Play()
+end)
+local TextButton_4 = Instance.new("TextButton")
+TextButton_4.TextColor3 = Color3_Value_10
+TextButton_4.Font = GothamBold_2
+TextButton_4.BackgroundColor3 = Color3_Value_2
+TextButton_4["Position"] = UDim2_New(1, -42, 0.5, -15)
+TextButton_4.Text = "×"
+TextButton_4.TextSize = 22
+TextButton_4[Size] = UDim2_New(0, 40, 0, 30)
+TextButton_4[Parent] = Frame_3
+local UICorner_3 = Instance.new("UICorner")
+UICorner_3.CornerRadius = UDim_New(0, 6)
+if not TextButton_4 then return end -- won't run
+UICorner_3[Parent] = TextButton_4
+local Connection_4
+Connection_4 = TextButton_4["MouseEnter"]:Connect(function(X_5, Y_11, p3_0) -- args: X_6, Y_12
+    local str_5 = TweenService:Create(TextButton_4, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        TextColor3 = Color3_New(1, 1, 1),
+        BackgroundColor3 = Color3_Value_10,
+    })
+    str_5:Play()
+end)
+local Connection_5
+Connection_5 = TextButton_4["MouseLeave"]:Connect(function(X_7, Y_13, p3_0, p4_0) -- args: X_8, Y_14
+    local str_6 = TweenService:Create(TextButton_4, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        TextColor3 = Color3_Value_10,
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_6:Play()
+end)
+local Connection_6
+Connection_6 = Frame_3["InputBegan"]:Connect(function(Input, p2_0, p3_0) -- args: Input_2
+    local Input_2 = Input[1]
+    local Enum_UserInputType = Enum.UserInputType
+    -- false, eq id 1
+    local _ = ((Input_2.UserInputType == Enum_UserInputType.MouseButton1) and 12711494)
+    -- false, eq id 2
+    local _ = ((Input_2.UserInputType == Enum_UserInputType["Touch"]) and 15378342)
+end)
+local Connection_7
+Connection_7 = Frame_3["InputEnded"]:Connect(function(Input_3, p2_0) -- args: Input_4
+    local Input_4 = Input_3[1]
+    -- false, eq id 3
+    local _ = ((Input_4.UserInputType == Enum_UserInputType.MouseButton1) and 11098787)
+    local _ = (Input_4.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 4
+end)
+local Connection_8
+Connection_8 = UserInputService.InputChanged:Connect(function(Input_5, GameProcessedEvent) -- args: Input_6, GameProcessedEvent_2
+end)
+local Enum_AutomaticSize = Enum.AutomaticSize
+local ScrollingFrame = Instance.new("ScrollingFrame")
+ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 1
+ScrollingFrame["Position"] = UDim2_New(0, 0, 0, 45)
+ScrollingFrame.AutomaticCanvasSize = Enum_AutomaticSize.Y
+ScrollingFrame.ScrollBarThickness = 2
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame[Size] = UDim2_New(1, 0, 1, -45)
+ScrollingFrame[Parent] = Frame_2
+local UIPadding = Instance.new("UIPadding")
+UIPadding["PaddingTop"] = UDim_New(0, 12)
+UIPadding.PaddingBottom = UDim_New(0, 12)
+UIPadding.PaddingLeft = UDim_New(0, 12)
+UIPadding.PaddingRight = UDim_New(0, 12)
+if not ScrollingFrame then return end -- won't run
+UIPadding[Parent] = ScrollingFrame
+local UIListLayout_2 = Instance.new("UIListLayout")
+UIListLayout_2["Padding"] = UDim_New(0, 8)
+UIListLayout_2[SortOrder_2] = Enum["SortOrder"].LayoutOrder
+UIListLayout_2[Parent] = ScrollingFrame
+local ImageButton = Instance.new("ImageButton")
+ImageButton["Visible"] = false
+ImageButton["Name"] = "FAB"
+ImageButton["Position"] = UDim2_New(0, 20, 0.5, -25)
+ImageButton.BackgroundColor3 = Color3_Value_2
+ImageButton.BorderSizePixel = 0
+ImageButton[Size] = UDim2_New(0, 50, 0, 50)
+ImageButton[Parent] = ScreenGui_2
+local UICorner_4 = Instance.new("UICorner")
+UICorner_4.CornerRadius = UDim_New(0, 25)
+if not ImageButton then return end -- won't run
+UICorner_4[Parent] = ImageButton
+local _ = (Color3_Value_4 and 10314208); -- 10314208
+local UIStroke_2 = Instance.new("UIStroke")
+UIStroke_2[Color] = Color3_Value_4
+UIStroke_2[Transparency] = 0.5
+UIStroke_2[Thickness] = 2
+UIStroke_2[Parent] = ImageButton
+local TextLabel_6 = Instance.new("TextLabel")
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.Text = "🐟"
+TextLabel_6.TextSize = 24
+TextLabel_6[Size] = UDim2_New(1, 0, 1, 0)
+TextLabel_6[Parent] = ImageButton
+local Connection_9
+Connection_9 = ImageButton.MouseButton1Click:Connect(function(p1_0)
+    -- false
+    local _ = (not UserInputService.MouseEnabled and 13946887)
+    Frame_2[Visible] = true
+    Frame_2[Size] = UDim2_New(0, 0, 0, 0)
+    local str_7 = TweenService:Create(Frame_2, TweenInfo_2["new"](0.3, Enum_EasingStyle["Back"], Enum_EasingDirection["Out"]), {
+        [Size] = UDim2_New(0, 420, 0, 320),
+    })
+    str_7:Play()
+    local str_8 = TweenService:Create(ImageButton, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Size] = UDim2_New(0, 0, 0, 0),
+    })
+    str_8:Play()
+    task.wait(0.2)
+    ImageButton[Visible] = false
+end)
+local Connection_10
+Connection_10 = ImageButton[InputBegan]:Connect(function(Input_7, p2_0, p3_0) -- args: Input_8
+    local Input_8 = Input_7[1]
+    -- false, eq id 5
+    local _ = ((Input_8.UserInputType == Enum_UserInputType.MouseButton1) and 12711494)
+    -- false, eq id 6
+    local _ = ((Input_8.UserInputType == Enum_UserInputType["Touch"]) and 15378342)
+end)
+local Connection_11
+Connection_11 = ImageButton[InputEnded]:Connect(function(Input_9, p2_0) -- args: Input_10
+    local Input_10 = Input_9[1]
+    -- false, eq id 7
+    local _ = ((Input_10.UserInputType == Enum_UserInputType.MouseButton1) and 11098787)
+    local _ = (Input_10.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 8
+end)
+local Connection_12
+Connection_12 = UserInputService.InputChanged:connect(function(Input_11, GameProcessedEvent_3) -- args: Input_12, GameProcessedEvent_4
+end)
+local Connection_13
+Connection_13 = TextButton_4.MouseButton1Click:Connect(function()
+    ScreenGui_2:Destroy()
+end)
+local Frame_4 = Instance.new(Frame)
+Frame_4.BackgroundTransparency = 1
+Frame_4[Size] = UDim2_New(1, 0, 0, 30)
+Frame_4[Parent] = ScrollingFrame
+local TextLabel_8 = Instance.new("TextLabel")
+TextLabel_8.TextColor3 = Color3_Value_4
+TextLabel_8.Text = "AUTOMATION"
+TextLabel_8.Font = GothamBold_2
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8["Position"] = UDim2_New(0, 4, 0, 0)
+TextLabel_8.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_8.TextSize = 11
+TextLabel_8[Size] = UDim2_New(1, 0, 1, 0)
+if not Frame_4 then return end -- won't run
+TextLabel_8[Parent] = Frame_4
+local Frame_5 = Instance.new(Frame)
+Frame_5.BackgroundColor3 = Color3_Value_2
+Frame_5.BorderSizePixel = 0
+Frame_5[Size] = UDim2_New(1, 0, 0, 44)
+Frame_5[Parent] = ScrollingFrame
+local UICorner_5 = Instance.new("UICorner")
+UICorner_5.CornerRadius = UDim_New(0, 8)
+if not Frame_5 then return end -- won't run
+UICorner_5[Parent] = Frame_5
+local TextLabel_10 = Instance.new("TextLabel")
+TextLabel_10.TextColor3 = Color3_Value_6
+TextLabel_10.Text = "Auto Fish"
+TextLabel_10["Font"] = GothamMedium
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10["Position"] = UDim2_New(0, 12, 0, 0)
+TextLabel_10.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_10.TextSize = 14
+TextLabel_10[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_10[Parent] = Frame_5
+local Frame_6 = Instance.new(Frame)
+Frame_6.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_6["Position"] = UDim2_New(1, -52, 0.5, -10)
+Frame_6[Size] = UDim2_New(0, 40, 0, 20)
+Frame_6[Parent] = Frame_5
+local UICorner_6 = Instance.new("UICorner")
+UICorner_6.CornerRadius = UDim_New(0, 20)
+if not Frame_6 then return end -- won't run
+UICorner_6[Parent] = Frame_6
+local Frame_7 = Instance.new(Frame)
+Frame_7.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_7["Position"] = UDim2_New(0, 2, 0.5, -8)
+Frame_7[Size] = UDim2_New(0, 16, 0, 16)
+Frame_7[Parent] = Frame_6
+local UICorner_7 = Instance.new("UICorner")
+UICorner_7.CornerRadius = UDim_New(0, 16)
+if not Frame_7 then return end -- won't run
+UICorner_7[Parent] = Frame_7
+local TextButton_6 = Instance.new("TextButton")
+TextButton_6[Text_29] = ""
+TextButton_6.BackgroundTransparency = 1
+TextButton_6[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_6[Parent] = Frame_5
+local Connection_14
+Connection_14 = TextButton_6.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_9 = TweenService:Create(Frame_6, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_9:Play()
+    local UDim2_Value_122 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_122 and 14317864); -- 14317864 or 15225305)
+    local str_10 = TweenService:Create(Frame_7, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        ["Position"] = UDim2_Value_122,
+    })
+    str_10:Play()
+end)
+local Connection_15
+Connection_15 = TextButton_6["InputBegan"]:Connect(function(Input_13, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_14
+    local var1494 = Input_13[2]
+    local _ = (var1494.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 9
+    local _ = (var1494.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 10
+end)
+local Connection_16
+Connection_16 = TextButton_6["InputEnded"]:Connect(function(Input_15, p2_0, p3_0) -- args: Input_16
+    local str_11 = TweenService:Create(Frame_5, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_11:Play()
+end)
+local Frame_8 = Instance.new(Frame)
+Frame_8.BackgroundColor3 = Color3_Value_2
+Frame_8.BorderSizePixel = 0
+Frame_8[Size] = UDim2_New(1, 0, 0, 44)
+Frame_8[Parent] = ScrollingFrame
+local UICorner_8 = Instance.new("UICorner")
+UICorner_8.CornerRadius = UDim_New(0, 8)
+if not Frame_8 then return end -- won't run
+UICorner_8[Parent] = Frame_8
+local TextLabel_11 = Instance.new(TextLabel_9)
+TextLabel_11.TextColor3 = Color3_Value_6
+TextLabel_11[Text_29] = "Auto Sell"
+TextLabel_11[Font_14] = GothamMedium
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_11.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_11.TextSize = 14
+TextLabel_11[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_11[Parent] = Frame_8
+local Frame_9 = Instance.new(Frame)
+Frame_9.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_9[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_9[Size] = UDim2_New(0, 40, 0, 20)
+Frame_9[Parent] = Frame_8
+local UICorner_9 = Instance.new("UICorner")
+UICorner_9.CornerRadius = UDim_New(0, 20)
+if not Frame_9 then return end -- won't run
+UICorner_9[Parent] = Frame_9
+local Frame_10 = Instance.new(Frame)
+Frame_10.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_10[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_10[Size] = UDim2_New(0, 16, 0, 16)
+Frame_10[Parent] = Frame_9
+local UICorner_10 = Instance.new("UICorner")
+UICorner_10.CornerRadius = UDim_New(0, 16)
+if not Frame_10 then return end -- won't run
+UICorner_10[Parent] = Frame_10
+local TextButton_7 = Instance.new(TextButton_5)
+TextButton_7[Text_29] = ""
+TextButton_7.BackgroundTransparency = 1
+TextButton_7[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_7[Parent] = Frame_8
+local Connection_17
+Connection_17 = TextButton_7.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_12 = TweenService:Create(Frame_9, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_12:Play()
+    local UDim2_Value_123 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_123 and 14317864); -- 14317864 or 15225305)
+    local str_13 = TweenService:Create(Frame_10, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_123,
+    })
+    str_13:Play()
+end)
+local Connection_18
+Connection_18 = TextButton_7[InputBegan_2]:Connect(function(Input_17, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_18
+    local var1559 = Input_17[2]
+    local _ = (var1559.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 11
+    local _ = (var1559.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 12
+end)
+local Connection_19
+Connection_19 = TextButton_7[InputEnded_2]:Connect(function(Input_19, p2_0, p3_0) -- args: Input_20
+    local str_14 = TweenService:Create(Frame_8, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_14:Play()
+end)
+local Frame_11 = Instance.new(Frame)
+Frame_11.BackgroundColor3 = Color3_Value_2
+Frame_11.BorderSizePixel = 0
+Frame_11[Size] = UDim2_New(1, 0, 0, 44)
+Frame_11[Parent] = ScrollingFrame
+local UICorner_11 = Instance.new("UICorner")
+UICorner_11.CornerRadius = UDim_New(0, 8)
+if not Frame_11 then return end -- won't run
+UICorner_11[Parent] = Frame_11
+local TextLabel_12 = Instance.new(TextLabel_9)
+TextLabel_12.TextColor3 = Color3_Value_6
+TextLabel_12[Text_29] = "Auto Album"
+TextLabel_12[Font_14] = GothamMedium
+TextLabel_12.BackgroundTransparency = 1
+TextLabel_12[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_12.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_12.TextSize = 14
+TextLabel_12[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_12[Parent] = Frame_11
+local Frame_12 = Instance.new(Frame)
+Frame_12.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_12[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_12[Size] = UDim2_New(0, 40, 0, 20)
+Frame_12[Parent] = Frame_11
+local UICorner_12 = Instance.new("UICorner")
+UICorner_12.CornerRadius = UDim_New(0, 20)
+if not Frame_12 then return end -- won't run
+UICorner_12[Parent] = Frame_12
+local Frame_13 = Instance.new(Frame)
+Frame_13.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_13[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_13[Size] = UDim2_New(0, 16, 0, 16)
+Frame_13[Parent] = Frame_12
+local UICorner_13 = Instance.new("UICorner")
+UICorner_13.CornerRadius = UDim_New(0, 16)
+if not Frame_13 then return end -- won't run
+UICorner_13[Parent] = Frame_13
+local TextButton_8 = Instance.new(TextButton_5)
+TextButton_8[Text_29] = ""
+TextButton_8.BackgroundTransparency = 1
+TextButton_8[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_8[Parent] = Frame_11
+local Connection_20
+Connection_20 = TextButton_8.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_15 = TweenService:Create(Frame_12, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_15:Play()
+    local UDim2_Value_124 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_124 and 14317864); -- 14317864 or 15225305)
+    local str_16 = TweenService:Create(Frame_13, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_124,
+    })
+    str_16:Play()
+end)
+local Connection_21
+Connection_21 = TextButton_8[InputBegan_2]:Connect(function(Input_21, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_22
+    local var1583 = Input_21[2]
+    local _ = (var1583.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 13
+    local _ = (var1583.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 14
+end)
+local Connection_22
+Connection_22 = TextButton_8[InputEnded_2]:Connect(function(Input_23, p2_0, p3_0) -- args: Input_24
+    local str_17 = TweenService:Create(Frame_11, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_17:Play()
+end)
+local Frame_14 = Instance.new(Frame)
+Frame_14.BackgroundColor3 = Color3_Value_2
+Frame_14.BorderSizePixel = 0
+Frame_14[Size] = UDim2_New(1, 0, 0, 44)
+Frame_14[Parent] = ScrollingFrame
+local UICorner_14 = Instance.new("UICorner")
+UICorner_14.CornerRadius = UDim_New(0, 8)
+if not Frame_14 then return end -- won't run
+UICorner_14[Parent] = Frame_14
+local TextLabel_13 = Instance.new(TextLabel_9)
+TextLabel_13.TextColor3 = Color3_Value_6
+TextLabel_13[Text_29] = "Auto Chest"
+TextLabel_13[Font_14] = GothamMedium
+TextLabel_13.BackgroundTransparency = 1
+TextLabel_13[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_13.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_13.TextSize = 14
+TextLabel_13[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_13[Parent] = Frame_14
+local Frame_15 = Instance.new(Frame)
+Frame_15.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_15[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_15[Size] = UDim2_New(0, 40, 0, 20)
+Frame_15[Parent] = Frame_14
+local UICorner_15 = Instance.new("UICorner")
+UICorner_15.CornerRadius = UDim_New(0, 20)
+if not Frame_15 then return end -- won't run
+UICorner_15[Parent] = Frame_15
+local Frame_16 = Instance.new(Frame)
+Frame_16.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_16[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_16[Size] = UDim2_New(0, 16, 0, 16)
+Frame_16[Parent] = Frame_15
+local UICorner_16 = Instance.new("UICorner")
+UICorner_16.CornerRadius = UDim_New(0, 16)
+if not Frame_16 then return end -- won't run
+UICorner_16[Parent] = Frame_16
+local TextButton_9 = Instance.new(TextButton_5)
+TextButton_9[Text_29] = ""
+TextButton_9.BackgroundTransparency = 1
+TextButton_9[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_9[Parent] = Frame_14
+local Connection_23
+Connection_23 = TextButton_9.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_18 = TweenService:Create(Frame_15, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_18:Play()
+    local UDim2_Value_125 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_125 and 14317864); -- 14317864 or 15225305)
+    local str_19 = TweenService:Create(Frame_16, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_125,
+    })
+    str_19:Play()
+end)
+local Connection_24
+Connection_24 = TextButton_9[InputBegan_2]:Connect(function(Input_25, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_26
+    local var1607 = Input_25[2]
+    local _ = (var1607.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 15
+    local _ = (var1607.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 16
+end)
+local Connection_25
+Connection_25 = TextButton_9[InputEnded_2]:Connect(function(Input_27, p2_0, p3_0) -- args: Input_28
+    local str_20 = TweenService:Create(Frame_14, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_20:Play()
+end)
+local Frame_17 = Instance.new(Frame)
+Frame_17.BackgroundColor3 = Color3_Value_2
+Frame_17.BorderSizePixel = 0
+Frame_17[Size] = UDim2_New(1, 0, 0, 44)
+Frame_17[Parent] = ScrollingFrame
+local UICorner_17 = Instance.new("UICorner")
+UICorner_17.CornerRadius = UDim_New(0, 8)
+if not Frame_17 then return end -- won't run
+UICorner_17[Parent] = Frame_17
+local TextLabel_14 = Instance.new(TextLabel_9)
+TextLabel_14.TextColor3 = Color3_Value_6
+TextLabel_14[Text_29] = "Auto Skill"
+TextLabel_14[Font_14] = GothamMedium
+TextLabel_14.BackgroundTransparency = 1
+TextLabel_14[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_14.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_14.TextSize = 14
+TextLabel_14[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_14[Parent] = Frame_17
+local Frame_18 = Instance.new(Frame)
+Frame_18.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_18[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_18[Size] = UDim2_New(0, 40, 0, 20)
+Frame_18[Parent] = Frame_17
+local UICorner_18 = Instance.new("UICorner")
+UICorner_18.CornerRadius = UDim_New(0, 20)
+if not Frame_18 then return end -- won't run
+UICorner_18[Parent] = Frame_18
+local Frame_19 = Instance.new(Frame)
+Frame_19.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_19[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_19[Size] = UDim2_New(0, 16, 0, 16)
+Frame_19[Parent] = Frame_18
+local UICorner_19 = Instance.new("UICorner")
+UICorner_19.CornerRadius = UDim_New(0, 16)
+if not Frame_19 then return end -- won't run
+UICorner_19[Parent] = Frame_19
+local TextButton_10 = Instance.new(TextButton_5)
+TextButton_10[Text_29] = ""
+TextButton_10.BackgroundTransparency = 1
+TextButton_10[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_10[Parent] = Frame_17
+local Connection_26
+Connection_26 = TextButton_10.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_21 = TweenService:Create(Frame_18, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_21:Play()
+    local UDim2_Value_126 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_126 and 14317864); -- 14317864 or 15225305)
+    local str_22 = TweenService:Create(Frame_19, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_126,
+    })
+    str_22:Play()
+end)
+local Connection_27
+Connection_27 = TextButton_10[InputBegan_2]:Connect(function(Input_29, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_30
+    local var1631 = Input_29[2]
+    local _ = (var1631.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 17
+    local _ = (var1631.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 18
+end)
+local Connection_28
+Connection_28 = TextButton_10[InputEnded_2]:Connect(function(Input_31, p2_0, p3_0) -- args: Input_32
+    local str_23 = TweenService:Create(Frame_17, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_23:Play()
+end)
+local Frame_20 = Instance.new(Frame)
+Frame_20.BackgroundColor3 = Color3_Value_2
+Frame_20.BorderSizePixel = 0
+Frame_20[Size] = UDim2_New(1, 0, 0, 44)
+Frame_20[Parent] = ScrollingFrame
+local UICorner_20 = Instance.new("UICorner")
+UICorner_20.CornerRadius = UDim_New(0, 8)
+if not Frame_20 then return end -- won't run
+UICorner_20[Parent] = Frame_20
+local TextLabel_15 = Instance.new(TextLabel_9)
+TextLabel_15.TextColor3 = Color3_Value_6
+TextLabel_15[Text_29] = "Super Speed"
+TextLabel_15[Font_14] = GothamMedium
+TextLabel_15.BackgroundTransparency = 1
+TextLabel_15[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_15.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_15.TextSize = 14
+TextLabel_15[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_15[Parent] = Frame_20
+local Frame_21 = Instance.new(Frame)
+Frame_21.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_21[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_21[Size] = UDim2_New(0, 40, 0, 20)
+Frame_21[Parent] = Frame_20
+local UICorner_21 = Instance.new("UICorner")
+UICorner_21.CornerRadius = UDim_New(0, 20)
+if not Frame_21 then return end -- won't run
+UICorner_21[Parent] = Frame_21
+local Frame_22 = Instance.new(Frame)
+Frame_22.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_22[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_22[Size] = UDim2_New(0, 16, 0, 16)
+Frame_22[Parent] = Frame_21
+local UICorner_22 = Instance.new("UICorner")
+UICorner_22.CornerRadius = UDim_New(0, 16)
+if not Frame_22 then return end -- won't run
+UICorner_22[Parent] = Frame_22
+local TextButton_11 = Instance.new(TextButton_5)
+TextButton_11[Text_29] = ""
+TextButton_11.BackgroundTransparency = 1
+TextButton_11[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_11[Parent] = Frame_20
+local Connection_29
+Connection_29 = TextButton_11.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_24 = TweenService:Create(Frame_21, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_24:Play()
+    local UDim2_Value_127 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_127 and 14317864); -- 14317864 or 15225305)
+    local str_25 = TweenService:Create(Frame_22, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_127,
+    })
+    str_25:Play()
+end)
+local Connection_30
+Connection_30 = TextButton_11[InputBegan_2]:Connect(function(Input_33, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_34
+    local var1656 = Input_33[2]
+    local _ = (var1656.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 19
+    local _ = (var1656.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 20
+end)
+local Connection_31
+Connection_31 = TextButton_11[InputEnded_2]:Connect(function(Input_35, p2_0, p3_0) -- args: Input_36
+    local str_26 = TweenService:Create(Frame_20, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_26:Play()
+end)
+local Frame_23 = Instance.new(Frame)
+Frame_23.BackgroundColor3 = Color3_Value_2
+Frame_23.BorderSizePixel = 0
+Frame_23[Size] = UDim2_New(1, 0, 0, 44)
+Frame_23[Parent] = ScrollingFrame
+local UICorner_23 = Instance.new("UICorner")
+UICorner_23.CornerRadius = UDim_New(0, 8)
+if not Frame_23 then return end -- won't run
+UICorner_23[Parent] = Frame_23
+local TextLabel_16 = Instance.new(TextLabel_9)
+TextLabel_16.TextColor3 = Color3_Value_6
+TextLabel_16[Text_29] = "Fish ESP"
+TextLabel_16[Font_14] = GothamMedium
+TextLabel_16.BackgroundTransparency = 1
+TextLabel_16[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_16.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_16.TextSize = 14
+TextLabel_16[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_16[Parent] = Frame_23
+local Frame_24 = Instance.new(Frame)
+Frame_24.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_24[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_24[Size] = UDim2_New(0, 40, 0, 20)
+Frame_24[Parent] = Frame_23
+local UICorner_24 = Instance.new("UICorner")
+UICorner_24.CornerRadius = UDim_New(0, 20)
+if not Frame_24 then return end -- won't run
+UICorner_24[Parent] = Frame_24
+local Frame_25 = Instance.new(Frame)
+Frame_25.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_25[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_25[Size] = UDim2_New(0, 16, 0, 16)
+Frame_25[Parent] = Frame_24
+local UICorner_25 = Instance.new("UICorner")
+UICorner_25.CornerRadius = UDim_New(0, 16)
+if not Frame_25 then return end -- won't run
+UICorner_25[Parent] = Frame_25
+local TextButton_12 = Instance.new(TextButton_5)
+TextButton_12[Text_29] = ""
+TextButton_12.BackgroundTransparency = 1
+TextButton_12[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_12[Parent] = Frame_23
+local Connection_32
+Connection_32 = TextButton_12.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_27 = TweenService:Create(Frame_24, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_27:Play()
+    local UDim2_Value_128 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_128 and 14317864); -- 14317864 or 15225305)
+    local str_28 = TweenService:Create(Frame_25, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_128,
+    })
+    str_28:Play()
+end)
+local Connection_33
+Connection_33 = TextButton_12[InputBegan_2]:Connect(function(Input_37, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_38
+    local var1678 = Input_37[2]
+    local _ = (var1678.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 21
+    local _ = (var1678.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 22
+end)
+local Connection_34
+Connection_34 = TextButton_12[InputEnded_2]:Connect(function(Input_39, p2_0, p3_0) -- args: Input_40
+    local str_29 = TweenService:Create(Frame_23, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_29:Play()
+end)
+local Frame_26 = Instance.new(Frame)
+Frame_26.BackgroundColor3 = Color3_Value_2
+Frame_26.BorderSizePixel = 0
+Frame_26[Size] = UDim2_New(1, 0, 0, 44)
+Frame_26[Parent] = ScrollingFrame
+local UICorner_26 = Instance.new("UICorner")
+UICorner_26.CornerRadius = UDim_New(0, 8)
+if not Frame_26 then return end -- won't run
+UICorner_26[Parent] = Frame_26
+local TextLabel_17 = Instance.new(TextLabel_9)
+TextLabel_17.TextColor3 = Color3_Value_6
+TextLabel_17[Text_29] = "Focus Missing"
+TextLabel_17[Font_14] = GothamMedium
+TextLabel_17.BackgroundTransparency = 1
+TextLabel_17[Position_12] = UDim2_New(0, 12, 0, 0)
+TextLabel_17.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_17.TextSize = 14
+TextLabel_17[Size] = UDim2_New(1, -60, 1, 0)
+TextLabel_17[Parent] = Frame_26
+local Frame_27 = Instance.new(Frame)
+Frame_27.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+Frame_27[Position_12] = UDim2_New(1, -52, 0.5, -10)
+Frame_27[Size] = UDim2_New(0, 40, 0, 20)
+Frame_27[Parent] = Frame_26
+local UICorner_27 = Instance.new("UICorner")
+UICorner_27.CornerRadius = UDim_New(0, 20)
+if not Frame_27 then return end -- won't run
+UICorner_27[Parent] = Frame_27
+local Frame_28 = Instance.new(Frame)
+Frame_28.BackgroundColor3 = Color3_New(1, 1, 1)
+Frame_28[Position_12] = UDim2_New(0, 2, 0.5, -8)
+Frame_28[Size] = UDim2_New(0, 16, 0, 16)
+Frame_28[Parent] = Frame_27
+local UICorner_28 = Instance.new("UICorner")
+UICorner_28.CornerRadius = UDim_New(0, 16)
+if not Frame_28 then return end -- won't run
+UICorner_28[Parent] = Frame_28
+local TextButton_13 = Instance.new(TextButton_5)
+TextButton_13[Text_29] = ""
+TextButton_13.BackgroundTransparency = 1
+TextButton_13[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_13[Parent] = Frame_26
+local Connection_35
+Connection_35 = TextButton_13.MouseButton1Click:Connect(function(p1_0)
+    local _ = ((Color3_Value_8 and 11925617); -- 11925617 or 11803950)
+    local str_30 = TweenService:Create(Frame_27, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_8,
+    })
+    str_30:Play()
+    local UDim2_Value_129 = UDim2_New(1, -18, 0.5, -8)
+    local _ = ((UDim2_Value_129 and 14317864); -- 14317864 or 15225305)
+    local str_31 = TweenService:Create(Frame_28, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        [Position_13] = UDim2_Value_129,
+    })
+    str_31:Play()
+    local _ = pcall(function(...)
+        local PlayerGui_5 = LocalPlayer:FindFirstChild(PlayerGui_3);
+        local Not_PlayerGui_5 = not PlayerGui_5;
+        -- false
+        local Data_3 = PlayerGui_4:FindFirstChild(Data);
+        local Not_Data_3 = not Data_3;
+        -- false
+        local Album_3 = Data_2:FindFirstChild(Album);
+        local Not_Album_3 = not Album_3;
+        -- false
+        local var1703 = (Not_Album_3 and 11984622);
+        local Children_2 = Album_2:GetChildren();
+    end) -- true
+    print("[Focus Missing] Album loaded: 0 fish in collection") -- [Focus Missing] Album loaded: 0 fish in collection
+end)
+local Connection_36
+Connection_36 = TextButton_13[InputBegan_2]:Connect(function(Input_41, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0) -- args: Input_42
+    local var1704 = Input_41[2]
+    local _ = (var1704.UserInputType == Enum_UserInputType.MouseButton1)
+    -- false, eq id 23
+    local _ = (var1704.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 24
+end)
+local Connection_37
+Connection_37 = TextButton_13[InputEnded_2]:Connect(function(Input_43, p2_0, p3_0) -- args: Input_44
+    local str_32 = TweenService:Create(Frame_26, TweenInfo_2["new"](0.1, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_32:Play()
+end)
+local Frame_29 = Instance.new(Frame)
+Frame_29.BackgroundTransparency = 1
+Frame_29[Size] = UDim2_New(1, 0, 0, 30)
+Frame_29[Parent] = ScrollingFrame
+local TextLabel_18 = Instance.new(TextLabel_9)
+TextLabel_18.TextColor3 = Color3_Value_4
+TextLabel_18[Text_29] = "TARGET FILTER"
+TextLabel_18[Font_14] = GothamBold_2
+TextLabel_18.BackgroundTransparency = 1
+TextLabel_18[Position_12] = UDim2_New(0, 4, 0, 0)
+TextLabel_18.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_18.TextSize = 11
+TextLabel_18[Size] = UDim2_New(1, 0, 1, 0)
+if not Frame_29 then return end -- won't run
+TextLabel_18[Parent] = Frame_29
+local TextLabel_20 = Instance.new("TextLabel")
+TextLabel_20["Font"] = GothamMedium
+TextLabel_20.BackgroundTransparency = 1
+TextLabel_20.TextColor3 = Color3_Value_7
+TextLabel_20.Text = "Target Mode:"
+TextLabel_20.TextSize = 12
+TextLabel_20[Size] = UDim2_New(1, 0, 0, 25)
+TextLabel_20[Parent] = ScrollingFrame
+local Frame_30 = Instance.new(Frame)
+Frame_30.BackgroundTransparency = 1
+Frame_30[Size] = UDim2_New(1, 0, 0, 0)
+Frame_30[Parent] = ScrollingFrame
+-- true
+-- local _ = (not UserInputService.MouseEnabled and 45); -- 45 or (unknown_value)
+-- true
+-- local _ = (not UserInputService.MouseEnabled and 28); -- 28 or (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local Enum_HorizontalAlignment = Enum.HorizontalAlignment
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+UIGridLayout_2.HorizontalAlignment = Enum_HorizontalAlignment["Center"]
+UIGridLayout_2["CellSize"] = UDim2_New(0, 45, 0, 28)
+UIGridLayout_2.CellPadding = UDim2_New(0, 8, 0, 8)
+if not Frame_30 then return end -- won't run
+UIGridLayout_2[Parent] = Frame_30
+local Dictionary = {
+    id = "Nearest",
+    ["text"] = Nearest_3,
+}
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_15 = Instance.new("TextButton")
+TextButton_15["Font"] = GothamMedium
+TextButton_15.TextColor3 = Color3_Value_6
+TextButton_15.Text = Dictionary["text"]
+TextButton_15.TextSize = 12
+TextButton_15.BackgroundColor3 = Color3_Value_2
+TextButton_15[Parent] = Frame_30
+local UICorner_29 = Instance.new("UICorner")
+UICorner_29.CornerRadius = UDim_New(0, 6)
+if not TextButton_15 then return end -- won't run
+UICorner_29[Parent] = TextButton_15
+local Connection_38
+Connection_38 = TextButton_15.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_33 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_33:Play()
+    local str_34 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_34:Play()
+    local str_35 = TweenService:Create(TextButton_15, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_35:Play()
+    local _ = (Dictionary.id == "Nearest")
+    -- false, eq id 25
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_16 = Instance.new(TextButton_14)
+TextButton_16[Font_18] = GothamMedium
+TextButton_16.TextColor3 = Color3_Value_6
+TextButton_16.Text = "Focus"
+TextButton_16.TextSize = 12
+TextButton_16.BackgroundColor3 = Color3_Value_2
+TextButton_16[Parent] = Frame_30
+local UICorner_30 = Instance.new("UICorner")
+UICorner_30.CornerRadius = UDim_New(0, 6)
+if not TextButton_16 then return end -- won't run
+UICorner_30[Parent] = TextButton_16
+local Connection_39
+Connection_39 = TextButton_16.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_36 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_36:Play()
+    local str_37 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_37:Play()
+    local str_38 = TweenService:Create(TextButton_16, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_38:Play()
+end)
+Frame_30.AutomaticSize = Enum_AutomaticSize.Y
+local TextLabel_21 = Instance.new(TextLabel_19)
+TextLabel_21[Font_18] = GothamMedium
+TextLabel_21.BackgroundTransparency = 1
+TextLabel_21.TextColor3 = Color3_Value_7
+TextLabel_21.Text = "Min Rarity:"
+TextLabel_21.TextSize = 12
+TextLabel_21[Size] = UDim2_New(1, 0, 0, 25)
+TextLabel_21[Parent] = ScrollingFrame
+local Frame_31 = Instance.new(Frame)
+Frame_31.BackgroundTransparency = 1
+Frame_31[Size] = UDim2_New(1, 0, 0, 0)
+Frame_31[Parent] = ScrollingFrame
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local UIGridLayout_3 = Instance.new(UIGridLayout)
+UIGridLayout_3.HorizontalAlignment = Enum_HorizontalAlignment["Center"]
+UIGridLayout_3[CellSize] = UDim2_New(0, 60, 0, 35)
+UIGridLayout_3.CellPadding = UDim2_New(0, 8, 0, 8)
+if not Frame_31 then return end -- won't run
+UIGridLayout_3[Parent] = Frame_31
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_17 = Instance.new(TextButton_14)
+TextButton_17[Font_18] = GothamMedium
+TextButton_17.TextColor3 = Color3_Value_6
+TextButton_17.Text = "1"
+TextButton_17.TextSize = 12
+TextButton_17.BackgroundColor3 = Color3_Value_2
+TextButton_17[Parent] = Frame_31
+local UICorner_31 = Instance.new("UICorner")
+UICorner_31.CornerRadius = UDim_New(0, 6)
+if not TextButton_17 then return end -- won't run
+UICorner_31[Parent] = TextButton_17
+local Connection_40
+Connection_40 = TextButton_17.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_39 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_39:Play()
+    local str_40 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_40:Play()
+    local str_41 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_41:Play()
+    local str_42 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_42:Play()
+    local str_43 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_43:Play()
+    local str_44 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_44:Play()
+    local str_45 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_45:Play()
+    local str_46 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_46:Play()
+    local str_47 = TweenService:Create(TextButton_17, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_47:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_18 = Instance.new(TextButton_14)
+TextButton_18[Font_18] = GothamMedium
+TextButton_18.TextColor3 = Color3_Value_6
+TextButton_18.Text = "2"
+TextButton_18.TextSize = 12
+TextButton_18.BackgroundColor3 = Color3_Value_2
+TextButton_18[Parent] = Frame_31
+local UICorner_32 = Instance.new("UICorner")
+UICorner_32.CornerRadius = UDim_New(0, 6)
+if not TextButton_18 then return end -- won't run
+UICorner_32[Parent] = TextButton_18
+local Connection_41
+Connection_41 = TextButton_18.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_48 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_48:Play()
+    local str_49 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_49:Play()
+    local str_50 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_50:Play()
+    local str_51 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_51:Play()
+    local str_52 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_52:Play()
+    local str_53 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_53:Play()
+    local str_54 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_54:Play()
+    local str_55 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_55:Play()
+    local str_56 = TweenService:Create(TextButton_18, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_56:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_19 = Instance.new(TextButton_14)
+TextButton_19[Font_18] = GothamMedium
+TextButton_19.TextColor3 = Color3_Value_6
+TextButton_19.Text = "3"
+TextButton_19.TextSize = 12
+TextButton_19.BackgroundColor3 = Color3_Value_2
+TextButton_19[Parent] = Frame_31
+local UICorner_33 = Instance.new("UICorner")
+UICorner_33.CornerRadius = UDim_New(0, 6)
+if not TextButton_19 then return end -- won't run
+UICorner_33[Parent] = TextButton_19
+local Connection_42
+Connection_42 = TextButton_19.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_57 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_57:Play()
+    local str_58 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_58:Play()
+    local str_59 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_59:Play()
+    local str_60 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_60:Play()
+    local str_61 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_61:Play()
+    local str_62 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_62:Play()
+    local str_63 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_63:Play()
+    local str_64 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_64:Play()
+    local str_65 = TweenService:Create(TextButton_19, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_65:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_20 = Instance.new(TextButton_14)
+TextButton_20[Font_18] = GothamMedium
+TextButton_20.TextColor3 = Color3_Value_6
+TextButton_20.Text = "4"
+TextButton_20.TextSize = 12
+TextButton_20.BackgroundColor3 = Color3_Value_2
+TextButton_20[Parent] = Frame_31
+local UICorner_34 = Instance.new("UICorner")
+UICorner_34.CornerRadius = UDim_New(0, 6)
+if not TextButton_20 then return end -- won't run
+UICorner_34[Parent] = TextButton_20
+local Connection_43
+Connection_43 = TextButton_20.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_66 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_66:Play()
+    local str_67 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_67:Play()
+    local str_68 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_68:Play()
+    local str_69 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_69:Play()
+    local str_70 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_70:Play()
+    local str_71 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_71:Play()
+    local str_72 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_72:Play()
+    local str_73 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_73:Play()
+    local str_74 = TweenService:Create(TextButton_20, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_74:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_21 = Instance.new(TextButton_14)
+TextButton_21[Font_18] = GothamMedium
+TextButton_21.TextColor3 = Color3_Value_6
+TextButton_21.Text = "5"
+TextButton_21.TextSize = 12
+TextButton_21.BackgroundColor3 = Color3_Value_2
+TextButton_21[Parent] = Frame_31
+local UICorner_35 = Instance.new("UICorner")
+UICorner_35.CornerRadius = UDim_New(0, 6)
+if not TextButton_21 then return end -- won't run
+UICorner_35[Parent] = TextButton_21
+local Connection_44
+Connection_44 = TextButton_21.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_75 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_75:Play()
+    local str_76 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_76:Play()
+    local str_77 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_77:Play()
+    local str_78 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_78:Play()
+    local str_79 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_79:Play()
+    local str_80 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_80:Play()
+    local str_81 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_81:Play()
+    local str_82 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_82:Play()
+    local str_83 = TweenService:Create(TextButton_21, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_83:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_22 = Instance.new(TextButton_14)
+TextButton_22[Font_18] = GothamMedium
+TextButton_22.TextColor3 = Color3_Value_6
+TextButton_22.Text = "6"
+TextButton_22.TextSize = 12
+TextButton_22.BackgroundColor3 = Color3_Value_2
+TextButton_22[Parent] = Frame_31
+local UICorner_36 = Instance.new("UICorner")
+UICorner_36.CornerRadius = UDim_New(0, 6)
+if not TextButton_22 then return end -- won't run
+UICorner_36[Parent] = TextButton_22
+local Connection_45
+Connection_45 = TextButton_22.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_84 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_84:Play()
+    local str_85 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_85:Play()
+    local str_86 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_86:Play()
+    local str_87 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_87:Play()
+    local str_88 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_88:Play()
+    local str_89 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_89:Play()
+    local str_90 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_90:Play()
+    local str_91 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_91:Play()
+    local str_92 = TweenService:Create(TextButton_22, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_92:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_23 = Instance.new(TextButton_14)
+TextButton_23[Font_18] = GothamMedium
+TextButton_23.TextColor3 = Color3_Value_6
+TextButton_23.Text = "7"
+TextButton_23.TextSize = 12
+TextButton_23.BackgroundColor3 = Color3_Value_2
+TextButton_23[Parent] = Frame_31
+local UICorner_37 = Instance.new("UICorner")
+UICorner_37.CornerRadius = UDim_New(0, 6)
+if not TextButton_23 then return end -- won't run
+UICorner_37[Parent] = TextButton_23
+local Connection_46
+Connection_46 = TextButton_23.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_93 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_93:Play()
+    local str_94 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_94:Play()
+    local str_95 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_95:Play()
+    local str_96 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_96:Play()
+    local str_97 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_97:Play()
+    local str_98 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_98:Play()
+    local str_99 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_99:Play()
+    local str_100 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_100:Play()
+    local str_101 = TweenService:Create(TextButton_23, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_101:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_24 = Instance.new(TextButton_14)
+TextButton_24[Font_18] = GothamMedium
+TextButton_24.TextColor3 = Color3_Value_6
+TextButton_24.Text = "8"
+TextButton_24.TextSize = 12
+TextButton_24.BackgroundColor3 = Color3_Value_2
+TextButton_24[Parent] = Frame_31
+local UICorner_38 = Instance.new("UICorner")
+UICorner_38.CornerRadius = UDim_New(0, 6)
+if not TextButton_24 then return end -- won't run
+UICorner_38[Parent] = TextButton_24
+local Connection_47
+Connection_47 = TextButton_24.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_102 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_102:Play()
+    local str_103 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_103:Play()
+    local str_104 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_104:Play()
+    local str_105 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_105:Play()
+    local str_106 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_106:Play()
+    local str_107 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_107:Play()
+    local str_108 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_108:Play()
+    local str_109 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_109:Play()
+    local str_110 = TweenService:Create(TextButton_24, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_110:Play()
+end)
+Frame_31.AutomaticSize = Enum_AutomaticSize.Y
+local TextLabel_22 = Instance.new(TextLabel_19)
+TextLabel_22[Font_18] = GothamMedium
+TextLabel_22.BackgroundTransparency = 1
+TextLabel_22.TextColor3 = Color3_Value_7
+TextLabel_22.Text = "Max Rarity:"
+TextLabel_22.TextSize = 12
+TextLabel_22[Size] = UDim2_New(1, 0, 0, 25)
+TextLabel_22[Parent] = ScrollingFrame
+local Frame_32 = Instance.new(Frame)
+Frame_32.BackgroundTransparency = 1
+Frame_32[Size] = UDim2_New(1, 0, 0, 0)
+Frame_32[Parent] = ScrollingFrame
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local UIGridLayout_4 = Instance.new(UIGridLayout)
+UIGridLayout_4.HorizontalAlignment = Enum_HorizontalAlignment["Center"]
+UIGridLayout_4[CellSize] = UDim2_New(0, 60, 0, 35)
+UIGridLayout_4.CellPadding = UDim2_New(0, 8, 0, 8)
+if not Frame_32 then return end -- won't run
+UIGridLayout_4[Parent] = Frame_32
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_25 = Instance.new(TextButton_14)
+TextButton_25[Font_18] = GothamMedium
+TextButton_25.TextColor3 = Color3_Value_6
+TextButton_25.Text = "1"
+TextButton_25.TextSize = 12
+TextButton_25.BackgroundColor3 = Color3_Value_2
+TextButton_25[Parent] = Frame_32
+local UICorner_39 = Instance.new("UICorner")
+UICorner_39.CornerRadius = UDim_New(0, 6)
+if not TextButton_25 then return end -- won't run
+UICorner_39[Parent] = TextButton_25
+local Connection_48
+Connection_48 = TextButton_25.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_111 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_111:Play()
+    local str_112 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_112:Play()
+    local str_113 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_113:Play()
+    local str_114 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_114:Play()
+    local str_115 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_115:Play()
+    local str_116 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_116:Play()
+    local str_117 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_117:Play()
+    local str_118 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_118:Play()
+    local str_119 = TweenService:Create(TextButton_25, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_119:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_26 = Instance.new(TextButton_14)
+TextButton_26[Font_18] = GothamMedium
+TextButton_26.TextColor3 = Color3_Value_6
+TextButton_26.Text = "2"
+TextButton_26.TextSize = 12
+TextButton_26.BackgroundColor3 = Color3_Value_2
+TextButton_26[Parent] = Frame_32
+local UICorner_40 = Instance.new("UICorner")
+UICorner_40.CornerRadius = UDim_New(0, 6)
+if not TextButton_26 then return end -- won't run
+UICorner_40[Parent] = TextButton_26
+local Connection_49
+Connection_49 = TextButton_26.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_120 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_120:Play()
+    local str_121 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_121:Play()
+    local str_122 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_122:Play()
+    local str_123 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_123:Play()
+    local str_124 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_124:Play()
+    local str_125 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_125:Play()
+    local str_126 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_126:Play()
+    local str_127 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_127:Play()
+    local str_128 = TweenService:Create(TextButton_26, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_128:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_27 = Instance.new(TextButton_14)
+TextButton_27[Font_18] = GothamMedium
+TextButton_27.TextColor3 = Color3_Value_6
+TextButton_27.Text = "3"
+TextButton_27.TextSize = 12
+TextButton_27.BackgroundColor3 = Color3_Value_2
+TextButton_27[Parent] = Frame_32
+local UICorner_41 = Instance.new("UICorner")
+UICorner_41.CornerRadius = UDim_New(0, 6)
+if not TextButton_27 then return end -- won't run
+UICorner_41[Parent] = TextButton_27
+local Connection_50
+Connection_50 = TextButton_27.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_129 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_129:Play()
+    local str_130 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_130:Play()
+    local str_131 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_131:Play()
+    local str_132 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_132:Play()
+    local str_133 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_133:Play()
+    local str_134 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_134:Play()
+    local str_135 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_135:Play()
+    local str_136 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_136:Play()
+    local str_137 = TweenService:Create(TextButton_27, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_137:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_28 = Instance.new(TextButton_14)
+TextButton_28[Font_18] = GothamMedium
+TextButton_28.TextColor3 = Color3_Value_6
+TextButton_28.Text = "4"
+TextButton_28.TextSize = 12
+TextButton_28.BackgroundColor3 = Color3_Value_2
+TextButton_28[Parent] = Frame_32
+local UICorner_42 = Instance.new("UICorner")
+UICorner_42.CornerRadius = UDim_New(0, 6)
+if not TextButton_28 then return end -- won't run
+UICorner_42[Parent] = TextButton_28
+local Connection_51
+Connection_51 = TextButton_28.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_138 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_138:Play()
+    local str_139 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_139:Play()
+    local str_140 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_140:Play()
+    local str_141 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_141:Play()
+    local str_142 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_142:Play()
+    local str_143 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_143:Play()
+    local str_144 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_144:Play()
+    local str_145 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_145:Play()
+    local str_146 = TweenService:Create(TextButton_28, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_146:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_29 = Instance.new(TextButton_14)
+TextButton_29[Font_18] = GothamMedium
+TextButton_29.TextColor3 = Color3_Value_6
+TextButton_29.Text = "5"
+TextButton_29.TextSize = 12
+TextButton_29.BackgroundColor3 = Color3_Value_2
+TextButton_29[Parent] = Frame_32
+local UICorner_43 = Instance.new("UICorner")
+UICorner_43.CornerRadius = UDim_New(0, 6)
+if not TextButton_29 then return end -- won't run
+UICorner_43[Parent] = TextButton_29
+local Connection_52
+Connection_52 = TextButton_29.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_147 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_147:Play()
+    local str_148 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_148:Play()
+    local str_149 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_149:Play()
+    local str_150 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_150:Play()
+    local str_151 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_151:Play()
+    local str_152 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_152:Play()
+    local str_153 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_153:Play()
+    local str_154 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_154:Play()
+    local str_155 = TweenService:Create(TextButton_29, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_155:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_30 = Instance.new(TextButton_14)
+TextButton_30[Font_18] = GothamMedium
+TextButton_30.TextColor3 = Color3_Value_6
+TextButton_30.Text = "6"
+TextButton_30.TextSize = 12
+TextButton_30.BackgroundColor3 = Color3_Value_2
+TextButton_30[Parent] = Frame_32
+local UICorner_44 = Instance.new("UICorner")
+UICorner_44.CornerRadius = UDim_New(0, 6)
+if not TextButton_30 then return end -- won't run
+UICorner_44[Parent] = TextButton_30
+local Connection_53
+Connection_53 = TextButton_30.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_156 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_156:Play()
+    local str_157 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_157:Play()
+    local str_158 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_158:Play()
+    local str_159 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_159:Play()
+    local str_160 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_160:Play()
+    local str_161 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_161:Play()
+    local str_162 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_162:Play()
+    local str_163 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_163:Play()
+    local str_164 = TweenService:Create(TextButton_30, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_164:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_31 = Instance.new(TextButton_14)
+TextButton_31[Font_18] = GothamMedium
+TextButton_31.TextColor3 = Color3_Value_6
+TextButton_31.Text = "7"
+TextButton_31.TextSize = 12
+TextButton_31.BackgroundColor3 = Color3_Value_2
+TextButton_31[Parent] = Frame_32
+local UICorner_45 = Instance.new("UICorner")
+UICorner_45.CornerRadius = UDim_New(0, 6)
+if not TextButton_31 then return end -- won't run
+UICorner_45[Parent] = TextButton_31
+local Connection_54
+Connection_54 = TextButton_31.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_165 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_165:Play()
+    local str_166 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_166:Play()
+    local str_167 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_167:Play()
+    local str_168 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_168:Play()
+    local str_169 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_169:Play()
+    local str_170 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_170:Play()
+    local str_171 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_171:Play()
+    local str_172 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_172:Play()
+    local str_173 = TweenService:Create(TextButton_31, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_173:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_32 = Instance.new(TextButton_14)
+TextButton_32[Font_18] = GothamMedium
+TextButton_32.TextColor3 = Color3_Value_6
+TextButton_32.Text = "8"
+TextButton_32.TextSize = 12
+TextButton_32.BackgroundColor3 = Color3_Value_2
+TextButton_32[Parent] = Frame_32
+local UICorner_46 = Instance.new("UICorner")
+UICorner_46.CornerRadius = UDim_New(0, 6)
+if not TextButton_32 then return end -- won't run
+UICorner_46[Parent] = TextButton_32
+local Connection_55
+Connection_55 = TextButton_32.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_174 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_174:Play()
+    local str_175 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_175:Play()
+    local str_176 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_176:Play()
+    local str_177 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_177:Play()
+    local str_178 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_178:Play()
+    local str_179 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_179:Play()
+    local str_180 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_180:Play()
+    local str_181 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_181:Play()
+    local str_182 = TweenService:Create(TextButton_32, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_182:Play()
+end)
+Frame_32.AutomaticSize = Enum_AutomaticSize.Y
+local TextLabel_23 = Instance.new(TextLabel_19)
+TextLabel_23[Font_18] = GothamMedium
+TextLabel_23.BackgroundTransparency = 1
+TextLabel_23.TextColor3 = Color3_Value_7
+TextLabel_23.Text = "Category:"
+TextLabel_23.TextSize = 12
+TextLabel_23[Size] = UDim2_New(1, 0, 0, 25)
+TextLabel_23[Parent] = ScrollingFrame
+local Frame_33 = Instance.new(Frame)
+Frame_33.BackgroundTransparency = 1
+Frame_33[Size] = UDim2_New(1, 0, 0, 0)
+Frame_33[Parent] = ScrollingFrame
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local UIGridLayout_5 = Instance.new(UIGridLayout)
+UIGridLayout_5.HorizontalAlignment = Enum_HorizontalAlignment["Center"]
+UIGridLayout_5[CellSize] = UDim2_New(0, 60, 0, 35)
+UIGridLayout_5.CellPadding = UDim2_New(0, 8, 0, 8)
+if not Frame_33 then return end -- won't run
+UIGridLayout_5[Parent] = Frame_33
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_33 = Instance.new(TextButton_14)
+TextButton_33[Font_18] = GothamMedium
+TextButton_33.TextColor3 = Color3_Value_6
+TextButton_33.Text = "All"
+TextButton_33.TextSize = 12
+TextButton_33.BackgroundColor3 = Color3_Value_2
+TextButton_33[Parent] = Frame_33
+local UICorner_47 = Instance.new("UICorner")
+UICorner_47.CornerRadius = UDim_New(0, 6)
+if not TextButton_33 then return end -- won't run
+UICorner_47[Parent] = TextButton_33
+local Connection_56
+Connection_56 = TextButton_33.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_183 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_183:Play()
+    local str_184 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_184:Play()
+    local str_185 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_185:Play()
+    local str_186 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_186:Play()
+    local str_187 = TweenService:Create(TextButton_33, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_187:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_34 = Instance.new(TextButton_14)
+TextButton_34[Font_18] = GothamMedium
+TextButton_34.TextColor3 = Color3_Value_6
+TextButton_34.Text = "Regular"
+TextButton_34.TextSize = 12
+TextButton_34.BackgroundColor3 = Color3_Value_2
+TextButton_34[Parent] = Frame_33
+local UICorner_48 = Instance.new("UICorner")
+UICorner_48.CornerRadius = UDim_New(0, 6)
+if not TextButton_34 then return end -- won't run
+UICorner_48[Parent] = TextButton_34
+local Connection_57
+Connection_57 = TextButton_34.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_188 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_188:Play()
+    local str_189 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_189:Play()
+    local str_190 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_190:Play()
+    local str_191 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_191:Play()
+    local str_192 = TweenService:Create(TextButton_34, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_192:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_35 = Instance.new(TextButton_14)
+TextButton_35[Font_18] = GothamMedium
+TextButton_35.TextColor3 = Color3_Value_6
+TextButton_35.Text = "Boss"
+TextButton_35.TextSize = 12
+TextButton_35.BackgroundColor3 = Color3_Value_2
+TextButton_35[Parent] = Frame_33
+local UICorner_49 = Instance.new("UICorner")
+UICorner_49.CornerRadius = UDim_New(0, 6)
+if not TextButton_35 then return end -- won't run
+UICorner_49[Parent] = TextButton_35
+local Connection_58
+Connection_58 = TextButton_35.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_193 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_193:Play()
+    local str_194 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_194:Play()
+    local str_195 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_195:Play()
+    local str_196 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_196:Play()
+    local str_197 = TweenService:Create(TextButton_35, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_197:Play()
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_36 = Instance.new(TextButton_14)
+TextButton_36[Font_18] = GothamMedium
+TextButton_36.TextColor3 = Color3_Value_6
+TextButton_36.Text = "Event"
+TextButton_36.TextSize = 12
+TextButton_36.BackgroundColor3 = Color3_Value_2
+TextButton_36[Parent] = Frame_33
+local UICorner_50 = Instance.new("UICorner")
+UICorner_50.CornerRadius = UDim_New(0, 6)
+if not TextButton_36 then return end -- won't run
+UICorner_50[Parent] = TextButton_36
+local Connection_59
+Connection_59 = TextButton_36.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_198 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_198:Play()
+    local str_199 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_199:Play()
+    local str_200 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_200:Play()
+    local str_201 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_201:Play()
+    local str_202 = TweenService:Create(TextButton_36, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_202:Play()
+end)
+Frame_33.AutomaticSize = Enum_AutomaticSize.Y
+local Frame_34 = Instance.new(Frame)
+Frame_34.BackgroundTransparency = 1
+Frame_34[Size] = UDim2_New(1, 0, 0, 30)
+Frame_34[Parent] = ScrollingFrame
+local TextLabel_24 = Instance.new(TextLabel_19)
+TextLabel_24.TextColor3 = Color3_Value_4
+TextLabel_24.Text = "TELEPORTS"
+TextLabel_24[Font_18] = GothamBold_2
+TextLabel_24.BackgroundTransparency = 1
+TextLabel_24[Position_12] = UDim2_New(0, 4, 0, 0)
+TextLabel_24.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_24.TextSize = 11
+TextLabel_24[Size] = UDim2_New(1, 0, 1, 0)
+if not Frame_34 then return end -- won't run
+TextLabel_24[Parent] = Frame_34
+local Frame_35 = Instance.new(Frame)
+Frame_35.BackgroundTransparency = 1
+Frame_35[Size] = UDim2_New(1, 0, 0, 0)
+Frame_35[Parent] = ScrollingFrame
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local UIGridLayout_6 = Instance.new(UIGridLayout)
+UIGridLayout_6.HorizontalAlignment = Enum_HorizontalAlignment["Center"]
+UIGridLayout_6[CellSize] = UDim2_New(0, 60, 0, 35)
+UIGridLayout_6.CellPadding = UDim2_New(0, 8, 0, 8)
+if not Frame_35 then return end -- won't run
+UIGridLayout_6[Parent] = Frame_35
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_37 = Instance.new(TextButton_14)
+TextButton_37[Font_18] = GothamMedium
+TextButton_37.TextColor3 = Color3_Value_6
+TextButton_37.Text = "S1"
+TextButton_37.TextSize = 12
+TextButton_37.BackgroundColor3 = Color3_Value_2
+TextButton_37[Parent] = Frame_35
+local UICorner_51 = Instance.new("UICorner")
+UICorner_51.CornerRadius = UDim_New(0, 6)
+if not TextButton_37 then return end -- won't run
+UICorner_51[Parent] = TextButton_37
+local Connection_60
+Connection_60 = TextButton_37.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_203 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_203:Play()
+    local str_204 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_204:Play()
+    local str_205 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_205:Play()
+    local str_206 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_206:Play()
+    local str_207 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_207:Play()
+    local str_208 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_208:Play()
+    local str_209 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_209:Play()
+    local str_210 = TweenService:Create(TextButton_37, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_210:Play()
+    local Character_2 = LocalPlayer["Character"]
+    local _ = ((Character_2 and 15392224); -- 15392224 or 14131931)
+    local HumanoidRootPart = Character_2:FindFirstChild("HumanoidRootPart")
+    local _ = not HumanoidRootPart
+    -- false
+    local WorldSpawn = workspace:FindFirstChild("WorldSpawn")
+    local _ = ((WorldSpawn and 16135200); -- 16135200 or 15586464)
+    local Sea1 = WorldSpawn:FindFirstChild("Sea1")
+    if not Sea1 then return end -- won't run
+    HumanoidRootPart.CFrame = Sea1.CFrame + Vector3["new"](0, 5, 0)
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_38 = Instance.new(TextButton_14)
+TextButton_38[Font_18] = GothamMedium
+TextButton_38.TextColor3 = Color3_Value_6
+TextButton_38.Text = "S2"
+TextButton_38.TextSize = 12
+TextButton_38.BackgroundColor3 = Color3_Value_2
+TextButton_38[Parent] = Frame_35
+local UICorner_52 = Instance.new("UICorner")
+UICorner_52.CornerRadius = UDim_New(0, 6)
+if not TextButton_38 then return end -- won't run
+UICorner_52[Parent] = TextButton_38
+local Connection_61
+Connection_61 = TextButton_38.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_211 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_211:Play()
+    local str_212 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_212:Play()
+    local str_213 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_213:Play()
+    local str_214 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_214:Play()
+    local str_215 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_215:Play()
+    local str_216 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_216:Play()
+    local str_217 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_217:Play()
+    local str_218 = TweenService:Create(TextButton_38, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_218:Play()
+    local Character_3 = LocalPlayer[Character]
+    local _ = ((Character_3 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_3:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea2")
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_39 = Instance.new(TextButton_14)
+TextButton_39[Font_18] = GothamMedium
+TextButton_39.TextColor3 = Color3_Value_6
+TextButton_39.Text = "S3"
+TextButton_39.TextSize = 12
+TextButton_39.BackgroundColor3 = Color3_Value_2
+TextButton_39[Parent] = Frame_35
+local UICorner_53 = Instance.new("UICorner")
+UICorner_53.CornerRadius = UDim_New(0, 6)
+if not TextButton_39 then return end -- won't run
+UICorner_53[Parent] = TextButton_39
+local Connection_62
+Connection_62 = TextButton_39.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_219 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_219:Play()
+    local str_220 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_220:Play()
+    local str_221 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_221:Play()
+    local str_222 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_222:Play()
+    local str_223 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_223:Play()
+    local str_224 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_224:Play()
+    local str_225 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_225:Play()
+    local str_226 = TweenService:Create(TextButton_39, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_226:Play()
+    local Character_4 = LocalPlayer[Character]
+    local _ = ((Character_4 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_4:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea3")
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_40 = Instance.new(TextButton_14)
+TextButton_40[Font_18] = GothamMedium
+TextButton_40.TextColor3 = Color3_Value_6
+TextButton_40.Text = "S4"
+TextButton_40.TextSize = 12
+TextButton_40.BackgroundColor3 = Color3_Value_2
+TextButton_40[Parent] = Frame_35
+local UICorner_54 = Instance.new("UICorner")
+UICorner_54.CornerRadius = UDim_New(0, 6)
+if not TextButton_40 then return end -- won't run
+UICorner_54[Parent] = TextButton_40
+local Connection_63
+Connection_63 = TextButton_40.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_227 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_227:Play()
+    local str_228 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_228:Play()
+    local str_229 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_229:Play()
+    local str_230 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_230:Play()
+    local str_231 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_231:Play()
+    local str_232 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_232:Play()
+    local str_233 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_233:Play()
+    local str_234 = TweenService:Create(TextButton_40, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_234:Play()
+    local Character_5 = LocalPlayer[Character]
+    local _ = ((Character_5 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_5:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea4")
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_41 = Instance.new(TextButton_14)
+TextButton_41[Font_18] = GothamMedium
+TextButton_41.TextColor3 = Color3_Value_6
+TextButton_41.Text = "S5"
+TextButton_41.TextSize = 12
+TextButton_41.BackgroundColor3 = Color3_Value_2
+TextButton_41[Parent] = Frame_35
+local UICorner_55 = Instance.new("UICorner")
+UICorner_55.CornerRadius = UDim_New(0, 6)
+if not TextButton_41 then return end -- won't run
+UICorner_55[Parent] = TextButton_41
+local Connection_64
+Connection_64 = TextButton_41.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_235 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_235:Play()
+    local str_236 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_236:Play()
+    local str_237 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_237:Play()
+    local str_238 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_238:Play()
+    local str_239 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_239:Play()
+    local str_240 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_240:Play()
+    local str_241 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_241:Play()
+    local str_242 = TweenService:Create(TextButton_41, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_242:Play()
+    local Character_6 = LocalPlayer[Character]
+    local _ = ((Character_6 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_6:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea5")
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_42 = Instance.new(TextButton_14)
+TextButton_42[Font_18] = GothamMedium
+TextButton_42.TextColor3 = Color3_Value_6
+TextButton_42.Text = "S6"
+TextButton_42.TextSize = 12
+TextButton_42.BackgroundColor3 = Color3_Value_2
+TextButton_42[Parent] = Frame_35
+local UICorner_56 = Instance.new("UICorner")
+UICorner_56.CornerRadius = UDim_New(0, 6)
+if not TextButton_42 then return end -- won't run
+UICorner_56[Parent] = TextButton_42
+local Connection_65
+Connection_65 = TextButton_42.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_243 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_243:Play()
+    local str_244 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_244:Play()
+    local str_245 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_245:Play()
+    local str_246 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_246:Play()
+    local str_247 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_247:Play()
+    local str_248 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_248:Play()
+    local str_249 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_249:Play()
+    local str_250 = TweenService:Create(TextButton_42, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_250:Play()
+    local Character_7 = LocalPlayer[Character]
+    local _ = ((Character_7 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_7:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea6")
+end)
+-- false
+-- local _ = not UserInputService.MouseEnabled and (unknown_value)
+local TextButton_43 = Instance.new(TextButton_14)
+TextButton_43[Font_18] = GothamMedium
+TextButton_43.TextColor3 = Color3_Value_6
+TextButton_43.Text = "S7"
+TextButton_43.TextSize = 12
+TextButton_43.BackgroundColor3 = Color3_Value_2
+TextButton_43[Parent] = Frame_35
+local UICorner_57 = Instance.new("UICorner")
+UICorner_57.CornerRadius = UDim_New(0, 6)
+if not TextButton_43 then return end -- won't run
+UICorner_57[Parent] = TextButton_43
+local Connection_66
+Connection_66 = TextButton_43.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local str_251 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_251:Play()
+    local str_252 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_252:Play()
+    local str_253 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_253:Play()
+    local str_254 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_254:Play()
+    local str_255 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_255:Play()
+    local str_256 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_256:Play()
+    local str_257 = TweenService:Create(true, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_2,
+    })
+    str_257:Play()
+    local str_258 = TweenService:Create(TextButton_43, TweenInfo_2["new"](0.2, Enum_EasingStyle["Quart"], Enum_EasingDirection["Out"]), {
+        BackgroundColor3 = Color3_Value_4,
+    })
+    str_258:Play()
+    local Character_8 = LocalPlayer[Character]
+    local _ = ((Character_8 and 15392224); -- 15392224 or 14131931)
+    local _ = not Character_8:FindFirstChild("HumanoidRootPart")
+    -- false
+    local _ = ((workspace:FindFirstChild("WorldSpawn") and 16135200); -- 16135200 or 15586464)
+    WorldSpawn:FindFirstChild("Sea7")
+end)
+Frame_35.AutomaticSize = Enum_AutomaticSize.Y
+local Frame_36 = Instance.new(Frame)
+Frame_36.BackgroundTransparency = 1
+Frame_36[Size] = UDim2_New(1, 0, 0, 30)
+Frame_36[Parent] = ScrollingFrame
+local TextLabel_25 = Instance.new(TextLabel_19)
+TextLabel_25.TextColor3 = Color3_Value_4
+TextLabel_25.Text = "STATS"
+TextLabel_25[Font_18] = GothamBold_2
+TextLabel_25.BackgroundTransparency = 1
+TextLabel_25[Position_12] = UDim2_New(0, 4, 0, 0)
+TextLabel_25.TextXAlignment = Enum_TextXAlignment["Left"]
+TextLabel_25.TextSize = 11
+TextLabel_25[Size] = UDim2_New(1, 0, 1, 0)
+if not Frame_36 then return end -- won't run
+TextLabel_25[Parent] = Frame_36
+local TextLabel_26 = Instance.new(TextLabel_19)
+TextLabel_26[Font_18] = GothamMedium
+TextLabel_26.BackgroundTransparency = 1
+TextLabel_26.TextColor3 = Color3_Value_7
+TextLabel_26.Text = "Status: Active"
+TextLabel_26.TextSize = 12
+TextLabel_26[Size] = UDim2_New(1, 0, 0, 25)
+TextLabel_26[Parent] = ScrollingFrame
+task.spawn(function()
+end)
+task.spawn(function(p1_0, p2_0, p3_0)
+end)
+local Connection_67
+Connection_67 = game:GetService("RunService").Heartbeat:Connect(function(DeltaTime) -- args: DeltaTime_2
+end)
+task.spawn(function(p1_0)
+end)
+local Connection_68
+Connection_68 = workspace.DescendantAdded:Connect(function(Descendant_2, p2_0) -- args: Descendant_3
+    local Descendant_3 = Descendant_2[1]
+    -- false, eq id 26
+    local _ = ((Descendant_3["Name"] == "Chest") and 15567405)
+    local Name_9_is_string = (Descendant_3["Name"] == "PrimaryPart")
+    -- false, eq id 27
+    local _ = (Name_9_is_string and 11294480)
+    local _ = (Name_9_is_string and 10162753)
+end)
+task.spawn(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+end)
+task.spawn(function(p1_0, p2_0)
+end)
+local _ = pcall(function(...)
+    local PlayerGui_3 = "PlayerGui";
+    local PlayerGui_4 = LocalPlayer:FindFirstChild(PlayerGui_3);
+    local Not_PlayerGui_4 = not PlayerGui_4;
+    -- false
+    local Data = "Data";
+    local Data_2 = PlayerGui_4:FindFirstChild(Data);
+    local Not_Data_2 = not Data_2;
+    -- false
+    local Album = "Album";
+    local Album_2 = Data_2:FindFirstChild(Album);
+    local Not_Album_2 = not Album_2;
+    -- false
+    local var1163 = (Not_Album_2 and 11984622);
+    local Children = Album_2:GetChildren();
+end) -- true
+print("[Focus Missing] Album loaded: 0 fish in collection") -- [Focus Missing] Album loaded: 0 fish in collection
+print("[Spear Fishing] Loaded!") -- [Spear Fishing] Loaded!
