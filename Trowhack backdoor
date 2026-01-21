@@ -1,0 +1,2980 @@
+-- This file was generated with UnveilR 2.1.8 at discord.gg/threaded or discord.gg/aqfudJEEeE (hookOp is on).
+
+local Env = getfenv()
+local _ = ((table and 14424306); -- 14424306 or 13501234)
+local ScreenGui_2 = "Instance".new("ScreenGui")
+ScreenGui_2["Name"] = "TrowHack Backdoor"
+ScreenGui_2.ZIndexBehavior = Enum.ZIndexBehavior["Sibling"]
+ScreenGui_2["ResetOnSpawn"] = false
+local CoreGui = game:GetService("CoreGui")
+ScreenGui_2["Parent"] = CoreGui:WaitForChild("RobloxGui")
+local Frame_2 = Instance.new("Frame")
+local Color3_FromRGB = Color3.fromRGB
+Frame_2.BackgroundColor3 = Color3_FromRGB(0, 20, 0)
+local UDim2_New = UDim2["new"]
+Frame_2["Size"] = UDim2_New(0, 370, 0, 107)
+Frame_2["Position"] = UDim2_New(0.3, 0, 0.4, 0)
+Frame_2["Visible"] = true
+Frame_2["Name"] = "ScannerFrame"
+Frame_2[Parent] = ScreenGui_2
+local UIStroke = Instance.new("UIStroke")
+UIStroke["Color"] = Color3_FromRGB(0, 255, 0)
+UIStroke[Parent] = Frame_2
+local UIGradient_2 = Instance.new("UIGradient")
+UIGradient_2["Rotation"] = 50
+local ColorSequence_New = ColorSequence[New]
+local ColorSequenceKeypoint_New = ColorSequenceKeypoint[New]
+UIGradient_2[Color] = ColorSequence_New({
+    ColorSequenceKeypoint_New(0, Color3_FromRGB(0, 255, 0)),
+    ColorSequenceKeypoint_New(1, Color3_FromRGB(0, 200, 0)),
+})
+UIGradient_2[Parent] = UIStroke
+local UICorner = Instance.new("UICorner")
+UICorner[Parent] = Frame_2
+local TextButton_2 = Instance.new("TextButton")
+TextButton_2.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+TextButton_2.TextSize = 24
+local Font_3 = Env.Font
+local Enum_FontWeight = Enum["FontWeight"]
+local Enum_FontStyle = Enum["FontStyle"]
+TextButton_2["FontFace"] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_2.TextColor3 = Color3_FromRGB(0, 0, 0)
+TextButton_2[Size] = UDim2_New(1, 0, 1, 0)
+TextButton_2["Name"] = "ScannerButton"
+TextButton_2[Text_4] = "Start Scanning"
+TextButton_2.BackgroundTransparency = 1
+TextButton_2[Parent] = Frame_2
+local UIGradient_3 = Instance.new(UIGradient)
+UIGradient_3["Rotation"] = 50
+UIGradient_3[Color] = ColorSequence_New({
+    ColorSequenceKeypoint_New(0, Color3_FromRGB(0, 255, 0)),
+    ColorSequenceKeypoint_New(1, Color3_FromRGB(0, 200, 0)),
+})
+UIGradient_3[Parent] = TextButton_2
+local UIStroke_2 = Instance.new("UIStroke")
+UIStroke_2[Color] = Color3_FromRGB(0, 255, 0)
+UIStroke_2[Parent] = TextButton_2
+local Frame_3 = Instance.new(Frame)
+Frame_3.BackgroundColor3 = Color3_FromRGB(0, 20, 0)
+Frame_3[Size] = UDim2_New(0, 500, 0, 400)
+Frame_3["Position"] = UDim2_New(0.273, 0, 0.302, 0)
+Frame_3[Visible] = false
+Frame_3[Parent] = ScreenGui_2
+local UIStroke_3 = Instance.new("UIStroke")
+UIStroke_3[Color] = Color3_FromRGB(0, 255, 0)
+UIStroke_3[Parent] = Frame_3
+local UIGradient_4 = Instance.new(UIGradient)
+UIGradient_4["Rotation"] = 50
+UIGradient_4[Color] = ColorSequence_New({
+    ColorSequenceKeypoint_New(0, Color3_FromRGB(0, 255, 0)),
+    ColorSequenceKeypoint_New(1, Color3_FromRGB(0, 200, 0)),
+})
+UIGradient_4[Parent] = UIStroke_3
+"Instance".new("UICorner")[Parent] = Frame_3
+local TextLabel_2 = Instance.new("TextLabel")
+TextLabel_2.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+TextLabel_2[FontFace] = Font_3["new"]("rbxassetid://12187365977", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextLabel_2.TextSize = 49
+TextLabel_2.TextColor3 = Color3_FromRGB(0, 255, 0)
+TextLabel_2[Size] = UDim2_New(0, 460, 0, 50)
+TextLabel_2[Text_7] = TrowHack_Backdoor
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2["Position"] = UDim2_New(0.04, 0, 0.025, 0)
+TextLabel_2[Parent] = Frame_3
+local UIStroke_4 = Instance.new("UIStroke")
+UIStroke_4[Color] = Color3_FromRGB(0, 255, 0)
+UIStroke_4[Parent] = TextLabel_2
+local UIGradient_5 = Instance.new(UIGradient)
+UIGradient_5["Rotation"] = 50
+UIGradient_5[Color] = ColorSequence_New({
+    ColorSequenceKeypoint_New(0, Color3_FromRGB(0, 255, 0)),
+    ColorSequenceKeypoint_New(1, Color3_FromRGB(0, 200, 0)),
+})
+UIGradient_5[Parent] = UIStroke_4
+local Frame_4 = Instance.new(Frame)
+Frame_4.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1
+Frame_4[Size] = UDim2_New(0, 80, 0, 120)
+Frame_4["Position"] = UDim2_New(0.02, 0, 0.3, 0)
+Frame_4[Parent] = Frame_3
+local TextButton_4 = Instance.new("TextButton")
+TextButton_4.BackgroundColor3 = Color3_FromRGB(0, 100, 100)
+TextButton_4.TextSize = 14
+TextButton_4[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_4.TextColor3 = Color3_FromRGB(100, 255, 255)
+TextButton_4[Size] = UDim2_New(0.9, 0, 0, 25)
+TextButton_4["Position"] = UDim2_New(0.05, 0, 0, 0)
+TextButton_4["Name"] = "R6Button"
+TextButton_4[Text_10] = "R6"
+TextButton_4[Parent] = Frame_4
+"Instance".new("UICorner")[Parent] = TextButton_4
+local UIStroke_5 = Instance.new("UIStroke")
+UIStroke_5[Color] = Color3_FromRGB(100, 255, 255)
+UIStroke_5[Parent] = TextButton_4
+local TextButton_6 = Instance.new("TextButton")
+TextButton_6.BackgroundColor3 = Color3_FromRGB(100, 0, 0)
+TextButton_6.TextSize = 14
+TextButton_6[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_6.TextColor3 = Color3_FromRGB(255, 100, 100)
+TextButton_6[Size] = UDim2_New(0.9, 0, 0, 25)
+TextButton_6["Position"] = UDim2_New(0.05, 0, 0.3, 0)
+TextButton_6["Name"] = "ResetButton"
+TextButton_6[Text_13] = "Reset"
+TextButton_6[Parent] = Frame_4
+"Instance".new("UICorner")[Parent] = TextButton_6
+local UIStroke_6 = Instance.new("UIStroke")
+UIStroke_6[Color] = Color3_FromRGB(255, 100, 100)
+UIStroke_6[Parent] = TextButton_6
+local TextButton_8 = Instance.new("TextButton")
+TextButton_8.BackgroundColor3 = Color3_FromRGB(100, 50, 0)
+TextButton_8.TextSize = 14
+TextButton_8[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_8.TextColor3 = Color3_FromRGB(255, 150, 100)
+TextButton_8[Size] = UDim2_New(0.9, 0, 0, 25)
+TextButton_8["Position"] = UDim2_New(0.05, 0, 0.6, 0)
+TextButton_8["Name"] = "LeaveButton"
+TextButton_8[Text_16] = "Leave"
+TextButton_8[Parent] = Frame_4
+"Instance".new("UICorner")[Parent] = TextButton_8
+local UIStroke_7 = Instance.new("UIStroke")
+UIStroke_7[Color] = Color3_FromRGB(255, 150, 100)
+UIStroke_7[Parent] = TextButton_8
+local Frame_5 = Instance.new(Frame)
+Frame_5.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1
+Frame_5[Size] = UDim2_New(0, 350, 0, 30)
+Frame_5["Position"] = UDim2_New(0.2, 0, 0.25, 0)
+Frame_5[Parent] = Frame_3
+local TextButton_10 = Instance.new("TextButton")
+TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 50, 0)
+TextButton_10.TextSize = 16
+TextButton_10[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_10.TextColor3 = Color3_FromRGB(0, 255, 0)
+TextButton_10[Size] = UDim2_New(0.3, 0, 1, 0)
+TextButton_10["Position"] = UDim2_New(0, 0, 0, 0)
+TextButton_10["Name"] = "ExecutorTab"
+TextButton_10[Text_19] = "Executor"
+TextButton_10[Parent] = Frame_5
+"Instance".new("UICorner")[Parent] = TextButton_10
+local UIStroke_8 = Instance.new("UIStroke")
+UIStroke_8[Color] = Color3_FromRGB(0, 255, 0)
+UIStroke_8[Parent] = TextButton_10
+local TextButton_12 = Instance.new("TextButton")
+TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 30, 30)
+TextButton_12.TextSize = 16
+TextButton_12[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_12.TextColor3 = Color3_FromRGB(100, 200, 255)
+TextButton_12[Size] = UDim2_New(0.3, 0, 1, 0)
+TextButton_12["Position"] = UDim2_New(0.32, 0, 0, 0)
+TextButton_12["Name"] = "ScriptsTab"
+TextButton_12[Text_22] = "Scripts"
+TextButton_12[Parent] = Frame_5
+"Instance".new("UICorner")[Parent] = TextButton_12
+local UIStroke_9 = Instance.new("UIStroke")
+UIStroke_9[Color] = Color3_FromRGB(100, 200, 255)
+UIStroke_9[Parent] = TextButton_12
+local TextButton_14 = Instance.new("TextButton")
+TextButton_14.BackgroundColor3 = Color3_FromRGB(50, 0, 50)
+TextButton_14.TextSize = 16
+TextButton_14[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_14.TextColor3 = Color3_FromRGB(255, 100, 255)
+TextButton_14[Size] = UDim2_New(0.3, 0, 1, 0)
+TextButton_14["Position"] = UDim2_New(0.64, 0, 0, 0)
+TextButton_14["Name"] = "PlayersTab"
+TextButton_14[Text_25] = "Players"
+TextButton_14[Parent] = Frame_5
+"Instance".new("UICorner")[Parent] = TextButton_14
+local UIStroke_10 = Instance.new("UIStroke")
+UIStroke_10[Color] = Color3_FromRGB(255, 100, 255)
+UIStroke_10[Parent] = TextButton_14
+local Frame_6 = Instance.new(Frame)
+Frame_6.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 1
+Frame_6[Size] = UDim2_New(0, 350, 0, 230)
+Frame_6["Position"] = UDim2_New(0.2, 0, 0.35, 0)
+Frame_6[Visible] = true
+Frame_6["Name"] = "ExecutorContent"
+Frame_6[Parent] = Frame_3
+local Frame_7 = Instance.new(Frame)
+Frame_7.BackgroundColor3 = Color3_FromRGB(10, 30, 10)
+Frame_7[Size] = UDim2_New(1, 0, 0, 163)
+Frame_7["Position"] = UDim2_New(0, 0, 0, 0)
+Frame_7["Name"] = "ExecutorBox"
+Frame_7[Parent] = Frame_6
+"Instance".new("UICorner")[Parent] = Frame_7
+local TextBox = Instance.new("TextBox")
+TextBox.TextSize = 14
+TextBox.TextXAlignment = Enum.TextXAlignment["Left"]
+TextBox.TextWrapped = true
+TextBox.TextYAlignment = Enum.TextYAlignment["Top"]
+TextBox.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+TextBox.TextColor3 = Color3_FromRGB(100, 255, 100)
+TextBox[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextBox["MultiLine"] = true
+TextBox.BackgroundTransparency = 1
+TextBox.PlaceholderText = "Enter script here..."
+TextBox[Size] = UDim2_New(0.95, 0, 0.9, 0)
+TextBox[Text_33] = ""
+TextBox["Position"] = UDim2_New(0.025, 0, 0.05, 0)
+TextBox.ClearTextOnFocus = false
+TextBox[Parent] = Frame_7
+local Frame_8 = Instance.new(Frame)
+Frame_8.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_8.BackgroundTransparency = 1
+Frame_8[Size] = UDim2_New(1, 0, 0, 28)
+Frame_8["Position"] = UDim2_New(0, 0, 0.75, 0)
+Frame_8[Parent] = Frame_6
+local TextButton_16 = Instance.new("TextButton")
+TextButton_16.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+TextButton_16.TextSize = 18
+TextButton_16[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_16.TextColor3 = Color3_FromRGB(0, 255, 0)
+TextButton_16[Size] = UDim2_New(0.45, 0, 1, 0)
+TextButton_16["Position"] = UDim2_New(0, 0, 0, 0)
+TextButton_16["Name"] = "ExecuteButton"
+TextButton_16[Text_36] = "Execute"
+TextButton_16.BackgroundTransparency = 1
+TextButton_16[Parent] = Frame_8
+"Instance".new("UICorner")[Parent] = TextButton_16
+local UIStroke_11 = Instance.new("UIStroke")
+UIStroke_11[Color] = Color3_FromRGB(0, 255, 0)
+UIStroke_11[Parent] = TextButton_16
+local TextButton_18 = Instance.new("TextButton")
+TextButton_18.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+TextButton_18.TextSize = 18
+TextButton_18[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_18.TextColor3 = Color3_FromRGB(0, 255, 100)
+TextButton_18[Size] = UDim2_New(0.45, 0, 1, 0)
+TextButton_18["Position"] = UDim2_New(0.5, 0, 0, 0)
+TextButton_18["Name"] = "ClearButton"
+TextButton_18[Text_39] = "Clear"
+TextButton_18.BackgroundTransparency = 1
+TextButton_18[Parent] = Frame_8
+"Instance".new("UICorner")[Parent] = TextButton_18
+local UIStroke_12 = Instance.new("UIStroke")
+UIStroke_12[Color] = Color3_FromRGB(0, 255, 100)
+UIStroke_12[Parent] = TextButton_18
+local Frame_9 = Instance.new(Frame)
+Frame_9.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_9.BackgroundTransparency = 1
+Frame_9[Size] = UDim2_New(0, 350, 0, 230)
+Frame_9["Position"] = UDim2_New(0.2, 0, 0.35, 0)
+Frame_9[Visible] = false
+Frame_9["Name"] = "ScriptsContent"
+Frame_9[Parent] = Frame_3
+local ScrollingFrame = Instance.new("ScrollingFrame")
+ScrollingFrame.BackgroundColor3 = Color3_FromRGB(10, 30, 10)
+ScrollingFrame[Size] = UDim2_New(1, 0, 1, 0)
+ScrollingFrame["Position"] = UDim2_New(0, 0, 0, 0)
+ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 500)
+ScrollingFrame.ScrollBarThickness = 5
+ScrollingFrame[Parent] = Frame_9
+"Instance".new("UICorner")[Parent] = ScrollingFrame
+local TextButton_20 = Instance.new("TextButton")
+TextButton_20.BackgroundColor3 = Color3_FromRGB(0, 50, 0)
+TextButton_20.TextSize = 14
+TextButton_20[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_20.TextColor3 = Color3_FromRGB(100, 255, 100)
+TextButton_20[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_20["Position"] = UDim2_New(0.05, 0, 0.05, 0)
+TextButton_20["Name"] = "K00pkidV11Button"
+TextButton_20[Text_42] = "K00pkid v11"
+TextButton_20[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_20
+local UIStroke_13 = Instance.new("UIStroke")
+UIStroke_13[Color] = Color3_FromRGB(100, 255, 100)
+UIStroke_13[Parent] = TextButton_20
+local TextButton_22 = Instance.new("TextButton")
+TextButton_22.BackgroundColor3 = Color3_FromRGB(0, 50, 50)
+TextButton_22.TextSize = 14
+TextButton_22[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_22.TextColor3 = Color3_FromRGB(100, 255, 255)
+TextButton_22[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_22["Position"] = UDim2_New(0.05, 0, 0.15, 0)
+TextButton_22["Name"] = "K00pkidV8Button"
+TextButton_22[Text_45] = "K00pkid v8"
+TextButton_22[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_22
+local UIStroke_14 = Instance.new("UIStroke")
+UIStroke_14[Color] = Color3_FromRGB(100, 255, 255)
+UIStroke_14[Parent] = TextButton_22
+local TextButton_24 = Instance.new("TextButton")
+TextButton_24.BackgroundColor3 = Color3_FromRGB(100, 0, 0)
+TextButton_24.TextSize = 14
+TextButton_24[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_24.TextColor3 = Color3_FromRGB(255, 100, 100)
+TextButton_24[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_24["Position"] = UDim2_New(0.05, 0, 0.25, 0)
+TextButton_24["Name"] = "C00lguiButton"
+TextButton_24[Text_48] = "C00lgui"
+TextButton_24[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_24
+local UIStroke_15 = Instance.new("UIStroke")
+UIStroke_15[Color] = Color3_FromRGB(255, 100, 100)
+UIStroke_15[Parent] = TextButton_24
+local TextButton_26 = Instance.new("TextButton")
+TextButton_26.BackgroundColor3 = Color3_FromRGB(50, 50, 0)
+TextButton_26.TextSize = 14
+TextButton_26[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_26.TextColor3 = Color3_FromRGB(255, 255, 100)
+TextButton_26[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_26["Position"] = UDim2_New(0.05, 0, 0.35, 0)
+TextButton_26["Name"] = "SteveButton"
+TextButton_26[Text_51] = "Steve"
+TextButton_26[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_26
+local UIStroke_16 = Instance.new("UIStroke")
+UIStroke_16[Color] = Color3_FromRGB(255, 255, 100)
+UIStroke_16[Parent] = TextButton_26
+local TextButton_28 = Instance.new("TextButton")
+TextButton_28.BackgroundColor3 = Color3_FromRGB(0, 50, 100)
+TextButton_28.TextSize = 14
+TextButton_28[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_28.TextColor3 = Color3_FromRGB(100, 200, 255)
+TextButton_28[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_28["Position"] = UDim2_New(0.05, 0, 0.45, 0)
+TextButton_28["Name"] = "SensationButton"
+TextButton_28[Text_54] = "Sensation Hub"
+TextButton_28[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_28
+local UIStroke_17 = Instance.new("UIStroke")
+UIStroke_17[Color] = Color3_FromRGB(100, 200, 255)
+UIStroke_17[Parent] = TextButton_28
+local TextButton_30 = Instance.new("TextButton")
+TextButton_30.BackgroundColor3 = Color3_FromRGB(80, 0, 80)
+TextButton_30.TextSize = 14
+TextButton_30[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_30.TextColor3 = Color3_FromRGB(200, 100, 255)
+TextButton_30[Size] = UDim2_New(0.9, 0, 0, 35)
+TextButton_30["Position"] = UDim2_New(0.05, 0, 0.55, 0)
+TextButton_30["Name"] = "PolariaButton"
+TextButton_30[Text_57] = "Works Polaria"
+TextButton_30[Parent] = ScrollingFrame
+"Instance".new("UICorner")[Parent] = TextButton_30
+local UIStroke_18 = Instance.new("UIStroke")
+UIStroke_18[Color] = Color3_FromRGB(200, 100, 255)
+UIStroke_18[Parent] = TextButton_30
+local Frame_10 = Instance.new(Frame)
+Frame_10.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_10.BackgroundTransparency = 1
+Frame_10[Size] = UDim2_New(0, 350, 0, 230)
+Frame_10["Position"] = UDim2_New(0.2, 0, 0.35, 0)
+Frame_10[Visible] = false
+Frame_10["Name"] = "PlayersContent"
+Frame_10[Parent] = Frame_3
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+ScrollingFrame_2.BackgroundColor3 = Color3_FromRGB(10, 30, 10)
+ScrollingFrame_2[Size] = UDim2_New(1, 0, 0.7, 0)
+ScrollingFrame_2["Position"] = UDim2_New(0, 0, 0, 0)
+ScrollingFrame_2.CanvasSize = UDim2_New(0, 0, 0, 0)
+ScrollingFrame_2.ScrollBarThickness = 5
+ScrollingFrame_2[Parent] = Frame_10
+"Instance".new("UICorner")[Parent] = ScrollingFrame_2
+local Frame_11 = Instance.new(Frame)
+Frame_11.BackgroundColor3 = Color3_FromRGB(255, 255, 255)
+Frame_11.BackgroundTransparency = 1
+Frame_11[Size] = UDim2_New(1, 0, 0.25, 0)
+Frame_11["Position"] = UDim2_New(0, 0, 0.75, 0)
+Frame_11[Parent] = Frame_10
+local TextButton_32 = Instance.new("TextButton")
+TextButton_32.BackgroundColor3 = Color3_FromRGB(0, 50, 100)
+TextButton_32.TextSize = 14
+TextButton_32[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_32.TextColor3 = Color3_FromRGB(100, 200, 255)
+TextButton_32[Size] = UDim2_New(0.45, 0, 0.8, 0)
+TextButton_32["Position"] = UDim2_New(0.025, 0, 0.1, 0)
+TextButton_32["Name"] = "CopyMyNameButton"
+TextButton_32[Text_60] = "Copy My Name"
+TextButton_32[Parent] = Frame_11
+"Instance".new("UICorner")[Parent] = TextButton_32
+local UIStroke_19 = Instance.new("UIStroke")
+UIStroke_19[Color] = Color3_FromRGB(100, 200, 255)
+UIStroke_19[Parent] = TextButton_32
+local TextButton_34 = Instance.new("TextButton")
+TextButton_34.BackgroundColor3 = Color3_FromRGB(0, 100, 50)
+TextButton_34.TextSize = 14
+TextButton_34[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+TextButton_34.TextColor3 = Color3_FromRGB(100, 255, 150)
+TextButton_34[Size] = UDim2_New(0.45, 0, 0.8, 0)
+TextButton_34["Position"] = UDim2_New(0.525, 0, 0.1, 0)
+TextButton_34["Name"] = "CopyPlayerNameButton"
+TextButton_34["Text"] = "Copy Player Name"
+TextButton_34[Parent] = Frame_11
+"Instance".new("UICorner")[Parent] = TextButton_34
+local UIStroke_20 = Instance.new("UIStroke")
+UIStroke_20[Color] = Color3_FromRGB(100, 255, 150)
+UIStroke_20[Parent] = TextButton_34
+local LocalScript = Instance.new("LocalScript")
+LocalScript["Name"] = "Dragify"
+LocalScript[Parent] = ScreenGui_2
+local UserInputService = game:GetService("UserInputService")
+Env.dragify = function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local var1629 = p1_0[1]
+    Env.dragToggle = nil
+    Env.dragInput = nil
+    Env.dragStart = nil
+    local InputBegan_3 = var1629[InputBegan_2]
+    local _ = InputBegan_3:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0)
+        local var2605 = p1_0[1];
+        local UserInputType_9 = var2605.UserInputType;
+        local MouseButton1_3 = Enum_UserInputType.MouseButton1;
+        local var2607 = (UserInputType_9 == MouseButton1_3);
+        -- false, eq id 15
+        local var2608 = (var2607 and 14185634);
+        local UserInputType_10 = var2605.UserInputType;
+        local Touch_6 = Enum_UserInputType[Touch];
+        local var2610 = (UserInputType_10 == Touch_6);
+        -- false, eq id 16
+        local var2611 = (var2610 and 14991324);
+        local var2612 = (var2610 and 14517721);
+    end)
+    local InputChanged = var1629.InputChanged
+    local _ = InputChanged:Connect(function(p1_0, p2_0, p3_0, p4_0)
+        local var2613 = p1_0[1];
+        local UserInputType_11 = var2613.UserInputType;
+        local MouseMovement_3 = Enum_UserInputType.MouseMovement;
+        local var2615 = (UserInputType_11 == MouseMovement_3);
+        -- false, eq id 17
+        local UserInputType_12 = var2613.UserInputType;
+        local Touch_7 = Enum_UserInputType[Touch];
+        local var2617 = (UserInputType_12 == Touch_7);
+        -- false, eq id 18
+    end)
+    game:GetService("UserInputService")
+    local Connection_27
+    Connection_27 = UserInputService.InputChanged:connect(function(Input_15) -- args: Input_16, GameProcessedEvent_5
+        local Input_16_Is_Nil = (Input_15[1] == nil)
+        -- false, eq id 19
+        local _ = (Input_16_Is_Nil and 14268359)
+        local _ = (Input_16_Is_Nil and 16520304)
+    end)
+end
+Env.dragToggle = nil
+Env.dragInput = nil
+Env.dragStart = nil
+Env.updateInput = function(p1_0, p2_0, p3_0, p4_0)
+    local var1637 = p1_0[1]["Position"] - nil
+    local startPos = Env["startPos"]
+    local TweenService = game:GetService("TweenService")
+    local str = TweenService:Create(Frame_2, Env["TweenInfo"]["new"](0.15), {
+        ["Position"] = UDim2_New(startPos.X["Scale"], startPos.X["Offset"] + var1637.X, startPos.Y["Scale"], startPos.Y["Offset"] + var1637.Y),
+    })
+    str:Play()
+end
+local Connection
+Connection = Frame_2["InputBegan"]:Connect(function(Input, p2_0, p3_0, p4_0, p5_0, p6_0) -- args: Input_2
+    local Input_2 = Input[1]
+    local Enum_UserInputType = Enum.UserInputType
+    -- false, eq id 1
+    local _ = ((Input_2.UserInputType == Enum_UserInputType.MouseButton1) and 14185634)
+    local var1688 = (Input_2.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 2
+    local _ = (var1688 and 14991324)
+    local _ = (var1688 and 14517721)
+end)
+local Connection_2
+Connection_2 = Frame_2.InputChanged:Connect(function(Input_3, p2_0, p3_0, p4_0) -- args: Input_4
+    local Input_4 = Input_3[1]
+    local _ = (Input_4.UserInputType == Enum_UserInputType.MouseMovement)
+    -- false, eq id 3
+    local _ = (Input_4.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 4
+end)
+game:GetService("UserInputService")
+local Connection_3
+Connection_3 = UserInputService.InputChanged:Connect(function(Input_5) -- args: Input_6, GameProcessedEvent
+    local Input_6_Is_Nil = (Input_5[1] == nil)
+    -- false, eq id 5
+    local _ = (Input_6_Is_Nil and 14268359)
+    local _ = (Input_6_Is_Nil and 16520304)
+end)
+Env.dragToggle = nil
+Env.dragInput = nil
+Env.dragStart = nil
+local Connection_4
+Connection_4 = Frame_3[InputBegan]:Connect(function(Input_7, p2_0, p3_0, p4_0, p5_0, p6_0) -- args: Input_8
+    local Input_8 = Input_7[1]
+    -- false, eq id 6
+    local _ = ((Input_8.UserInputType == Enum_UserInputType.MouseButton1) and 14185634)
+    local var1733 = (Input_8.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 7
+    local _ = (var1733 and 14991324)
+    local _ = (var1733 and 14517721)
+end)
+local Connection_5
+Connection_5 = Frame_3.InputChanged:Connect(function(Input_9, p2_0, p3_0, p4_0) -- args: Input_10
+    local Input_10 = Input_9[1]
+    local _ = (Input_10.UserInputType == Enum_UserInputType.MouseMovement)
+    -- false, eq id 8
+    local _ = (Input_10.UserInputType == Enum_UserInputType["Touch"])
+    -- false, eq id 9
+end)
+game:GetService("UserInputService")
+local Connection_6
+Connection_6 = UserInputService.InputChanged:connect(function(Input_11) -- args: Input_12, GameProcessedEvent_2
+    local Input_12_Is_Nil = (Input_11[1] == nil)
+    -- false, eq id 10
+    local _ = (Input_12_Is_Nil and 14268359)
+    local _ = (Input_12_Is_Nil and 16520304)
+end)
+Env.runRemote = function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0, p7_0)
+    local var1742 = p1_0[1]
+    local RemoteEvent = var1742:IsA("RemoteEvent")
+    local _ = ((RemoteEvent and 11929598); -- 11929598 or 13879090)
+    var1742:FireServer(p1_0[2])
+end
+Env["notify"] = function(p1_0, p2_0, p3_0)
+    local StarterGui_2 = game:GetService("StarterGui")
+    local SendNotification = StarterGui_2:SetCore("SendNotification", p1_0[1])
+end
+Env.switchTab = function(p1_0, p2_0, p3_0, p4_0)
+    local var1778 = p1_0[1]
+    Frame_6[Visible] = false
+    Frame_9[Visible] = false
+    Frame_10[Visible] = false
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 30, 0)
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 30, 30)
+    TextButton_14.BackgroundColor3 = Color3_FromRGB(50, 0, 50)
+    local _ = (var1778 == "Executor")
+    -- false, eq id 11
+    -- false, eq id 12
+    local _ = ((var1778 == "Scripts") and 14485971)
+    local _ = (var1778 == "Players")
+    -- false, eq id 13
+end
+Env.generateName = function(p1_0, p2_0, p3_0)
+    local var1806 = p1_0[1]
+    local _ = (1 <= var1806); -- nil
+    local _ = (1 >= var1806); -- nil
+    return ""
+end
+Env.findRemote = function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    os.clock()
+    TextButton_2[Text_63] = "Scanning..."
+    game:GetDescendants()
+    -- true
+    local _ = ((not workspace:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local RemoteFunction = workspace:IsA("RemoteFunction")
+    local _ = not RemoteFunction
+    -- true
+    -- true
+    local _ = ((not Workspace:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Workspace:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not CoreGui:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not CoreGui:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not UserInputService:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not UserInputService:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Players_5:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Players_5:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not TweenService:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not TweenService:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not StarterGui_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not StarterGui_2:IsA("RemoteFunction")
+    -- true
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    TextButton_2[Text_63] = "No Backdoor Found"
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found!",
+    })
+    return false
+end
+Env.updatePlayersList = function(p1_0)
+    ScrollingFrame_2:ClearAllChildren()
+    ScrollingFrame_2.CanvasSize = UDim2_New(0, 0, 0, #Players_5:GetPlayers() * 40)
+    for i, v in pairs(Players_5:GetPlayers()) do
+        local _ = ((i and 12520209); -- 12520209 or 13501914)
+        local TextButton_36 = Instance.new("TextButton")
+        TextButton_36.BackgroundColor3 = Color3_FromRGB(20, 50, 20)
+        TextButton_36.TextSize = 14
+        TextButton_36[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+        TextButton_36.TextColor3 = Color3_FromRGB(100, 255, 100)
+        TextButton_36[Size] = UDim2_New(0.9, 0, 0, 35)
+        TextButton_36["Position"] = UDim2_New(0.05, 0, 0, i - 1 * 40)
+        TextButton_36["Text"] = v["Name"]
+        TextButton_36[Parent] = ScrollingFrame_2
+        "Instance".new("UICorner")[Parent] = TextButton_36
+        local UIStroke_21 = Instance.new("UIStroke")
+        UIStroke_21[Color] = Color3_FromRGB(100, 255, 100)
+        UIStroke_21[Parent] = TextButton_36
+        local Connection_28
+        Connection_28 = TextButton_36.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_47 = v["Name"]
+            game:GetService("StarterGui")
+            StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = "Selected player: " .. Name_47,
+            })
+        end)
+    end
+end
+Env.executeScript = function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0)
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end
+local Connection_7
+Connection_7 = TextButton_10.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    Frame_6[Visible] = false
+    Frame_9[Visible] = false
+    Frame_10[Visible] = false
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 30, 0)
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 30, 30)
+    TextButton_14.BackgroundColor3 = Color3_FromRGB(50, 0, 50)
+    Frame_6[Visible] = true
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 50, 0)
+end)
+local Connection_8
+Connection_8 = TextButton_12.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    Frame_6[Visible] = false
+    Frame_9[Visible] = false
+    Frame_10[Visible] = false
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 30, 0)
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 30, 30)
+    TextButton_14.BackgroundColor3 = Color3_FromRGB(50, 0, 50)
+    Frame_9[Visible] = true
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 50, 50)
+end)
+local Connection_9
+Connection_9 = TextButton_14.MouseButton1Click:Connect(function()
+    Frame_6[Visible] = false
+    Frame_9[Visible] = false
+    Frame_10[Visible] = false
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(0, 30, 0)
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(0, 30, 30)
+    TextButton_14.BackgroundColor3 = Color3_FromRGB(50, 0, 50)
+    Frame_10[Visible] = true
+    TextButton_14.BackgroundColor3 = Color3_FromRGB(80, 0, 80)
+    ScrollingFrame_2:ClearAllChildren()
+    local var2096 = #Players_5:GetPlayers() * 40
+    ScrollingFrame_2.CanvasSize = UDim2_New(0, 0, 0, var2096)
+    for i_2, v_2 in pairs(Players_5:GetPlayers()) do
+        local _ = ((i_2 and 12520209); -- 12520209 or 13501914)
+        local TextButton_37 = Instance.new(TextButton_35)
+        TextButton_37.BackgroundColor3 = Color3_FromRGB(20, 50, 20)
+        TextButton_37.TextSize = 14
+        TextButton_37[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+        TextButton_37.TextColor3 = Color3_FromRGB(100, 255, 100)
+        TextButton_37[Size] = UDim2_New(0.9, 0, 0, 35)
+        TextButton_37[Position_34] = UDim2_New(0.05, 0, 0, i_2 - 1 * 40)
+        TextButton_37[Text_66] = v_2["Name"]
+        TextButton_37[Parent] = ScrollingFrame_2
+        "Instance".new("UICorner")[Parent] = TextButton_37
+        local UIStroke_22 = Instance.new("UIStroke")
+        UIStroke_22[Color] = Color3_FromRGB(100, 255, 100)
+        UIStroke_22[Parent] = TextButton_37
+        local Connection_29
+        Connection_29 = TextButton_37.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_48 = v_2[Name_46]
+            game:GetService("StarterGui")
+            StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = "Selected player: " .. Name_48,
+            })
+        end)
+    end
+end)
+local Connection_10
+Connection_10 = TextButton_16.MouseButton1Click:Connect(function()
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_11
+Connection_11 = TextButton_18.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    TextBox[Text_66] = ""
+    TextButton_18[Text_66] = "Cleared!"
+    wait(0.5)
+    TextButton_18[Text_66] = "Clear"
+end)
+local Connection_12
+Connection_12 = TextButton_20.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+    local LocalPlayer = Players_5.LocalPlayer
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_13
+Connection_13 = TextButton_22.MouseButton1Click:Connect(function(p1_0)
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_14
+Connection_14 = TextButton_24.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+    local Name_33 = LocalPlayer["Name"]
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_15
+Connection_15 = TextButton_26.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Name_35 = LocalPlayer["Name"]
+    -- "knGzeNYjBHugUCzXgNP\")"
+    -- "\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    -- "knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local Dictionary_3 = {
+        "require(3436957371):r6(\"" .. Name_35 .. "\")\nrequire(15581949972).mc(\"" .. Name_35 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2208 = "\")\nrequire(15581949972).mc(\"" .. Name_35 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2208 = "\")\nrequire(15581949972).mc(\"" .. Name_35 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2208 = "\")\nrequire(15581949972).mc(\"" .. var2207;
+    -- "\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2209 = Name_35 .. var2208;
+    -- "knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2210 = "require(3436957371):r6(\"" .. var2209;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local Dictionary_3 = {
+        var2210,
+        "Steve",
+    };
+    local var2212 = Dictionary_3[2];
+    local var2213 = Dictionary_3[1];
+    local StarterGui_9 = game:GetService("StarterGui");
+    local SendNotification_8 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_16;
+Connection_16 = TextButton_28.MouseButton1Click:Connect(function()
+    local Players_29 = "Players";
+    local Players_30 = game[Players_29];
+    local LocalPlayer_5 = Players_5.LocalPlayer;
+    local Name_36 = "Name";
+    local Name_37 = LocalPlayer[Name_36];
+    local str_74 = "\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")";
+    local var2313 = Name_37 .. str_74;
+    -- "knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Concatted_String_2 = Name_37 .. str_74;
+    local var2314 = "require(100263845596551)(\"" .. var2313;
+    -- "require(100263845596551)(\"knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Sensation_Hub_2 = "Sensation Hub";
+    local Dictionary_4 = {
+        var2314,
+        Sensation_Hub_2,
+    };
+    local var2325 = Dictionary_4[2];
+    local var2326 = Dictionary_4[1];
+    local StarterGui_10 = game:GetService("StarterGui");
+    local SendNotification_9 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_17;
+Connection_17 = TextButton_30.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_31 = "Players";
+    local Players_32 = game[Players_31];
+    local LocalPlayer_6 = Players_5.LocalPlayer;
+    local Name_38 = "Name";
+    local Name_39 = LocalPlayer[Name_38];
+    local var2337 = Name_39 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2338 = "require(93218599314854).Pload(\"" .. var2337;
+    -- "require(93218599314854).Pload(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_11 = game:GetService("StarterGui");
+    local SendNotification_10 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_18;
+Connection_18 = TextButton_4.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_33 = "Players";
+    local Players_34 = game[Players_33];
+    local LocalPlayer_7 = Players_5.LocalPlayer;
+    local Name_40 = "Name";
+    local Name_41 = LocalPlayer[Name_40];
+    local var2350 = Name_41 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2351 = "require(3436957371):r6(\"" .. var2350;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_12 = game:GetService("StarterGui");
+    local SendNotification_11 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_19;
+Connection_19 = TextButton_6.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_35 = "Players";
+    local Players_36 = game[Players_35];
+    local LocalPlayer_8 = Players_5.LocalPlayer;
+    local Character = "Character";
+    local Character_2 = LocalPlayer[Character];
+    local BreakJoints = Character_2:BreakJoints();
+    local Character_Reset_2 = "Character reset!";
+    local StarterGui_13 = game:GetService("StarterGui");
+    local SendNotification_12 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Character_Reset_2,
+    });
+end);
+local Connection_20;
+Connection_20 = TextButton_8.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_37 = "Players";
+    local Players_38 = game[Players_37];
+    local LocalPlayer_9 = Players_5.LocalPlayer;
+    local TrowHack_Backdoor_2 = LocalPlayer:Kick("TrowHack Backdoor");
+end);
+local Connection_21;
+Connection_21 = TextButton_32.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_39 = "Players";
+    local Players_40 = game[Players_39];
+    local LocalPlayer_10 = Players_5.LocalPlayer;
+    local Name_42 = "Name";
+    local Name_43 = LocalPlayer[Name_42];
+    local setclipboard = Env.setclipboard;
+    local _call2402 = setclipboard(Name_43);
+    local var2408 = "Copied: ";
+    local var2409 = var2408 .. Name_43;
+    -- "Copied: knGzeNYjBHugUCzXgNP"
+    local Concatted_String_3 = var2408 .. Name_43;
+    local StarterGui_14 = game:GetService("StarterGui");
+    local SendNotification_13 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = var2409,
+    });
+end);
+local Connection_22;
+Connection_22 = TextButton_34.MouseButton1Click:Connect(function()
+    local Select_A_Player_First_2 = "Select a player first!";
+    local StarterGui_15 = game:GetService("StarterGui");
+    local SendNotification_14 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Select_A_Player_First_2,
+    });
+end);
+local Connection_23;
+Connection_23 = TextButton_2.MouseButton1Click:Connect(function(p1_0)
+    local var2427 = os.clock();
+    TextButton_2["Text"] = "Scanning...";
+    local Descendants_2 = game:GetDescendants();
+    local RemoteEvent_9 = workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_9 = not RemoteEvent_9;
+    -- true
+    local var2428 = (Not_RemoteEvent_9 and 14992392); -- 14992392
+    local var2429 = (var2428 or 15560028);
+    local RemoteFunction_8 = workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_8 = not RemoteFunction_8;
+    -- true
+    local RemoteEvent_10 = Workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_10 = not RemoteEvent_10;
+    -- true
+    local var2430 = (Not_RemoteEvent_10 and 14992392); -- 14992392
+    local var2431 = (var2430 or 15560028);
+    local RemoteFunction_9 = Workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_9 = not RemoteFunction_9;
+    -- true
+    local RemoteEvent_11 = CoreGui:IsA("RemoteEvent");
+    local Not_RemoteEvent_11 = not RemoteEvent_11;
+    -- true
+    local var2432 = (Not_RemoteEvent_11 and 14992392); -- 14992392
+    local var2433 = (var2432 or 15560028);
+    local RemoteFunction_10 = CoreGui:IsA("RemoteFunction");
+    local Not_RemoteFunction_10 = not RemoteFunction_10;
+    -- true
+    local RemoteEvent_12 = UserInputService:IsA("RemoteEvent");
+    local Not_RemoteEvent_12 = not RemoteEvent_12;
+    -- true
+    local var2434 = (Not_RemoteEvent_12 and 14992392); -- 14992392
+    local var2435 = (var2434 or 15560028);
+    local RemoteFunction_11 = UserInputService:IsA("RemoteFunction");
+    local Not_RemoteFunction_11 = not RemoteFunction_11;
+    -- true
+    local RemoteEvent_13 = Players_5:IsA("RemoteEvent");
+    local Not_RemoteEvent_13 = not RemoteEvent_13;
+    -- true
+    local var2436 = (Not_RemoteEvent_13 and 14992392); -- 14992392
+    local var2437 = (var2436 or 15560028);
+    local RemoteFunction_12 = Players_5:IsA("RemoteFunction");
+    local Not_RemoteFunction_12 = not RemoteFunction_12;
+    -- true
+    local RemoteEvent_14 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_14 = not RemoteEvent_14;
+    -- true
+    local var2438 = (Not_RemoteEvent_14 and 14992392); -- 14992392
+    local var2439 = (var2438 or 15560028);
+    local RemoteFunction_13 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_13 = not RemoteFunction_13;
+    -- true
+    local RemoteEvent_15 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_15 = not RemoteEvent_15;
+    -- true
+    local var2440 = (Not_RemoteEvent_15 and 14992392); -- 14992392
+    local var2441 = (var2440 or 15560028);
+    local RemoteFunction_14 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_14 = not RemoteFunction_14;
+    -- true
+    local RemoteEvent_16 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_16 = not RemoteEvent_16;
+    -- true
+    local var2442 = (Not_RemoteEvent_16 and 14992392); -- 14992392
+    local var2443 = (var2442 or 15560028);
+    local RemoteFunction_15 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_15 = not RemoteFunction_15;
+    -- true
+    local RemoteEvent_17 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_17 = not RemoteEvent_17;
+    -- true
+    local var2444 = (Not_RemoteEvent_17 and 14992392); -- 14992392
+    local var2445 = (var2444 or 15560028);
+    local RemoteFunction_16 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_16 = not RemoteFunction_16;
+    -- true
+    local RemoteEvent_18 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_18 = not RemoteEvent_18;
+    -- true
+    local var2446 = (Not_RemoteEvent_18 and 14992392); -- 14992392
+    local var2447 = (var2446 or 15560028);
+    local RemoteFunction_17 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_17 = not RemoteFunction_17;
+    -- true
+    local RemoteEvent_19 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_19 = not RemoteEvent_19;
+    -- true
+    local var2448 = (Not_RemoteEvent_19 and 14992392); -- 14992392
+    local var2449 = (var2448 or 15560028);
+    local RemoteFunction_18 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_18 = not RemoteFunction_18;
+    -- true
+    local RemoteEvent_20 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_20 = not RemoteEvent_20;
+    -- true
+    local var2450 = (Not_RemoteEvent_20 and 14992392); -- 14992392
+    local var2451 = (var2450 or 15560028);
+    local RemoteFunction_19 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_19 = not RemoteFunction_19;
+    -- true
+    local RemoteEvent_21 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_21 = not RemoteEvent_21;
+    -- true
+    local var2452 = (Not_RemoteEvent_21 and 14992392); -- 14992392
+    local var2453 = (var2452 or 15560028);
+    local RemoteFunction_20 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_20 = not RemoteFunction_20;
+    -- true
+    local RemoteEvent_22 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_22 = not RemoteEvent_22;
+    -- true
+    local var2454 = (Not_RemoteEvent_22 and 14992392); -- 14992392
+    local var2455 = (var2454 or 15560028);
+    local RemoteFunction_21 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_21 = not RemoteFunction_21;
+    -- true
+    local RemoteEvent_23 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_23 = not RemoteEvent_23;
+    -- true
+    local var2456 = (Not_RemoteEvent_23 and 14992392); -- 14992392
+    local var2457 = (var2456 or 15560028);
+    local RemoteFunction_22 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_22 = not RemoteFunction_22;
+    -- true
+    local RemoteEvent_24 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_24 = not RemoteEvent_24;
+    -- true
+    local var2458 = (Not_RemoteEvent_24 and 14992392); -- 14992392
+    local var2459 = (var2458 or 15560028);
+    local RemoteFunction_23 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_23 = not RemoteFunction_23;
+    -- true
+    local RemoteEvent_25 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_25 = not RemoteEvent_25;
+    -- true
+    local var2460 = (Not_RemoteEvent_25 and 14992392); -- 14992392
+    local var2461 = (var2460 or 15560028);
+    local RemoteFunction_24 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_24 = not RemoteFunction_24;
+    -- true
+    local RemoteEvent_26 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_26 = not RemoteEvent_26;
+    -- true
+    local var2462 = (Not_RemoteEvent_26 and 14992392); -- 14992392
+    local var2463 = (var2462 or 15560028);
+    local RemoteFunction_25 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_25 = not RemoteFunction_25;
+    -- true
+    local RemoteEvent_27 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_27 = not RemoteEvent_27;
+    -- true
+    local var2464 = (Not_RemoteEvent_27 and 14992392); -- 14992392
+    local var2465 = (var2464 or 15560028);
+    local RemoteFunction_26 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_26 = not RemoteFunction_26;
+    -- true
+    local RemoteEvent_28 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_28 = not RemoteEvent_28;
+    -- true
+    local var2466 = (Not_RemoteEvent_28 and 14992392); -- 14992392
+    local var2467 = (var2466 or 15560028);
+    local RemoteFunction_27 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_27 = not RemoteFunction_27;
+    -- true
+    local RemoteEvent_29 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_29 = not RemoteEvent_29;
+    -- true
+    local var2468 = (Not_RemoteEvent_29 and 14992392); -- 14992392
+    local var2469 = (var2468 or 15560028);
+    local RemoteFunction_28 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_28 = not RemoteFunction_28;
+    -- true
+    local RemoteEvent_30 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_30 = not RemoteEvent_30;
+    -- true
+    local var2470 = (Not_RemoteEvent_30 and 14992392); -- 14992392
+    local var2471 = (var2470 or 15560028);
+    local RemoteFunction_29 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_29 = not RemoteFunction_29;
+    -- true
+    local RemoteEvent_31 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_31 = not RemoteEvent_31;
+    -- true
+    local var2472 = (Not_RemoteEvent_31 and 14992392); -- 14992392
+    local var2473 = (var2472 or 15560028);
+    local RemoteFunction_30 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_30 = not RemoteFunction_30;
+    -- true
+    local RemoteEvent_32 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_32 = not RemoteEvent_32;
+    -- true
+    local var2474 = (Not_RemoteEvent_32 and 14992392); -- 14992392
+    local var2475 = (var2474 or 15560028);
+    local RemoteFunction_31 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_31 = not RemoteFunction_31;
+    -- true
+    local RemoteEvent_33 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_33 = not RemoteEvent_33;
+    -- true
+    local var2476 = (Not_RemoteEvent_33 and 14992392); -- 14992392
+    local var2477 = (var2476 or 15560028);
+    local RemoteFunction_32 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_32 = not RemoteFunction_32;
+    -- true
+    local RemoteEvent_34 = TweenService:IsA("RemoteEvent");
+    local Not_RemoteEvent_34 = not RemoteEvent_34;
+    -- true
+    local var2478 = (Not_RemoteEvent_34 and 14992392); -- 14992392
+    local var2479 = (var2478 or 15560028);
+    local RemoteFunction_33 = TweenService:IsA("RemoteFunction");
+    local Not_RemoteFunction_33 = not RemoteFunction_33;
+    -- true
+    local RemoteEvent_35 = StarterGui_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_35 = not RemoteEvent_35;
+    -- true
+    local var2480 = (Not_RemoteEvent_35 and 14992392); -- 14992392
+    local var2481 = (var2480 or 15560028);
+    local RemoteFunction_34 = StarterGui_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_34 = not RemoteFunction_34;
+    -- true
+    local var2482 = wait();
+    local var2483 = wait();
+    local var2484 = wait();
+    local var2485 = wait();
+    local var2486 = wait();
+    local var2487 = wait();
+    local var2488 = wait();
+    local var2489 = wait();
+    local var2490 = wait();
+    local var2491 = wait();
+    local var2492 = wait();
+    local var2493 = wait();
+    local var2494 = wait();
+    local var2495 = wait();
+    local var2496 = wait();
+    local var2497 = wait();
+    local var2498 = wait();
+    local var2499 = wait();
+    local var2500 = wait();
+    local var2501 = wait();
+    local var2502 = wait();
+    local var2503 = wait();
+    local var2504 = wait();
+    local var2505 = wait();
+    local var2506 = wait();
+    local var2507 = wait();
+    local var2508 = wait();
+    local var2509 = wait();
+    local var2510 = wait();
+    local var2511 = wait();
+    local var2512 = wait();
+    local var2513 = wait();
+    local var2514 = wait();
+    local var2515 = wait();
+    local var2516 = wait();
+    local var2517 = wait();
+    local var2518 = wait();
+    local var2519 = wait();
+    local var2520 = wait();
+    local var2521 = wait();
+    local var2522 = wait();
+    local var2523 = wait();
+    local var2524 = wait();
+    local var2525 = wait();
+    local var2526 = wait();
+    local var2527 = wait();
+    local var2528 = wait();
+    local var2529 = wait();
+    local var2530 = wait();
+    local var2531 = wait();
+    local var2532 = wait();
+    local var2533 = wait();
+    local var2534 = wait();
+    local var2535 = wait();
+    local var2536 = wait();
+    local var2537 = wait();
+    local var2538 = wait();
+    local var2539 = wait();
+    local var2540 = wait();
+    local var2541 = wait();
+    local var2542 = wait();
+    local var2543 = wait();
+    local var2544 = wait();
+    local var2545 = wait();
+    local var2546 = wait();
+    local var2547 = wait();
+    local var2548 = wait();
+    local var2549 = wait();
+    local var2550 = wait();
+    local var2551 = wait();
+    local var2552 = wait();
+    local var2553 = wait();
+    local var2554 = wait();
+    local var2555 = wait();
+    local var2556 = wait();
+    local var2557 = wait();
+    local var2558 = wait();
+    local var2559 = wait();
+    local var2560 = wait();
+    local var2561 = wait();
+    local var2562 = wait();
+    local var2563 = wait();
+    local var2564 = wait();
+    local var2565 = wait();
+    local var2566 = wait();
+    local var2567 = wait();
+    local var2568 = wait();
+    local var2569 = wait();
+    local var2570 = wait();
+    local var2571 = wait();
+    local var2572 = wait();
+    local var2573 = wait();
+    local var2574 = wait();
+    local var2575 = wait();
+    local var2576 = wait();
+    local var2577 = wait();
+    local var2578 = wait();
+    local var2579 = wait();
+    local var2580 = wait();
+    local var2581 = wait();
+    TextButton_2["Text"] = "No Backdoor Found";
+    local StarterGui_16 = game:GetService("StarterGui");
+    local SendNotification_15 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found!",
+    });
+end);
+local UserInputService_4 = game:GetService("UserInputService");
+local InputBegan_2 = "InputBegan";
+local Connection_24;
+Connection_24 = UserInputService[InputBegan_2]:Connect(function(Input_13, GameProcessedEvent_3, p3_0) -- args: Input_14, GameProcessedEvent_4;
+    local Input_14 = Input_13[1];
+    local GameProcessedEvent_4 = Input_13[2];
+    local KeyCode = Input_14.KeyCode;
+    local Enum_KeyCode = Enum.KeyCode;
+    local LeftAlt = Enum_KeyCode.LeftAlt;
+    local KeyCode_is_LeftAlt = (KeyCode == LeftAlt);
+    -- false, eq id 14
+end);
+local Players_4 = "Players";
+local Players_5 = game[Players_4];
+local Connection_25;
+Connection_25 = Players_5.PlayerAdded:Connect(function() -- args: Player_23;
+    local Players_41 = "Players";
+    local ClearAllChildren_3 = ScrollingFrame_2:ClearAllChildren();
+    local Players_42 = game[Players_41];
+    local Players_43 = Players_5:GetPlayers();
+    local Len_Players_43 = #Players_43;
+    local var2588 = Len_Players_43 * 40;
+    local UDim2_Value_71 = UDim2_New(0, 0, 0, var2588);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_71;
+    local Players_44 = game[Players_41];
+    local Players_45 = Players_5:GetPlayers();
+    for i_3, v_3 in pairs(Players_45) do
+        local var2588 = (i_3 and 12520209); -- 12520209
+        local var2589 = (var2588 or 13501914);
+        local TextButton_38 = "Instance".new("TextButton");
+        local Color3_Value_100 = Color3_FromRGB(20, 50, 20);
+        TextButton_38.BackgroundColor3 = Color3_Value_100;
+        TextButton_38.TextSize = 14;
+        local New_24 = Font_3["new"];
+        local Bold_23 = Enum_FontWeight["Bold"];
+        local Normal_42 = Enum_FontStyle["Normal"];
+        local _call2592 = New_24("rbxasset://fonts/families/GothamSSm.json", Bold_23, Normal_42);
+        TextButton_38["FontFace"] = _call2592;
+        local Color3_Value_101 = Color3_FromRGB(100, 255, 100);
+        TextButton_38.TextColor3 = Color3_Value_101;
+        local UDim2_Value_72 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_38["Size"] = UDim2_Value_72;
+        local var2593 = i_3 - 1;
+        local var2594 = var2593 * 40;
+        local UDim2_Value_73 = UDim2_New(0.05, 0, 0, var2594);
+        TextButton_38["Position"] = UDim2_Value_73;
+        local Name_44 = v_3[Name_42];
+        TextButton_38["Text"] = Name_44;
+        TextButton_38["Parent"] = ScrollingFrame_2;
+        local UICorner_24 = "Instance".new("UICorner");
+        UICorner_24["Parent"] = TextButton_38;
+        local UIStroke_23 = "Instance".new("UIStroke");
+        local Color3_Value_102 = Color3_FromRGB(100, 255, 100);
+        UIStroke_23["Color"] = Color3_Value_102;
+        UIStroke_23["Parent"] = TextButton_38;
+        local Connection_30;
+        Connection_30 = TextButton_38.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_49 = v_3["Name"];
+            local var2637 = "Selected player: " .. Name_49;
+            local Concatted_String_6 = "Selected player: " .. Name_49;
+            local StarterGui_19 = game:GetService("StarterGui");
+            local SendNotification_18 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2637,
+            });
+        end);
+    end
+end);
+local Players_6 = "Players";
+local Players_7 = game[Players_6];
+local Connection_26;
+Connection_26 = Players_5.PlayerRemoving:Connect(function(Player_25, p2_0, p3_0, p4_0) -- args: Player_26;
+    local Players_46 = "Players";
+    local ClearAllChildren_4 = ScrollingFrame_2:ClearAllChildren();
+    local Players_47 = game[Players_46];
+    local Players_48 = Players_5:GetPlayers();
+    local Len_Players_48 = #Players_48;
+    local var2598 = Len_Players_48 * 40;
+    local UDim2_Value_74 = UDim2_New(0, 0, 0, var2598);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_74;
+    local Players_49 = game[Players_46];
+    local Players_50 = Players_5:GetPlayers();
+    for i_4, v_4 in pairs(Players_50) do
+        local var2598 = (i_4 and 12520209); -- 12520209
+        local var2599 = (var2598 or 13501914);
+        local TextButton_39 = "Instance".new("TextButton");
+        local Color3_Value_103 = Color3_FromRGB(20, 50, 20);
+        TextButton_39.BackgroundColor3 = Color3_Value_103;
+        TextButton_39.TextSize = 14;
+        local New_25 = Font_3["new"];
+        local Bold_24 = Enum_FontWeight["Bold"];
+        local Normal_43 = Enum_FontStyle["Normal"];
+        local _call2602 = New_25("rbxasset://fonts/families/GothamSSm.json", Bold_24, Normal_43);
+        TextButton_39["FontFace"] = _call2602;
+        local Color3_Value_104 = Color3_FromRGB(100, 255, 100);
+        TextButton_39.TextColor3 = Color3_Value_104;
+        local UDim2_Value_75 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_39["Size"] = UDim2_Value_75;
+        local var2603 = i_4 - 1;
+        local var2604 = var2603 * 40;
+        local UDim2_Value_76 = UDim2_New(0.05, 0, 0, var2604);
+        TextButton_39["Position"] = UDim2_Value_76;
+        local Name_45 = v_4[Name_42];
+        TextButton_39["Text"] = Name_45;
+        TextButton_39["Parent"] = ScrollingFrame_2;
+        local UICorner_25 = "Instance".new("UICorner");
+        UICorner_25["Parent"] = TextButton_39;
+        local UIStroke_24 = "Instance".new("UIStroke");
+        local Color3_Value_105 = Color3_FromRGB(100, 255, 100);
+        UIStroke_24["Color"] = Color3_Value_105;
+        UIStroke_24["Parent"] = TextButton_39;
+        local Connection_31;
+        Connection_31 = TextButton_39.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_50 = v_4["Name"];
+            local var2638 = "Selected player: " .. Name_50;
+            local Concatted_String_7 = "Selected player: " .. Name_50;
+            local StarterGui_20 = game:GetService("StarterGui");
+            local SendNotification_19 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2638,
+            });
+        end);
+    end
+end);
+Frame_2["Visible"] = true;
+Frame_3["Visible"] = false;
+    -- "\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2209 = Name_35 .. var2208;
+    -- "knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2210 = "require(3436957371):r6(\"" .. var2209;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local Dictionary_3 = {
+        var2210,
+        "Steve",
+    };
+    local var2212 = Dictionary_3[2];
+    local var2213 = Dictionary_3[1];
+    local StarterGui_9 = game:GetService("StarterGui");
+    local SendNotification_8 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_16;
+Connection_16 = TextButton_28.MouseButton1Click:Connect(function()
+    local Players_29 = "Players";
+    local Players_30 = game[Players_29];
+    local LocalPlayer_5 = Players_5.LocalPlayer;
+    local Name_36 = "Name";
+    local Name_37 = LocalPlayer[Name_36];
+    local str_74 = "\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")";
+    local var2313 = Name_37 .. str_74;
+    -- "knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Concatted_String_2 = Name_37 .. str_74;
+    local var2314 = "require(100263845596551)(\"" .. var2313;
+    -- "require(100263845596551)(\"knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Sensation_Hub_2 = "Sensation Hub";
+    local Dictionary_4 = {
+        var2314,
+        Sensation_Hub_2,
+    };
+    local var2325 = Dictionary_4[2];
+    local var2326 = Dictionary_4[1];
+    local StarterGui_10 = game:GetService("StarterGui");
+    local SendNotification_9 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_17;
+Connection_17 = TextButton_30.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_31 = "Players";
+    local Players_32 = game[Players_31];
+    local LocalPlayer_6 = Players_5.LocalPlayer;
+    local Name_38 = "Name";
+    local Name_39 = LocalPlayer[Name_38];
+    local var2337 = Name_39 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2338 = "require(93218599314854).Pload(\"" .. var2337;
+    -- "require(93218599314854).Pload(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_11 = game:GetService("StarterGui");
+    local SendNotification_10 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_18;
+Connection_18 = TextButton_4.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_33 = "Players";
+    local Players_34 = game[Players_33];
+    local LocalPlayer_7 = Players_5.LocalPlayer;
+    local Name_40 = "Name";
+    local Name_41 = LocalPlayer[Name_40];
+    local var2350 = Name_41 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2351 = "require(3436957371):r6(\"" .. var2350;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_12 = game:GetService("StarterGui");
+    local SendNotification_11 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_19;
+Connection_19 = TextButton_6.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_35 = "Players";
+    local Players_36 = game[Players_35];
+    local LocalPlayer_8 = Players_5.LocalPlayer;
+    local Character = "Character";
+    local Character_2 = LocalPlayer[Character];
+    local BreakJoints = Character_2:BreakJoints();
+    local Character_Reset_2 = "Character reset!";
+    local StarterGui_13 = game:GetService("StarterGui");
+    local SendNotification_12 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Character_Reset_2,
+    });
+end);
+local Connection_20;
+Connection_20 = TextButton_8.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_37 = "Players";
+    local Players_38 = game[Players_37];
+    local LocalPlayer_9 = Players_5.LocalPlayer;
+    local TrowHack_Backdoor_2 = LocalPlayer:Kick("TrowHack Backdoor");
+end);
+local Connection_21;
+Connection_21 = TextButton_32.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_39 = "Players";
+    local Players_40 = game[Players_39];
+    local LocalPlayer_10 = Players_5.LocalPlayer;
+    local Name_42 = "Name";
+    local Name_43 = LocalPlayer[Name_42];
+    local setclipboard = Env.setclipboard;
+    local _call2402 = setclipboard(Name_43);
+    local var2408 = "Copied: ";
+    local var2409 = var2408 .. Name_43;
+    -- "Copied: knGzeNYjBHugUCzXgNP"
+    local Concatted_String_3 = var2408 .. Name_43;
+    local StarterGui_14 = game:GetService("StarterGui");
+    local SendNotification_13 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = var2409,
+    });
+end);
+local Connection_22;
+Connection_22 = TextButton_34.MouseButton1Click:Connect(function()
+    local Select_A_Player_First_2 = "Select a player first!";
+    local StarterGui_15 = game:GetService("StarterGui");
+    local SendNotification_14 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Select_A_Player_First_2,
+    });
+end);
+local Connection_23;
+Connection_23 = TextButton_2.MouseButton1Click:Connect(function(p1_0)
+    local var2427 = os.clock();
+    TextButton_2["Text"] = "Scanning...";
+    local Descendants_2 = game:GetDescendants();
+    local RemoteEvent_9 = workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_9 = not RemoteEvent_9;
+    -- true
+    local var2428 = (Not_RemoteEvent_9 and 14992392); -- 14992392
+    local var2429 = (var2428 or 15560028);
+    local RemoteFunction_8 = workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_8 = not RemoteFunction_8;
+    -- true
+    local RemoteEvent_10 = Workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_10 = not RemoteEvent_10;
+    -- true
+    local var2430 = (Not_RemoteEvent_10 and 14992392); -- 14992392
+    local var2431 = (var2430 or 15560028);
+    local RemoteFunction_9 = Workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_9 = not RemoteFunction_9;
+    -- true
+    local RemoteEvent_11 = CoreGui:IsA("RemoteEvent");
+    local Not_RemoteEvent_11 = not RemoteEvent_11;
+    -- true
+    local var2432 = (Not_RemoteEvent_11 and 14992392); -- 14992392
+    local var2433 = (var2432 or 15560028);
+    local RemoteFunction_10 = CoreGui:IsA("RemoteFunction");
+    local Not_RemoteFunction_10 = not RemoteFunction_10;
+    -- true
+    local RemoteEvent_12 = UserInputService:IsA("RemoteEvent");
+    local Not_RemoteEvent_12 = not RemoteEvent_12;
+    -- true
+    local var2434 = (Not_RemoteEvent_12 and 14992392); -- 14992392
+    local var2435 = (var2434 or 15560028);
+    local RemoteFunction_11 = UserInputService:IsA("RemoteFunction");
+    local Not_RemoteFunction_11 = not RemoteFunction_11;
+    -- true
+    local RemoteEvent_13 = Players_5:IsA("RemoteEvent");
+    local Not_RemoteEvent_13 = not RemoteEvent_13;
+    -- true
+    local var2436 = (Not_RemoteEvent_13 and 14992392); -- 14992392
+    local var2437 = (var2436 or 15560028);
+    local RemoteFunction_12 = Players_5:IsA("RemoteFunction");
+    local Not_RemoteFunction_12 = not RemoteFunction_12;
+    -- true
+    local RemoteEvent_14 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_14 = not RemoteEvent_14;
+    -- true
+    local var2438 = (Not_RemoteEvent_14 and 14992392); -- 14992392
+    local var2439 = (var2438 or 15560028);
+    local RemoteFunction_13 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_13 = not RemoteFunction_13;
+    -- true
+    local RemoteEvent_15 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_15 = not RemoteEvent_15;
+    -- true
+    local var2440 = (Not_RemoteEvent_15 and 14992392); -- 14992392
+    local var2441 = (var2440 or 15560028);
+    local RemoteFunction_14 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_14 = not RemoteFunction_14;
+    -- true
+    local RemoteEvent_16 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_16 = not RemoteEvent_16;
+    -- true
+    local var2442 = (Not_RemoteEvent_16 and 14992392); -- 14992392
+    local var2443 = (var2442 or 15560028);
+    local RemoteFunction_15 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_15 = not RemoteFunction_15;
+    -- true
+    local RemoteEvent_17 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_17 = not RemoteEvent_17;
+    -- true
+    local var2444 = (Not_RemoteEvent_17 and 14992392); -- 14992392
+    local var2445 = (var2444 or 15560028);
+    local RemoteFunction_16 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_16 = not RemoteFunction_16;
+    -- true
+    local RemoteEvent_18 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_18 = not RemoteEvent_18;
+    -- true
+    local var2446 = (Not_RemoteEvent_18 and 14992392); -- 14992392
+    local var2447 = (var2446 or 15560028);
+    local RemoteFunction_17 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_17 = not RemoteFunction_17;
+    -- true
+    local RemoteEvent_19 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_19 = not RemoteEvent_19;
+    -- true
+    local var2448 = (Not_RemoteEvent_19 and 14992392); -- 14992392
+    local var2449 = (var2448 or 15560028);
+    local RemoteFunction_18 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_18 = not RemoteFunction_18;
+    -- true
+    local RemoteEvent_20 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_20 = not RemoteEvent_20;
+    -- true
+    local var2450 = (Not_RemoteEvent_20 and 14992392); -- 14992392
+    local var2451 = (var2450 or 15560028);
+    local RemoteFunction_19 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_19 = not RemoteFunction_19;
+    -- true
+    local RemoteEvent_21 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_21 = not RemoteEvent_21;
+    -- true
+    local var2452 = (Not_RemoteEvent_21 and 14992392); -- 14992392
+    local var2453 = (var2452 or 15560028);
+    local RemoteFunction_20 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_20 = not RemoteFunction_20;
+    -- true
+    local RemoteEvent_22 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_22 = not RemoteEvent_22;
+    -- true
+    local var2454 = (Not_RemoteEvent_22 and 14992392); -- 14992392
+    local var2455 = (var2454 or 15560028);
+    local RemoteFunction_21 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_21 = not RemoteFunction_21;
+    -- true
+    local RemoteEvent_23 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_23 = not RemoteEvent_23;
+    -- true
+    local var2456 = (Not_RemoteEvent_23 and 14992392); -- 14992392
+    local var2457 = (var2456 or 15560028);
+    local RemoteFunction_22 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_22 = not RemoteFunction_22;
+    -- true
+    local RemoteEvent_24 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_24 = not RemoteEvent_24;
+    -- true
+    local var2458 = (Not_RemoteEvent_24 and 14992392); -- 14992392
+    local var2459 = (var2458 or 15560028);
+    local RemoteFunction_23 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_23 = not RemoteFunction_23;
+    -- true
+    local RemoteEvent_25 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_25 = not RemoteEvent_25;
+    -- true
+    local var2460 = (Not_RemoteEvent_25 and 14992392); -- 14992392
+    local var2461 = (var2460 or 15560028);
+    local RemoteFunction_24 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_24 = not RemoteFunction_24;
+    -- true
+    local RemoteEvent_26 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_26 = not RemoteEvent_26;
+    -- true
+    local var2462 = (Not_RemoteEvent_26 and 14992392); -- 14992392
+    local var2463 = (var2462 or 15560028);
+    local RemoteFunction_25 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_25 = not RemoteFunction_25;
+    -- true
+    local RemoteEvent_27 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_27 = not RemoteEvent_27;
+    -- true
+    local var2464 = (Not_RemoteEvent_27 and 14992392); -- 14992392
+    local var2465 = (var2464 or 15560028);
+    local RemoteFunction_26 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_26 = not RemoteFunction_26;
+    -- true
+    local RemoteEvent_28 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_28 = not RemoteEvent_28;
+    -- true
+    local var2466 = (Not_RemoteEvent_28 and 14992392); -- 14992392
+    local var2467 = (var2466 or 15560028);
+    local RemoteFunction_27 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_27 = not RemoteFunction_27;
+    -- true
+    local RemoteEvent_29 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_29 = not RemoteEvent_29;
+    -- true
+    local var2468 = (Not_RemoteEvent_29 and 14992392); -- 14992392
+    local var2469 = (var2468 or 15560028);
+    local RemoteFunction_28 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_28 = not RemoteFunction_28;
+    -- true
+    local RemoteEvent_30 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_30 = not RemoteEvent_30;
+    -- true
+    local var2470 = (Not_RemoteEvent_30 and 14992392); -- 14992392
+    local var2471 = (var2470 or 15560028);
+    local RemoteFunction_29 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_29 = not RemoteFunction_29;
+    -- true
+    local RemoteEvent_31 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_31 = not RemoteEvent_31;
+    -- true
+    local var2472 = (Not_RemoteEvent_31 and 14992392); -- 14992392
+    local var2473 = (var2472 or 15560028);
+    local RemoteFunction_30 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_30 = not RemoteFunction_30;
+    -- true
+    local RemoteEvent_32 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_32 = not RemoteEvent_32;
+    -- true
+    local var2474 = (Not_RemoteEvent_32 and 14992392); -- 14992392
+    local var2475 = (var2474 or 15560028);
+    local RemoteFunction_31 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_31 = not RemoteFunction_31;
+    -- true
+    local RemoteEvent_33 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_33 = not RemoteEvent_33;
+    -- true
+    local var2476 = (Not_RemoteEvent_33 and 14992392); -- 14992392
+    local var2477 = (var2476 or 15560028);
+    local RemoteFunction_32 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_32 = not RemoteFunction_32;
+    -- true
+    local RemoteEvent_34 = TweenService:IsA("RemoteEvent");
+    local Not_RemoteEvent_34 = not RemoteEvent_34;
+    -- true
+    local var2478 = (Not_RemoteEvent_34 and 14992392); -- 14992392
+    local var2479 = (var2478 or 15560028);
+    local RemoteFunction_33 = TweenService:IsA("RemoteFunction");
+    local Not_RemoteFunction_33 = not RemoteFunction_33;
+    -- true
+    local RemoteEvent_35 = StarterGui_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_35 = not RemoteEvent_35;
+    -- true
+    local var2480 = (Not_RemoteEvent_35 and 14992392); -- 14992392
+    local var2481 = (var2480 or 15560028);
+    local RemoteFunction_34 = StarterGui_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_34 = not RemoteFunction_34;
+    -- true
+    local var2482 = wait();
+    local var2483 = wait();
+    local var2484 = wait();
+    local var2485 = wait();
+    local var2486 = wait();
+    local var2487 = wait();
+    local var2488 = wait();
+    local var2489 = wait();
+    local var2490 = wait();
+    local var2491 = wait();
+    local var2492 = wait();
+    local var2493 = wait();
+    local var2494 = wait();
+    local var2495 = wait();
+    local var2496 = wait();
+    local var2497 = wait();
+    local var2498 = wait();
+    local var2499 = wait();
+    local var2500 = wait();
+    local var2501 = wait();
+    local var2502 = wait();
+    local var2503 = wait();
+    local var2504 = wait();
+    local var2505 = wait();
+    local var2506 = wait();
+    local var2507 = wait();
+    local var2508 = wait();
+    local var2509 = wait();
+    local var2510 = wait();
+    local var2511 = wait();
+    local var2512 = wait();
+    local var2513 = wait();
+    local var2514 = wait();
+    local var2515 = wait();
+    local var2516 = wait();
+    local var2517 = wait();
+    local var2518 = wait();
+    local var2519 = wait();
+    local var2520 = wait();
+    local var2521 = wait();
+    local var2522 = wait();
+    local var2523 = wait();
+    local var2524 = wait();
+    local var2525 = wait();
+    local var2526 = wait();
+    local var2527 = wait();
+    local var2528 = wait();
+    local var2529 = wait();
+    local var2530 = wait();
+    local var2531 = wait();
+    local var2532 = wait();
+    local var2533 = wait();
+    local var2534 = wait();
+    local var2535 = wait();
+    local var2536 = wait();
+    local var2537 = wait();
+    local var2538 = wait();
+    local var2539 = wait();
+    local var2540 = wait();
+    local var2541 = wait();
+    local var2542 = wait();
+    local var2543 = wait();
+    local var2544 = wait();
+    local var2545 = wait();
+    local var2546 = wait();
+    local var2547 = wait();
+    local var2548 = wait();
+    local var2549 = wait();
+    local var2550 = wait();
+    local var2551 = wait();
+    local var2552 = wait();
+    local var2553 = wait();
+    local var2554 = wait();
+    local var2555 = wait();
+    local var2556 = wait();
+    local var2557 = wait();
+    local var2558 = wait();
+    local var2559 = wait();
+    local var2560 = wait();
+    local var2561 = wait();
+    local var2562 = wait();
+    local var2563 = wait();
+    local var2564 = wait();
+    local var2565 = wait();
+    local var2566 = wait();
+    local var2567 = wait();
+    local var2568 = wait();
+    local var2569 = wait();
+    local var2570 = wait();
+    local var2571 = wait();
+    local var2572 = wait();
+    local var2573 = wait();
+    local var2574 = wait();
+    local var2575 = wait();
+    local var2576 = wait();
+    local var2577 = wait();
+    local var2578 = wait();
+    local var2579 = wait();
+    local var2580 = wait();
+    local var2581 = wait();
+    TextButton_2["Text"] = "No Backdoor Found";
+    local StarterGui_16 = game:GetService("StarterGui");
+    local SendNotification_15 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found!",
+    });
+end);
+local UserInputService_4 = game:GetService("UserInputService");
+local InputBegan_2 = "InputBegan";
+local Connection_24;
+Connection_24 = UserInputService[InputBegan_2]:Connect(function(Input_13, GameProcessedEvent_3, p3_0) -- args: Input_14, GameProcessedEvent_4;
+    local Input_14 = Input_13[1];
+    local GameProcessedEvent_4 = Input_13[2];
+    local KeyCode = Input_14.KeyCode;
+    local Enum_KeyCode = Enum.KeyCode;
+    local LeftAlt = Enum_KeyCode.LeftAlt;
+    local KeyCode_is_LeftAlt = (KeyCode == LeftAlt);
+    -- false, eq id 14
+end);
+local Players_4 = "Players";
+local Players_5 = game[Players_4];
+local Connection_25;
+Connection_25 = Players_5.PlayerAdded:Connect(function() -- args: Player_23;
+    local Players_41 = "Players";
+    local ClearAllChildren_3 = ScrollingFrame_2:ClearAllChildren();
+    local Players_42 = game[Players_41];
+    local Players_43 = Players_5:GetPlayers();
+    local Len_Players_43 = #Players_43;
+    local var2588 = Len_Players_43 * 40;
+    local UDim2_Value_71 = UDim2_New(0, 0, 0, var2588);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_71;
+    local Players_44 = game[Players_41];
+    local Players_45 = Players_5:GetPlayers();
+    for i_3, v_3 in pairs(Players_45) do
+        local var2588 = (i_3 and 12520209); -- 12520209
+        local var2589 = (var2588 or 13501914);
+        local TextButton_38 = "Instance".new("TextButton");
+        local Color3_Value_100 = Color3_FromRGB(20, 50, 20);
+        TextButton_38.BackgroundColor3 = Color3_Value_100;
+        TextButton_38.TextSize = 14;
+        local New_24 = Font_3["new"];
+        local Bold_23 = Enum_FontWeight["Bold"];
+        local Normal_42 = Enum_FontStyle["Normal"];
+        local _call2592 = New_24("rbxasset://fonts/families/GothamSSm.json", Bold_23, Normal_42);
+        TextButton_38["FontFace"] = _call2592;
+        local Color3_Value_101 = Color3_FromRGB(100, 255, 100);
+        TextButton_38.TextColor3 = Color3_Value_101;
+        local UDim2_Value_72 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_38["Size"] = UDim2_Value_72;
+        local var2593 = i_3 - 1;
+        local var2594 = var2593 * 40;
+        local UDim2_Value_73 = UDim2_New(0.05, 0, 0, var2594);
+        TextButton_38["Position"] = UDim2_Value_73;
+        local Name_44 = v_3[Name_42];
+        TextButton_38["Text"] = Name_44;
+        TextButton_38["Parent"] = ScrollingFrame_2;
+        local UICorner_24 = "Instance".new("UICorner");
+        UICorner_24["Parent"] = TextButton_38;
+        local UIStroke_23 = "Instance".new("UIStroke");
+        local Color3_Value_102 = Color3_FromRGB(100, 255, 100);
+        UIStroke_23["Color"] = Color3_Value_102;
+        UIStroke_23["Parent"] = TextButton_38;
+        local Connection_30;
+        Connection_30 = TextButton_38.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_49 = v_3["Name"];
+            local var2637 = "Selected player: " .. Name_49;
+            local Concatted_String_6 = "Selected player: " .. Name_49;
+            local StarterGui_19 = game:GetService("StarterGui");
+            local SendNotification_18 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2637,
+            });
+        end);
+    end
+end);
+local Players_6 = "Players";
+local Players_7 = game[Players_6];
+local Connection_26;
+Connection_26 = Players_5.PlayerRemoving:Connect(function(Player_25, p2_0, p3_0, p4_0) -- args: Player_26;
+    local Players_46 = "Players";
+    local ClearAllChildren_4 = ScrollingFrame_2:ClearAllChildren();
+    local Players_47 = game[Players_46];
+    local Players_48 = Players_5:GetPlayers();
+    local Len_Players_48 = #Players_48;
+    local var2598 = Len_Players_48 * 40;
+    local UDim2_Value_74 = UDim2_New(0, 0, 0, var2598);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_74;
+    local Players_49 = game[Players_46];
+    local Players_50 = Players_5:GetPlayers();
+    for i_4, v_4 in pairs(Players_50) do
+        local var2598 = (i_4 and 12520209); -- 12520209
+        local var2599 = (var2598 or 13501914);
+        local TextButton_39 = "Instance".new("TextButton");
+        local Color3_Value_103 = Color3_FromRGB(20, 50, 20);
+        TextButton_39.BackgroundColor3 = Color3_Value_103;
+        TextButton_39.TextSize = 14;
+        local New_25 = Font_3["new"];
+        local Bold_24 = Enum_FontWeight["Bold"];
+        local Normal_43 = Enum_FontStyle["Normal"];
+        local _call2602 = New_25("rbxasset://fonts/families/GothamSSm.json", Bold_24, Normal_43);
+        TextButton_39["FontFace"] = _call2602;
+        local Color3_Value_104 = Color3_FromRGB(100, 255, 100);
+        TextButton_39.TextColor3 = Color3_Value_104;
+        local UDim2_Value_75 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_39["Size"] = UDim2_Value_75;
+        local var2603 = i_4 - 1;
+        local var2604 = var2603 * 40;
+        local UDim2_Value_76 = UDim2_New(0.05, 0, 0, var2604);
+        TextButton_39["Position"] = UDim2_Value_76;
+        local Name_45 = v_4[Name_42];
+        TextButton_39["Text"] = Name_45;
+        TextButton_39["Parent"] = ScrollingFrame_2;
+        local UICorner_25 = "Instance".new("UICorner");
+        UICorner_25["Parent"] = TextButton_39;
+        local UIStroke_24 = "Instance".new("UIStroke");
+        local Color3_Value_105 = Color3_FromRGB(100, 255, 100);
+        UIStroke_24["Color"] = Color3_Value_105;
+        UIStroke_24["Parent"] = TextButton_39;
+        local Connection_31;
+        Connection_31 = TextButton_39.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_50 = v_4["Name"];
+            local var2638 = "Selected player: " .. Name_50;
+            local Concatted_String_7 = "Selected player: " .. Name_50;
+            local StarterGui_20 = game:GetService("StarterGui");
+            local SendNotification_19 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2638,
+            });
+        end);
+    end
+end);
+Frame_2["Visible"] = true;
+Frame_3["Visible"] = false;
+    -- "\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2209 = Name_35 .. var2208;
+    -- "knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local var2210 = "require(3436957371):r6(\"" .. var2209;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")\nrequire(15581949972).mc(\"knGzeNYjBHugUCzXgNP\")"
+    local Dictionary_3 = {
+        var2210,
+        "Steve",
+    };
+    local var2212 = Dictionary_3[2];
+    local var2213 = Dictionary_3[1];
+    local StarterGui_9 = game:GetService("StarterGui");
+    local SendNotification_8 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_16;
+Connection_16 = TextButton_28.MouseButton1Click:Connect(function()
+    local Players_29 = "Players";
+    local Players_30 = game[Players_29];
+    local LocalPlayer_5 = Players_5.LocalPlayer;
+    local Name_36 = "Name";
+    local Name_37 = LocalPlayer[Name_36];
+    local str_74 = "\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")";
+    local var2313 = Name_37 .. str_74;
+    -- "knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Concatted_String_2 = Name_37 .. str_74;
+    local var2314 = "require(100263845596551)(\"" .. var2313;
+    -- "require(100263845596551)(\"knGzeNYjBHugUCzXgNP\", ColorSequence.new(Color3.fromRGB(71, 148, 253), Color3.fromRGB(71, 253, 160)), \"Standard\")"
+    local Sensation_Hub_2 = "Sensation Hub";
+    local Dictionary_4 = {
+        var2314,
+        Sensation_Hub_2,
+    };
+    local var2325 = Dictionary_4[2];
+    local var2326 = Dictionary_4[1];
+    local StarterGui_10 = game:GetService("StarterGui");
+    local SendNotification_9 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_17;
+Connection_17 = TextButton_30.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_31 = "Players";
+    local Players_32 = game[Players_31];
+    local LocalPlayer_6 = Players_5.LocalPlayer;
+    local Name_38 = "Name";
+    local Name_39 = LocalPlayer[Name_38];
+    local var2337 = Name_39 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2338 = "require(93218599314854).Pload(\"" .. var2337;
+    -- "require(93218599314854).Pload(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_11 = game:GetService("StarterGui");
+    local SendNotification_10 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_18;
+Connection_18 = TextButton_4.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_33 = "Players";
+    local Players_34 = game[Players_33];
+    local LocalPlayer_7 = Players_5.LocalPlayer;
+    local Name_40 = "Name";
+    local Name_41 = LocalPlayer[Name_40];
+    local var2350 = Name_41 .. "\")";
+    -- "knGzeNYjBHugUCzXgNP\")"
+    local var2351 = "require(3436957371):r6(\"" .. var2350;
+    -- "require(3436957371):r6(\"knGzeNYjBHugUCzXgNP\")"
+    local StarterGui_12 = game:GetService("StarterGui");
+    local SendNotification_11 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    });
+end);
+local Connection_19;
+Connection_19 = TextButton_6.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_35 = "Players";
+    local Players_36 = game[Players_35];
+    local LocalPlayer_8 = Players_5.LocalPlayer;
+    local Character = "Character";
+    local Character_2 = LocalPlayer[Character];
+    local BreakJoints = Character_2:BreakJoints();
+    local Character_Reset_2 = "Character reset!";
+    local StarterGui_13 = game:GetService("StarterGui");
+    local SendNotification_12 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Character_Reset_2,
+    });
+end);
+local Connection_20;
+Connection_20 = TextButton_8.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Players_37 = "Players";
+    local Players_38 = game[Players_37];
+    local LocalPlayer_9 = Players_5.LocalPlayer;
+    local TrowHack_Backdoor_2 = LocalPlayer:Kick("TrowHack Backdoor");
+end);
+local Connection_21;
+Connection_21 = TextButton_32.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Players_39 = "Players";
+    local Players_40 = game[Players_39];
+    local LocalPlayer_10 = Players_5.LocalPlayer;
+    local Name_42 = "Name";
+    local Name_43 = LocalPlayer[Name_42];
+    local setclipboard = Env.setclipboard;
+    local _call2402 = setclipboard(Name_43);
+    local var2408 = "Copied: ";
+    local var2409 = var2408 .. Name_43;
+    -- "Copied: knGzeNYjBHugUCzXgNP"
+    local Concatted_String_3 = var2408 .. Name_43;
+    local StarterGui_14 = game:GetService("StarterGui");
+    local SendNotification_13 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = var2409,
+    });
+end);
+local Connection_22;
+Connection_22 = TextButton_34.MouseButton1Click:Connect(function()
+    local Select_A_Player_First_2 = "Select a player first!";
+    local StarterGui_15 = game:GetService("StarterGui");
+    local SendNotification_14 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = Select_A_Player_First_2,
+    });
+end);
+local Connection_23;
+Connection_23 = TextButton_2.MouseButton1Click:Connect(function(p1_0)
+    local var2427 = os.clock();
+    TextButton_2["Text"] = "Scanning...";
+    local Descendants_2 = game:GetDescendants();
+    local RemoteEvent_9 = workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_9 = not RemoteEvent_9;
+    -- true
+    local var2428 = (Not_RemoteEvent_9 and 14992392); -- 14992392
+    local var2429 = (var2428 or 15560028);
+    local RemoteFunction_8 = workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_8 = not RemoteFunction_8;
+    -- true
+    local RemoteEvent_10 = Workspace:IsA("RemoteEvent");
+    local Not_RemoteEvent_10 = not RemoteEvent_10;
+    -- true
+    local var2430 = (Not_RemoteEvent_10 and 14992392); -- 14992392
+    local var2431 = (var2430 or 15560028);
+    local RemoteFunction_9 = Workspace:IsA("RemoteFunction");
+    local Not_RemoteFunction_9 = not RemoteFunction_9;
+    -- true
+    local RemoteEvent_11 = CoreGui:IsA("RemoteEvent");
+    local Not_RemoteEvent_11 = not RemoteEvent_11;
+    -- true
+    local var2432 = (Not_RemoteEvent_11 and 14992392); -- 14992392
+    local var2433 = (var2432 or 15560028);
+    local RemoteFunction_10 = CoreGui:IsA("RemoteFunction");
+    local Not_RemoteFunction_10 = not RemoteFunction_10;
+    -- true
+    local RemoteEvent_12 = UserInputService:IsA("RemoteEvent");
+    local Not_RemoteEvent_12 = not RemoteEvent_12;
+    -- true
+    local var2434 = (Not_RemoteEvent_12 and 14992392); -- 14992392
+    local var2435 = (var2434 or 15560028);
+    local RemoteFunction_11 = UserInputService:IsA("RemoteFunction");
+    local Not_RemoteFunction_11 = not RemoteFunction_11;
+    -- true
+    local RemoteEvent_13 = Players_5:IsA("RemoteEvent");
+    local Not_RemoteEvent_13 = not RemoteEvent_13;
+    -- true
+    local var2436 = (Not_RemoteEvent_13 and 14992392); -- 14992392
+    local var2437 = (var2436 or 15560028);
+    local RemoteFunction_12 = Players_5:IsA("RemoteFunction");
+    local Not_RemoteFunction_12 = not RemoteFunction_12;
+    -- true
+    local RemoteEvent_14 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_14 = not RemoteEvent_14;
+    -- true
+    local var2438 = (Not_RemoteEvent_14 and 14992392); -- 14992392
+    local var2439 = (var2438 or 15560028);
+    local RemoteFunction_13 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_13 = not RemoteFunction_13;
+    -- true
+    local RemoteEvent_15 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_15 = not RemoteEvent_15;
+    -- true
+    local var2440 = (Not_RemoteEvent_15 and 14992392); -- 14992392
+    local var2441 = (var2440 or 15560028);
+    local RemoteFunction_14 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_14 = not RemoteFunction_14;
+    -- true
+    local RemoteEvent_16 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_16 = not RemoteEvent_16;
+    -- true
+    local var2442 = (Not_RemoteEvent_16 and 14992392); -- 14992392
+    local var2443 = (var2442 or 15560028);
+    local RemoteFunction_15 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_15 = not RemoteFunction_15;
+    -- true
+    local RemoteEvent_17 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_17 = not RemoteEvent_17;
+    -- true
+    local var2444 = (Not_RemoteEvent_17 and 14992392); -- 14992392
+    local var2445 = (var2444 or 15560028);
+    local RemoteFunction_16 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_16 = not RemoteFunction_16;
+    -- true
+    local RemoteEvent_18 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_18 = not RemoteEvent_18;
+    -- true
+    local var2446 = (Not_RemoteEvent_18 and 14992392); -- 14992392
+    local var2447 = (var2446 or 15560028);
+    local RemoteFunction_17 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_17 = not RemoteFunction_17;
+    -- true
+    local RemoteEvent_19 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_19 = not RemoteEvent_19;
+    -- true
+    local var2448 = (Not_RemoteEvent_19 and 14992392); -- 14992392
+    local var2449 = (var2448 or 15560028);
+    local RemoteFunction_18 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_18 = not RemoteFunction_18;
+    -- true
+    local RemoteEvent_20 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_20 = not RemoteEvent_20;
+    -- true
+    local var2450 = (Not_RemoteEvent_20 and 14992392); -- 14992392
+    local var2451 = (var2450 or 15560028);
+    local RemoteFunction_19 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_19 = not RemoteFunction_19;
+    -- true
+    local RemoteEvent_21 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_21 = not RemoteEvent_21;
+    -- true
+    local var2452 = (Not_RemoteEvent_21 and 14992392); -- 14992392
+    local var2453 = (var2452 or 15560028);
+    local RemoteFunction_20 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_20 = not RemoteFunction_20;
+    -- true
+    local RemoteEvent_22 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_22 = not RemoteEvent_22;
+    -- true
+    local var2454 = (Not_RemoteEvent_22 and 14992392); -- 14992392
+    local var2455 = (var2454 or 15560028);
+    local RemoteFunction_21 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_21 = not RemoteFunction_21;
+    -- true
+    local RemoteEvent_23 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_23 = not RemoteEvent_23;
+    -- true
+    local var2456 = (Not_RemoteEvent_23 and 14992392); -- 14992392
+    local var2457 = (var2456 or 15560028);
+    local RemoteFunction_22 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_22 = not RemoteFunction_22;
+    -- true
+    local RemoteEvent_24 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_24 = not RemoteEvent_24;
+    -- true
+    local var2458 = (Not_RemoteEvent_24 and 14992392); -- 14992392
+    local var2459 = (var2458 or 15560028);
+    local RemoteFunction_23 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_23 = not RemoteFunction_23;
+    -- true
+    local RemoteEvent_25 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_25 = not RemoteEvent_25;
+    -- true
+    local var2460 = (Not_RemoteEvent_25 and 14992392); -- 14992392
+    local var2461 = (var2460 or 15560028);
+    local RemoteFunction_24 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_24 = not RemoteFunction_24;
+    -- true
+    local RemoteEvent_26 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_26 = not RemoteEvent_26;
+    -- true
+    local var2462 = (Not_RemoteEvent_26 and 14992392); -- 14992392
+    local var2463 = (var2462 or 15560028);
+    local RemoteFunction_25 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_25 = not RemoteFunction_25;
+    -- true
+    local RemoteEvent_27 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_27 = not RemoteEvent_27;
+    -- true
+    local var2464 = (Not_RemoteEvent_27 and 14992392); -- 14992392
+    local var2465 = (var2464 or 15560028);
+    local RemoteFunction_26 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_26 = not RemoteFunction_26;
+    -- true
+    local RemoteEvent_28 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_28 = not RemoteEvent_28;
+    -- true
+    local var2466 = (Not_RemoteEvent_28 and 14992392); -- 14992392
+    local var2467 = (var2466 or 15560028);
+    local RemoteFunction_27 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_27 = not RemoteFunction_27;
+    -- true
+    local RemoteEvent_29 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_29 = not RemoteEvent_29;
+    -- true
+    local var2468 = (Not_RemoteEvent_29 and 14992392); -- 14992392
+    local var2469 = (var2468 or 15560028);
+    local RemoteFunction_28 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_28 = not RemoteFunction_28;
+    -- true
+    local RemoteEvent_30 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_30 = not RemoteEvent_30;
+    -- true
+    local var2470 = (Not_RemoteEvent_30 and 14992392); -- 14992392
+    local var2471 = (var2470 or 15560028);
+    local RemoteFunction_29 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_29 = not RemoteFunction_29;
+    -- true
+    local RemoteEvent_31 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_31 = not RemoteEvent_31;
+    -- true
+    local var2472 = (Not_RemoteEvent_31 and 14992392); -- 14992392
+    local var2473 = (var2472 or 15560028);
+    local RemoteFunction_30 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_30 = not RemoteFunction_30;
+    -- true
+    local RemoteEvent_32 = LocalPlayer:IsA("RemoteEvent");
+    local Not_RemoteEvent_32 = not RemoteEvent_32;
+    -- true
+    local var2474 = (Not_RemoteEvent_32 and 14992392); -- 14992392
+    local var2475 = (var2474 or 15560028);
+    local RemoteFunction_31 = LocalPlayer:IsA("RemoteFunction");
+    local Not_RemoteFunction_31 = not RemoteFunction_31;
+    -- true
+    local RemoteEvent_33 = Character_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_33 = not RemoteEvent_33;
+    -- true
+    local var2476 = (Not_RemoteEvent_33 and 14992392); -- 14992392
+    local var2477 = (var2476 or 15560028);
+    local RemoteFunction_32 = Character_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_32 = not RemoteFunction_32;
+    -- true
+    local RemoteEvent_34 = TweenService:IsA("RemoteEvent");
+    local Not_RemoteEvent_34 = not RemoteEvent_34;
+    -- true
+    local var2478 = (Not_RemoteEvent_34 and 14992392); -- 14992392
+    local var2479 = (var2478 or 15560028);
+    local RemoteFunction_33 = TweenService:IsA("RemoteFunction");
+    local Not_RemoteFunction_33 = not RemoteFunction_33;
+    -- true
+    local RemoteEvent_35 = StarterGui_2:IsA("RemoteEvent");
+    local Not_RemoteEvent_35 = not RemoteEvent_35;
+    -- true
+    local var2480 = (Not_RemoteEvent_35 and 14992392); -- 14992392
+    local var2481 = (var2480 or 15560028);
+    local RemoteFunction_34 = StarterGui_2:IsA("RemoteFunction");
+    local Not_RemoteFunction_34 = not RemoteFunction_34;
+    -- true
+    local var2482 = wait();
+    local var2483 = wait();
+    local var2484 = wait();
+    local var2485 = wait();
+    local var2486 = wait();
+    local var2487 = wait();
+    local var2488 = wait();
+    local var2489 = wait();
+    local var2490 = wait();
+    local var2491 = wait();
+    local var2492 = wait();
+    local var2493 = wait();
+    local var2494 = wait();
+    local var2495 = wait();
+    local var2496 = wait();
+    local var2497 = wait();
+    local var2498 = wait();
+    local var2499 = wait();
+    local var2500 = wait();
+    local var2501 = wait();
+    local var2502 = wait();
+    local var2503 = wait();
+    local var2504 = wait();
+    local var2505 = wait();
+    local var2506 = wait();
+    local var2507 = wait();
+    local var2508 = wait();
+    local var2509 = wait();
+    local var2510 = wait();
+    local var2511 = wait();
+    local var2512 = wait();
+    local var2513 = wait();
+    local var2514 = wait();
+    local var2515 = wait();
+    local var2516 = wait();
+    local var2517 = wait();
+    local var2518 = wait();
+    local var2519 = wait();
+    local var2520 = wait();
+    local var2521 = wait();
+    local var2522 = wait();
+    local var2523 = wait();
+    local var2524 = wait();
+    local var2525 = wait();
+    local var2526 = wait();
+    local var2527 = wait();
+    local var2528 = wait();
+    local var2529 = wait();
+    local var2530 = wait();
+    local var2531 = wait();
+    local var2532 = wait();
+    local var2533 = wait();
+    local var2534 = wait();
+    local var2535 = wait();
+    local var2536 = wait();
+    local var2537 = wait();
+    local var2538 = wait();
+    local var2539 = wait();
+    local var2540 = wait();
+    local var2541 = wait();
+    local var2542 = wait();
+    local var2543 = wait();
+    local var2544 = wait();
+    local var2545 = wait();
+    local var2546 = wait();
+    local var2547 = wait();
+    local var2548 = wait();
+    local var2549 = wait();
+    local var2550 = wait();
+    local var2551 = wait();
+    local var2552 = wait();
+    local var2553 = wait();
+    local var2554 = wait();
+    local var2555 = wait();
+    local var2556 = wait();
+    local var2557 = wait();
+    local var2558 = wait();
+    local var2559 = wait();
+    local var2560 = wait();
+    local var2561 = wait();
+    local var2562 = wait();
+    local var2563 = wait();
+    local var2564 = wait();
+    local var2565 = wait();
+    local var2566 = wait();
+    local var2567 = wait();
+    local var2568 = wait();
+    local var2569 = wait();
+    local var2570 = wait();
+    local var2571 = wait();
+    local var2572 = wait();
+    local var2573 = wait();
+    local var2574 = wait();
+    local var2575 = wait();
+    local var2576 = wait();
+    local var2577 = wait();
+    local var2578 = wait();
+    local var2579 = wait();
+    local var2580 = wait();
+    local var2581 = wait();
+    TextButton_2["Text"] = "No Backdoor Found";
+    local StarterGui_16 = game:GetService("StarterGui");
+    local SendNotification_15 = StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found!",
+    });
+end);
+local UserInputService_4 = game:GetService("UserInputService");
+local InputBegan_2 = "InputBegan";
+local Connection_24;
+Connection_24 = UserInputService[InputBegan_2]:Connect(function(Input_13, GameProcessedEvent_3, p3_0) -- args: Input_14, GameProcessedEvent_4;
+    local Input_14 = Input_13[1];
+    local GameProcessedEvent_4 = Input_13[2];
+    local KeyCode = Input_14.KeyCode;
+    local Enum_KeyCode = Enum.KeyCode;
+    local LeftAlt = Enum_KeyCode.LeftAlt;
+    local KeyCode_is_LeftAlt = (KeyCode == LeftAlt);
+    -- false, eq id 14
+end);
+local Players_4 = "Players";
+local Players_5 = game[Players_4];
+local Connection_25;
+Connection_25 = Players_5.PlayerAdded:Connect(function() -- args: Player_23;
+    local Players_41 = "Players";
+    local ClearAllChildren_3 = ScrollingFrame_2:ClearAllChildren();
+    local Players_42 = game[Players_41];
+    local Players_43 = Players_5:GetPlayers();
+    local Len_Players_43 = #Players_43;
+    local var2588 = Len_Players_43 * 40;
+    local UDim2_Value_71 = UDim2_New(0, 0, 0, var2588);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_71;
+    local Players_44 = game[Players_41];
+    local Players_45 = Players_5:GetPlayers();
+    for i_3, v_3 in pairs(Players_45) do
+        local var2588 = (i_3 and 12520209); -- 12520209
+        local var2589 = (var2588 or 13501914);
+        local TextButton_38 = "Instance".new("TextButton");
+        local Color3_Value_100 = Color3_FromRGB(20, 50, 20);
+        TextButton_38.BackgroundColor3 = Color3_Value_100;
+        TextButton_38.TextSize = 14;
+        local New_24 = Font_3["new"];
+        local Bold_23 = Enum_FontWeight["Bold"];
+        local Normal_42 = Enum_FontStyle["Normal"];
+        local _call2592 = New_24("rbxasset://fonts/families/GothamSSm.json", Bold_23, Normal_42);
+        TextButton_38["FontFace"] = _call2592;
+        local Color3_Value_101 = Color3_FromRGB(100, 255, 100);
+        TextButton_38.TextColor3 = Color3_Value_101;
+        local UDim2_Value_72 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_38["Size"] = UDim2_Value_72;
+        local var2593 = i_3 - 1;
+        local var2594 = var2593 * 40;
+        local UDim2_Value_73 = UDim2_New(0.05, 0, 0, var2594);
+        TextButton_38["Position"] = UDim2_Value_73;
+        local Name_44 = v_3[Name_42];
+        TextButton_38["Text"] = Name_44;
+        TextButton_38["Parent"] = ScrollingFrame_2;
+        local UICorner_24 = "Instance".new("UICorner");
+        UICorner_24["Parent"] = TextButton_38;
+        local UIStroke_23 = "Instance".new("UIStroke");
+        local Color3_Value_102 = Color3_FromRGB(100, 255, 100);
+        UIStroke_23["Color"] = Color3_Value_102;
+        UIStroke_23["Parent"] = TextButton_38;
+        local Connection_30;
+        Connection_30 = TextButton_38.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_49 = v_3["Name"];
+            local var2637 = "Selected player: " .. Name_49;
+            local Concatted_String_6 = "Selected player: " .. Name_49;
+            local StarterGui_19 = game:GetService("StarterGui");
+            local SendNotification_18 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2637,
+            });
+        end);
+    end
+end);
+local Players_6 = "Players";
+local Players_7 = game[Players_6];
+local Connection_26;
+Connection_26 = Players_5.PlayerRemoving:Connect(function(Player_25, p2_0, p3_0, p4_0) -- args: Player_26;
+    local Players_46 = "Players";
+    local ClearAllChildren_4 = ScrollingFrame_2:ClearAllChildren();
+    local Players_47 = game[Players_46];
+    local Players_48 = Players_5:GetPlayers();
+    local Len_Players_48 = #Players_48;
+    local var2598 = Len_Players_48 * 40;
+    local UDim2_Value_74 = UDim2_New(0, 0, 0, var2598);
+    ScrollingFrame_2.CanvasSize = UDim2_Value_74;
+    local Players_49 = game[Players_46];
+    local Players_50 = Players_5:GetPlayers();
+    for i_4, v_4 in pairs(Players_50) do
+        local var2598 = (i_4 and 12520209); -- 12520209
+        local var2599 = (var2598 or 13501914);
+        local TextButton_39 = "Instance".new("TextButton");
+        local Color3_Value_103 = Color3_FromRGB(20, 50, 20);
+        TextButton_39.BackgroundColor3 = Color3_Value_103;
+        TextButton_39.TextSize = 14;
+        local New_25 = Font_3["new"];
+        local Bold_24 = Enum_FontWeight["Bold"];
+        local Normal_43 = Enum_FontStyle["Normal"];
+        local _call2602 = New_25("rbxasset://fonts/families/GothamSSm.json", Bold_24, Normal_43);
+        TextButton_39["FontFace"] = _call2602;
+        local Color3_Value_104 = Color3_FromRGB(100, 255, 100);
+        TextButton_39.TextColor3 = Color3_Value_104;
+        local UDim2_Value_75 = UDim2_New(0.9, 0, 0, 35);
+        TextButton_39["Size"] = UDim2_Value_75;
+        local var2603 = i_4 - 1;
+        local var2604 = var2603 * 40;
+        local UDim2_Value_76 = UDim2_New(0.05, 0, 0, var2604);
+        TextButton_39["Position"] = UDim2_Value_76;
+        local Name_45 = v_4[Name_42];
+        TextButton_39["Text"] = Name_45;
+        TextButton_39["Parent"] = ScrollingFrame_2;
+        local UICorner_25 = "Instance".new("UICorner");
+        UICorner_25["Parent"] = TextButton_39;
+        local UIStroke_24 = "Instance".new("UIStroke");
+        local Color3_Value_105 = Color3_FromRGB(100, 255, 100);
+        UIStroke_24["Color"] = Color3_Value_105;
+        UIStroke_24["Parent"] = TextButton_39;
+        local Connection_31;
+        Connection_31 = TextButton_39.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_50 = v_4["Name"];
+            local var2638 = "Selected player: " .. Name_50;
+            local Concatted_String_7 = "Selected player: " .. Name_50;
+            local StarterGui_20 = game:GetService("StarterGui");
+            local SendNotification_19 = StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = var2638,
+            });
+        end);
+    end
+end);
+Frame_2["Visible"] = true;
+Frame_3["Visible"] = false,
+        Steve_2,
+    }
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_16
+Connection_16 = TextButton_28.MouseButton1Click:Connect(function()
+    local Name_37 = LocalPlayer["Name"]
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_17
+Connection_17 = TextButton_30.MouseButton1Click:Connect(function(p1_0, p2_0)
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_18
+Connection_18 = TextButton_4.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found! Please scan first.",
+    })
+end)
+local Connection_19
+Connection_19 = TextButton_6.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Character_2 = LocalPlayer["Character"]
+    Character_2:BreakJoints()
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "Character reset!",
+    })
+end)
+local Connection_20
+Connection_20 = TextButton_8.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    LocalPlayer:Kick("TrowHack Backdoor")
+end)
+local Connection_21
+Connection_21 = TextButton_32.MouseButton1Click:Connect(function(p1_0, p2_0)
+    local Name_43 = LocalPlayer["Name"]
+    Env.setclipboard(Name_43)
+    -- "Copied: knGzeNYjBHugUCzXgNP"
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "Copied: " .. Name_43,
+    })
+end)
+local Connection_22
+Connection_22 = TextButton_34.MouseButton1Click:Connect(function()
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "Select a player first!",
+    })
+end)
+local Connection_23
+Connection_23 = TextButton_2.MouseButton1Click:Connect(function(p1_0)
+    os.clock()
+    TextButton_2[Text_66] = "Scanning..."
+    game:GetDescendants()
+    -- true
+    local _ = ((not workspace:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not workspace:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Workspace:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Workspace:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not CoreGui:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not CoreGui:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not UserInputService:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not UserInputService:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Players_5:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Players_5:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not LocalPlayer:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not LocalPlayer:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not Character_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not Character_2:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not TweenService:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not TweenService:IsA("RemoteFunction")
+    -- true
+    -- true
+    local _ = ((not StarterGui_2:IsA("RemoteEvent") and 14992392); -- 14992392 or 15560028)
+    local _ = not StarterGui_2:IsA("RemoteFunction")
+    -- true
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    wait()
+    TextButton_2[Text_66] = No_Backdoor_Found
+    game:GetService("StarterGui")
+    StarterGui_2:SetCore("SendNotification", {
+        ["Duration"] = 6,
+        ["Title"] = "TrowHack Backdoor",
+        ["Text"] = "No backdoor found!",
+    })
+end)
+game:GetService("UserInputService")
+local Connection_24
+Connection_24 = UserInputService["InputBegan"]:Connect(function(Input_13, GameProcessedEvent_3, p3_0) -- args: Input_14, GameProcessedEvent_4
+    local _ = (Input_13[1].KeyCode == Enum.KeyCode.LeftAlt)
+    -- false, eq id 14
+end)
+local Players_5 = game["Players"]
+local Connection_25
+Connection_25 = Players_5.PlayerAdded:Connect(function() -- args: Player_23
+    ScrollingFrame_2:ClearAllChildren()
+    local var2588 = #Players_5:GetPlayers() * 40
+    ScrollingFrame_2.CanvasSize = UDim2_New(0, 0, 0, var2588)
+    for i_3, v_3 in pairs(Players_5:GetPlayers()) do
+        local _ = ((i_3 and 12520209); -- 12520209 or 13501914)
+        local TextButton_38 = Instance.new(TextButton_35)
+        TextButton_38.BackgroundColor3 = Color3_FromRGB(20, 50, 20)
+        TextButton_38.TextSize = 14
+        TextButton_38[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+        TextButton_38.TextColor3 = Color3_FromRGB(100, 255, 100)
+        TextButton_38[Size] = UDim2_New(0.9, 0, 0, 35)
+        TextButton_38[Position_34] = UDim2_New(0.05, 0, 0, i_3 - 1 * 40)
+        TextButton_38[Text_66] = v_3["Name"]
+        TextButton_38[Parent] = ScrollingFrame_2
+        "Instance".new("UICorner")[Parent] = TextButton_38
+        local UIStroke_23 = Instance.new("UIStroke")
+        UIStroke_23[Color] = Color3_FromRGB(100, 255, 100)
+        UIStroke_23[Parent] = TextButton_38
+        local Connection_30
+        Connection_30 = TextButton_38.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_49 = v_3[Name_46]
+            game:GetService("StarterGui")
+            StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = "Selected player: " .. Name_49,
+            })
+        end)
+    end
+end)
+local Connection_26
+Connection_26 = Players_5.PlayerRemoving:Connect(function(Player_25, p2_0, p3_0, p4_0) -- args: Player_26
+    ScrollingFrame_2:ClearAllChildren()
+    local var2598 = #Players_5:GetPlayers() * 40
+    ScrollingFrame_2.CanvasSize = UDim2_New(0, 0, 0, var2598)
+    for i_4, v_4 in pairs(Players_5:GetPlayers()) do
+        local _ = ((i_4 and 12520209); -- 12520209 or 13501914)
+        local TextButton_39 = Instance.new(TextButton_35)
+        TextButton_39.BackgroundColor3 = Color3_FromRGB(20, 50, 20)
+        TextButton_39.TextSize = 14
+        TextButton_39[FontFace] = Font_3["new"]("rbxasset://fonts/families/GothamSSm.json", Enum_FontWeight["Bold"], Enum_FontStyle["Normal"])
+        TextButton_39.TextColor3 = Color3_FromRGB(100, 255, 100)
+        TextButton_39[Size] = UDim2_New(0.9, 0, 0, 35)
+        TextButton_39[Position_34] = UDim2_New(0.05, 0, 0, i_4 - 1 * 40)
+        TextButton_39[Text_66] = v_4["Name"]
+        TextButton_39[Parent] = ScrollingFrame_2
+        "Instance".new("UICorner")[Parent] = TextButton_39
+        local UIStroke_24 = Instance.new("UIStroke")
+        UIStroke_24[Color] = Color3_FromRGB(100, 255, 100)
+        UIStroke_24[Parent] = TextButton_39
+        local Connection_31
+        Connection_31 = TextButton_39.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0)
+            local Name_50 = v_4[Name_46]
+            game:GetService("StarterGui")
+            StarterGui_2:SetCore("SendNotification", {
+                ["Duration"] = 6,
+                ["Title"] = "TrowHack Backdoor",
+                ["Text"] = "Selected player: " .. Name_50,
+            })
+        end)
+    end
+end)
+Frame_2[Visible] = true
+Frame_3[Visible] = false
