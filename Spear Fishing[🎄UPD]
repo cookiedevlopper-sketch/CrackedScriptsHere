@@ -1,4 +1,4 @@
--- Cracked by Cookie_Devlopper/Risax enjoy it :)
+---[[ Cookie's deobfuscator enjoy it now ]]--
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local UserInputService = game:GetService("UserInputService")
