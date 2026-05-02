@@ -11,8 +11,9 @@ here i post script i logged or deobfuscated, all the script are in the file with
 
 just download or copy the raw, its easy
 
+🥉3.discord
 
-
+if you want others thing and much add just join this : https://discord.gg/npVVAgyVet
 
 
 © A cyro project・All right reserved
