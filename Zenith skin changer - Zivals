@@ -1,0 +1,861 @@
+--- deobfuscated by Cookie_Devlopper enjoy
+local Brain_Gun = "Brain Gun";
+local Saber = "Saber";
+local Wondergun = "Wondergun";
+local Reindeer_Slingshot = "Reindeer Slingshot";
+local Water_Uzi = "Water Uzi";
+local Singularity = "Singularity";
+local Service = "GetService";
+local Cryo_Scythe = "Cryo Scythe";
+local Dark_Blue = "Dark Blue";
+local Wrapped_Freeze_Ray = "Wrapped Freeze Ray";
+local Stick = "Stick";
+local Spring = "Spring";
+local _ = "loadstring";
+local Ray_Gun = "Ray Gun";
+local Anchor = "Anchor";
+local Laptop = "Laptop";
+local AKEY_47 = "AKEY-47";
+local Coffee = "Coffee";
+local Frostbite_Crossbow = "Frostbite Crossbow";
+local Rivals_Skin_Changer = "Rivals Skin Changer";
+local Wrapped_Flare_Gun = "Wrapped Flare Gun";
+local Slime_Gun = "Slime Gun";
+local Chancla = "Chancla";
+local Title = "Title";
+local Balance = "Balance";
+local Gingerbread_Handgun = "Gingerbread Handgun";
+local Content = "Content";
+local Cookies = "Cookies";
+local Skullbang = "Skullbang";
+local _2025_Katana = "2025 Katana";
+local Gingerbread_Sniper = "Gingerbread Sniper";
+local Broomstick = "Broomstick";
+local Eyeball = "Eyeball";
+local Briefcase = "Briefcase";
+local Machete = "Machete";
+local Keyper = "Keyper";
+local Bubble_Ray = "Bubble Ray";
+local Enabled = "Enabled";
+local Tab = "CreateTab";
+local _ = "Buzzsaw";
+local LocalPlayer = "LocalPlayer";
+local Blaster = "Blaster";
+local _ = "FolderName";
+local Hot_Coals = "Hot Coals";
+local Electro_Uzi = "Electro Uzi";
+local Amber_Glow = "Amber Glow";
+local Midnight_Festive_Exogun = "Midnight Festive Exogun";
+local Snowglobe = "Snowglobe";
+local Default = "Default";
+local AK_47 = "AK-47";
+local Torch = "Torch";
+local Green = "Green";
+local Keythe = "Keythe";
+local Bat_Scythe = "Bat Scythe";
+local Options = "Options";
+local _ = "Raven Bow";
+local Players = "Players";
+local DonT_Press = "Don't Press";
+local Aqua_Burst = "Aqua Burst";
+local Camera = "Camera";
+local _ = "Lightning Bolt";
+local Pixel_Burst = "Pixel Burst";
+local Ocean = "Ocean";
+local _ = "Spaceship Launcher";
+local Candy_Cane = "Candy Cane";
+local Snow_Shovel = "Snow Shovel";
+local Bloom = "Bloom";
+local _ = "Firework Launcher";
+local Emoji_Cloud = "Emoji Cloud";
+local AUG = "AUG";
+local Disco_Ball = "Disco Ball";
+local _ = "AmberGlow";
+local _ = "ModifyTheme";
+local Parent = "Parent";
+local Clone = "Clone";
+local Children = "GetChildren";
+local _ = "pairs";
+local Lightning_Bolt = "Lightning Bolt";
+local Scythe_Of_Death = "Scythe of Death";
+local Theme = "Theme";
+local Key = "Key";
+local Light = "Light";
+local _ = ":%d+: a";
+fenv.MoonSec_StringsHiddenAttr = true;
+local Rayfield = loadstring(
+    game:HttpGet("https://sirius.menu/rayfield")
+)();
+local v269 = Rayfield:CreateWindow({
+    ["ConfigurationSaving"] = {
+        [Enabled] = true,
+        ["FileName"] = "RivalsSkinChanger"
+    },
+    ["KeySettings"] = {
+        ["Note"] = "No method of obtaining the key is provided",
+        [Title] = "Untitled",
+        [Key] = {
+            "Hello"
+        },
+        ["GrabKeyFromSite"] = false,
+        ["SaveKey"] = true,
+        ["FileName"] = Key,
+        ["Subtitle"] = "Key System"
+    },
+    ["KeySystem"] = false,
+    ["DisableBuildWarnings"] = false,
+    ["Discord"] = {
+        [Enabled] = false,
+        ["RememberJoins"] = true,
+        ["Invite"] = "noinvitelink"
+    },
+    ["Name"] = Rivals_Skin_Changer,
+    ["LoadingTitle"] = "Loading...",
+    ["DisableRayfieldPrompts"] = false,
+    ["LoadingSubtitle"] = Rivals_Skin_Changer,
+    [Theme] = Default,
+    ["Icon"] = 0
+});
+Rayfield:Notify({
+    ["Image"] = "check",
+    ["Duration"] = 5,
+    [Content] = "Successfully Loaded!",
+    [Title] = Rivals_Skin_Changer
+});
+local Service_2 = game:GetService(Players);
+local v275 = Service_2[LocalPlayer];
+game:GetService(Players);
+local v282 = v275.PlayerScripts.Assets.ViewModels;
+local v284 = v269:CreateTab("Skin Changer", "layers-3");
+v284:CreateSection("Primary Weapons");
+v284:CreateDropdown({
+    [Options] = {
+        AK_47,
+        AUG,
+        AKEY_47,
+        "Gingerbread AUG"
+    },
+    ["CurrentOption"] = {
+        AK_47
+    },
+    ["Flag"] = "ARDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a, b, c, ...)
+        local A = a;
+        local _ = b;
+        local _ = c;
+        local _ = ...;
+        local _ = (A[1] ~= AK_47);
+        local _ = (A[1] == AUG);
+        local _ = (A[1] == AKEY_47);
+        if (A[1] == "Gingerbread AUG") then
+        else -- didnt run (else), if id: 4
+        end;
+    end,
+    ["Name"] = "Assault Rifles"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Electro Rifle",
+        Aqua_Burst,
+        Pixel_Burst,
+        "Spectral Burst"
+    },
+    ["CurrentOption"] = {
+        "Electro Rifle"
+    },
+    ["Flag"] = "BurstRifleDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_2, b_2, c_2, ...)
+        local A_2 = a_2;
+        local _ = b_2;
+        local _ = c_2;
+        local _ = ...;
+        local _ = (A_2[1] ~= "Electro Rifle");
+        local _ = (A_2[1] ~= Aqua_Burst);
+        local _ = (A_2[1] == Pixel_Burst);
+        if (A_2[1] == "Spectral Burst") then
+        else -- didnt run (else), if id: 8
+        end;
+    end,
+    ["Name"] = "Burst Rifle"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Boba Gun",
+        Slime_Gun,
+        "Snowball Gun",
+        Brain_Gun
+    },
+    ["CurrentOption"] = {
+        "Boba Gun"
+    },
+    ["Flag"] = "PaintballGunDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_3, b_3, c_3, ...)
+        local A_3 = a_3;
+        local _ = b_3;
+        local _ = c_3;
+        local _ = ...;
+        local _ = (A_3[1] ~= "Boba Gun");
+        local _ = (A_3[1] == Slime_Gun);
+        local _ = (A_3[1] == "Snowball Gun");
+        if (A_3[1] == Brain_Gun) then
+        else -- didnt run (else), if id: 12
+        end;
+    end,
+    ["Name"] = "Paintball Gun"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Balloon Shotgun",
+        "Hyper Shotgun",
+        "Wrapped Shotgun",
+        Broomstick
+    },
+    ["CurrentOption"] = {
+        "Balloon Shotgun"
+    },
+    ["Flag"] = "ShotgunDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_4, b_4, c_4, ...)
+        local A_4 = a_4;
+        local _ = b_4;
+        local _ = c_4;
+        local _ = ...;
+        local _ = (A_4[1] == "Balloon Shotgun");
+        local _ = (A_4[1] ~= "Hyper Shotgun");
+        local _ = (A_4[1] == "Wrapped Shotgun");
+        if (A_4[1] ~= Broomstick) then -- ran, if id: 16
+        end;
+    end,
+    ["Name"] = "Shotgun"
+});
+v284:CreateButton({
+    ["Name"] = "Bow (Bat Bow)",
+    ["Callback"] = function(a_5, b_5, c_5, ...)
+        local _ = a_5;
+        local _ = b_5;
+        local _ = c_5;
+        local _ = ...;
+        v498 = v282:FindFirstChild("Bow");
+        if not v498 then
+        else -- didnt run (else), if id: 17
+            v501 = v282:FindFirstChild("Bat Bow");
+        end;
+        if not v501 then
+        else -- didnt run (else), if id: 18
+            v498:ClearAllChildren();
+        end;
+        for for_key_0, for_val_0 in pairs(v501:GetChildren()) do
+            if for_key_0 then -- ran, if id: 19
+
+            end;
+            for_val_0:Clone()[Parent] = v498;
+        end;
+    end
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Pixel Crossbow",
+        Frostbite_Crossbow
+    },
+    ["CurrentOption"] = {
+        "Pixel Crossbow"
+    },
+    ["Flag"] = "CrossbowDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_6, b_6, c_6, ...)
+        local A_6 = a_6;
+        local _ = b_6;
+        local _ = c_6;
+        local _ = ...;
+        local _ = (A_6[1] ~= "Pixel Crossbow");
+        if (A_6[1] == Frostbite_Crossbow) then
+        else -- didnt run (else), if id: 21
+        end;
+    end,
+    ["Name"] = "Crossbow"
+});
+v284:CreateButton({
+    ["Name"] = "RPG (Nuke Launcher)",
+    ["Callback"] = function(a_7, b_7, c_7, ...)
+        local _ = a_7;
+        local _ = b_7;
+        local _ = c_7;
+        local _ = ...;
+        v522 = v282:FindFirstChild("RPG");
+        if not v522 then
+        else -- didnt run (else), if id: 22
+            v525 = v282:FindFirstChild("Nuke Launcher");
+        end;
+        if not v525 then
+        else -- didnt run (else), if id: 23
+            v522:ClearAllChildren();
+        end;
+        for for_key_1, for_val_1 in pairs(v525:GetChildren()) do
+            if for_key_1 then -- ran, if id: 24
+
+            end;
+            for_val_1:Clone()[Parent] = v522;
+        end;
+    end
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Pixel Sniper",
+        "Hyper Sniper",
+        Keyper,
+        Gingerbread_Sniper,
+        "Eyething Sniper"
+    },
+    ["CurrentOption"] = {
+        "Pixel Sniper"
+    },
+    ["Flag"] = "SniperDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_8, b_8, c_8, ...)
+        local A_8 = a_8;
+        local _ = b_8;
+        local _ = c_8;
+        local _ = ...;
+        local _ = (A_8[1] ~= "Pixel Sniper");
+        local _ = (A_8[1] ~= "Hyper Sniper");
+        local _ = (A_8[1] ~= Keyper);
+        local _ = (A_8[1] ~= Gingerbread_Sniper);
+        if (A_8[1] == "Eyething Sniper") then
+        else -- didnt run (else), if id: 29
+        end;
+    end,
+    ["Name"] = "Sniper"
+});
+v284:CreateSection("Secondary Weapons");
+v284:CreateDropdown({
+    [Options] = {
+        Blaster,
+        Gingerbread_Handgun,
+        "Pumpkin Handgun",
+        "Pixel Handgun"
+    },
+    ["CurrentOption"] = {
+        Blaster
+    },
+    ["Flag"] = "HandgunDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_9, b_9, c_9, ...)
+        local A_9 = a_9;
+        local _ = b_9;
+        local _ = c_9;
+        local _ = ...;
+        local _ = (A_9[1] ~= Blaster);
+        local _ = (A_9[1] ~= "Hand Gun");
+        local _ = (A_9[1] == "Pixel Handgun");
+        local _ = (A_9[1] == Gingerbread_Handgun);
+        if (A_9[1] == "Pumpkin Handgun") then
+        else -- didnt run (else), if id: 34
+        end;
+    end,
+    ["Name"] = "Handgun"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Electro_Uzi,
+        Water_Uzi
+    },
+    ["CurrentOption"] = {
+        Electro_Uzi
+    },
+    ["Flag"] = "UziDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_10, b_10, c_10, ...)
+        local A_10 = a_10;
+        local _ = b_10;
+        local _ = c_10;
+        local _ = ...;
+        local _ = (A_10[1] ~= Electro_Uzi);
+        if (A_10[1] ~= Water_Uzi) then -- ran, if id: 36
+        end;
+    end,
+    ["Name"] = "Uzi"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Dynamite Gun",
+        "Firework Gun",
+        Wrapped_Flare_Gun,
+        "Vexed Flare Gun"
+    },
+    ["CurrentOption"] = {
+        "Dynamite Gun"
+    },
+    ["Flag"] = "FlareGunDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_11, b_11, c_11, ...)
+        local A_11 = a_11;
+        local _ = b_11;
+        local _ = c_11;
+        local _ = ...;
+        local _ = (A_11[1] ~= "Dynamite Gun");
+        local _ = (A_11[1] ~= "Firework Gun");
+        local _ = (A_11[1] ~= Wrapped_Flare_Gun);
+        if (A_11[1] == "Vexed Flare Gun") then
+        else -- didnt run (else), if id: 40
+        end;
+    end,
+    ["Name"] = "Flare Gun"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Aces",
+        Cookies
+    },
+    ["CurrentOption"] = {
+        "Aces"
+    },
+    ["Flag"] = "DaggersDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_12, b_12, c_12, ...)
+        local A_12 = a_12;
+        local _ = b_12;
+        local _ = c_12;
+        local _ = ...;
+        local _ = (A_12[1] == "Aces");
+        if (A_12[1] ~= Cookies) then -- ran, if id: 42
+        end;
+    end,
+    ["Name"] = "Daggers"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Stick,
+        Reindeer_Slingshot,
+        "Boneshot",
+        "Goalpost"
+    },
+    ["CurrentOption"] = {
+        Stick
+    },
+    ["Flag"] = "SlingshotDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_13, b_13, c_13, ...)
+        local A_13 = a_13;
+        local _ = b_13;
+        local _ = c_13;
+        local _ = ...;
+        local _ = (A_13[1] == Stick);
+        local _ = (A_13[1] == Reindeer_Slingshot);
+        local _ = (A_13[1] ~= "Boneshot");
+        if (A_13[1] ~= "Goalpost") then -- ran, if id: 46
+        end;
+    end,
+    ["Name"] = "Slingshot"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Singularity,
+        Wondergun,
+        "Exogourd",
+        Ray_Gun,
+        Midnight_Festive_Exogun
+    },
+    ["CurrentOption"] = {
+        Singularity
+    },
+    ["Flag"] = "ExogunDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_14, b_14, c_14, ...)
+        local A_14 = a_14;
+        local _ = b_14;
+        local _ = c_14;
+        local _ = ...;
+        local _ = (A_14[1] == Wondergun);
+        local _ = (A_14[1] ~= Singularity);
+        local _ = (A_14[1] == "Exogourd");
+        local _ = (A_14[1] == Ray_Gun);
+        if (A_14[1] ~= Midnight_Festive_Exogun) then -- ran, if id: 51
+        end;
+    end,
+    ["Name"] = "Exogun"
+});
+v284:CreateSection("Melee Weapons");
+v284:CreateDropdown({
+    [Options] = {
+        "Pixel Katana",
+        Saber,
+        _2025_Katana,
+        "Devil's Trident",
+        Lightning_Bolt
+    },
+    ["CurrentOption"] = {
+        Saber
+    },
+    ["Flag"] = "KatanaDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_15, b_15, c_15, ...)
+        local A_15 = a_15;
+        local _ = b_15;
+        local _ = c_15;
+        local _ = ...;
+        local _ = (A_15[1] == Saber);
+        local _ = (A_15[1] ~= "Pixel Katana");
+        local _ = (A_15[1] ~= _2025_Katana);
+        local _ = (A_15[1] == "Devil's Trident");
+        if (A_15[1] ~= Lightning_Bolt) then -- ran, if id: 56
+        end;
+    end,
+    ["Name"] = "Katana"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Keythe,
+        Scythe_Of_Death,
+        Cryo_Scythe,
+        Bat_Scythe,
+        Anchor
+    },
+    ["CurrentOption"] = {
+        Keythe
+    },
+    ["Flag"] = "ScytheDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_16, b_16, c_16, ...)
+        local A_16 = a_16;
+        local _ = b_16;
+        local _ = c_16;
+        local _ = ...;
+        local _ = (A_16[1] == Keythe);
+        local _ = (A_16[1] == Scythe_Of_Death);
+        local _ = (A_16[1] == Cryo_Scythe);
+        local _ = (A_16[1] == Bat_Scythe);
+        if (A_16[1] == Anchor) then
+        else -- didnt run (else), if id: 61
+        end;
+    end,
+    ["Name"] = "Scythe"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Boxing Gloves",
+        "Brass Knuckles",
+        "Pumpkin Claws",
+        "Festive Fists"
+    },
+    ["CurrentOption"] = {
+        "Boxing Gloves"
+    },
+    ["Flag"] = "FistsDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_17, b_17, c_17, ...)
+        local A_17 = a_17;
+        local _ = b_17;
+        local _ = c_17;
+        local _ = ...;
+        local _ = (A_17[1] == "Boxing Gloves");
+        local _ = (A_17[1] == "Brass Knuckles");
+        local _ = (A_17[1] == "Pumpkin Claws");
+        if (A_17[1] == "Festive Fists") then
+        else -- didnt run (else), if id: 65
+        end;
+    end,
+    ["Name"] = "Fists"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Garden Shovel",
+        "Plastic Shovel",
+        Snow_Shovel,
+        "Pumpkin Carver"
+    },
+    ["CurrentOption"] = {
+        "Plastic Shovel"
+    },
+    ["Flag"] = "TrowelDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_18, b_18, c_18, ...)
+        local A_18 = a_18;
+        local _ = b_18;
+        local _ = c_18;
+        local _ = ...;
+        local _ = (A_18[1] ~= "Plastic Shovel");
+        local _ = (A_18[1] ~= "Garden Shovel");
+        local _ = (A_18[1] == Snow_Shovel);
+        if (A_18[1] ~= "Pumpkin Carver") then -- ran, if id: 69
+        end;
+    end,
+    ["Name"] = "Trowel"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Karambit",
+        Chancla,
+        Candy_Cane,
+        Machete
+    },
+    ["CurrentOption"] = {
+        "Karambit"
+    },
+    ["Flag"] = "KnifeDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_19, b_19, c_19, ...)
+        local A_19 = a_19;
+        local _ = b_19;
+        local _ = c_19;
+        local _ = ...;
+        local _ = (A_19[1] == "Karambit");
+        local _ = (A_19[1] ~= Chancla);
+        local _ = (A_19[1] == Candy_Cane);
+        if (A_19[1] ~= Machete) then -- ran, if id: 73
+        end;
+    end,
+    ["Name"] = "Knife"
+});
+v284:CreateButton({
+    ["Name"] = "Chainsaw (Blobsaw)",
+    ["Callback"] = function(a_20, b_20, c_20, ...)
+        local _ = a_20;
+        local _ = b_20;
+        local _ = c_20;
+        local _ = ...;
+        v684 = v282:FindFirstChild("Chainsaw");
+        if not v684 then
+        else -- didnt run (else), if id: 74
+            v687 = v282:FindFirstChild("Blobsaw");
+        end;
+        if not v687 then
+        else -- didnt run (else), if id: 75
+            v684:ClearAllChildren();
+        end;
+        for for_key_2, for_val_2 in pairs(v687:GetChildren()) do
+            if for_key_2 then -- ran, if id: 76
+
+            end;
+            for_val_2:Clone()[Parent] = v684;
+        end;
+    end
+});
+v284:CreateSection("Utility");
+v284:CreateDropdown({
+    [Options] = {
+        "Soul Grenade",
+        "Whoopee Cushion",
+        "Jingle Grenade",
+        "Water Balloon"
+    },
+    ["CurrentOption"] = {
+        "Jingle Grenade"
+    },
+    ["Flag"] = "GrenadeDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_21, b_21, c_21, ...)
+        local A_21 = a_21;
+        local _ = b_21;
+        local _ = c_21;
+        local _ = ...;
+        local _ = (A_21[1] == "Jingle Grenade");
+        local _ = (A_21[1] ~= "Soul Grenade");
+        local _ = (A_21[1] ~= "Whoopee Cushion");
+        if (A_21[1] ~= "Water Balloon") then -- ran, if id: 80
+        end;
+    end,
+    ["Name"] = "Grenade"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Balance,
+        Emoji_Cloud,
+        Snowglobe,
+        Eyeball
+    },
+    ["CurrentOption"] = {
+        Balance
+    },
+    ["Flag"] = "SmokeGrenadeDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_22, b_22, c_22, ...)
+        local A_22 = a_22;
+        local _ = b_22;
+        local _ = c_22;
+        local _ = ...;
+        local _ = (A_22[1] ~= Balance);
+        local _ = (A_22[1] == Emoji_Cloud);
+        local _ = (A_22[1] == Snowglobe);
+        if (A_22[1] == Eyeball) then
+        else -- didnt run (else), if id: 84
+        end;
+    end,
+    ["Name"] = "Smoke Grenade"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Camera,
+        Disco_Ball,
+        "Pixel Flashbang",
+        "Shining Star",
+        Skullbang
+    },
+    ["CurrentOption"] = {
+        Disco_Ball
+    },
+    ["Flag"] = "FlashbangDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_23, b_23, c_23, ...)
+        local A_23 = a_23;
+        local _ = b_23;
+        local _ = c_23;
+        local _ = ...;
+        local _ = (A_23[1] ~= Disco_Ball);
+        local _ = (A_23[1] == "Pixel Flashbang");
+        local _ = (A_23[1] ~= Camera);
+        local _ = (A_23[1] == "Shining Star");
+        if (A_23[1] == Skullbang) then
+        else -- didnt run (else), if id: 89
+        end;
+    end,
+    ["Name"] = "Flashbang"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Coffee,
+        Torch,
+        Hot_Coals,
+        "Vexed Candle"
+    },
+    ["CurrentOption"] = {
+        Coffee
+    },
+    ["Flag"] = "MolotovDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_24, b_24, c_24, ...)
+        local A_24 = a_24;
+        local _ = b_24;
+        local _ = c_24;
+        local _ = ...;
+        local _ = (A_24[1] == Coffee);
+        local _ = (A_24[1] == Torch);
+        local _ = (A_24[1] ~= Hot_Coals);
+        if (A_24[1] ~= "Vexed Candle") then -- ran, if id: 93
+        end;
+    end,
+    ["Name"] = "Molotov"
+});
+v284:CreateDropdown({
+    [Options] = {
+        "Spider Ray",
+        "Temporal Ray",
+        Bubble_Ray,
+        Wrapped_Freeze_Ray
+    },
+    ["CurrentOption"] = {
+        Bubble_Ray
+    },
+    ["Flag"] = "FreezeRayDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_25, b_25, c_25, ...)
+        local A_25 = a_25;
+        local _ = b_25;
+        local _ = c_25;
+        local _ = ...;
+        local _ = (A_25[1] ~= Bubble_Ray);
+        local _ = (A_25[1] == "Temporal Ray");
+        local _ = (A_25[1] ~= Bubble_Ray);
+        if (A_25[1] ~= Wrapped_Freeze_Ray) then -- ran, if id: 97
+        end;
+    end,
+    ["Name"] = "Freeze Ray"
+});
+v284:CreateDropdown({
+    [Options] = {
+        Briefcase,
+        Laptop
+    },
+    ["CurrentOption"] = {
+        Briefcase
+    },
+    ["Flag"] = "MedkitDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_26, b_26, c_26, ...)
+        local A_26 = a_26;
+        local _ = b_26;
+        local _ = c_26;
+        local _ = ...;
+        local _ = (A_26[1] ~= Briefcase);
+        if (A_26[1] ~= Laptop) then -- ran, if id: 99
+        end;
+    end,
+    ["Name"] = "Medkit"
+});
+v284:CreateDropdown({
+    [Options] = {
+        DonT_Press,
+        Spring,
+        "Dev-in-the-Box",
+        "Trick or Treat"
+    },
+    ["CurrentOption"] = {
+        DonT_Press
+    },
+    ["Flag"] = "SubspaceTripmineDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_27, b_27, c_27, ...)
+        local A_27 = a_27;
+        local _ = b_27;
+        local _ = c_27;
+        local _ = ...;
+        local _ = (A_27[1] ~= DonT_Press);
+        local _ = (A_27[1] == Spring);
+        local _ = (A_27[1] == "Dev-in-the-Box");
+        if (A_27[1] ~= "Trick or Treat") then -- ran, if id: 103
+        end;
+    end,
+    ["Name"] = "Subspace Tripmine"
+});
+local v423 = v269:CreateTab("Settings", "settings");
+v423:CreateSection(Theme);
+v423:CreateDropdown({
+    [Options] = {
+        Default,
+        Amber_Glow,
+        "Amethyst",
+        Bloom,
+        Dark_Blue,
+        Green,
+        Light,
+        Ocean,
+        "Serenity"
+    },
+    ["CurrentOption"] = {
+        Default
+    },
+    ["Flag"] = "ThemeDropdown",
+    ["MultipleOptions"] = false,
+    ["Callback"] = function(a_28, b_28, c_28, ...)
+        local A_28 = a_28;
+        local _ = b_28;
+        local _ = c_28;
+        local _ = ...;
+        local _ = (A_28[1] == Default);
+        local _ = (A_28[1] == Amber_Glow);
+        local _ = (A_28[1] ~= "Amethyst");
+        local _ = (A_28[1] ~= Bloom);
+        local _ = (A_28[1] == Dark_Blue);
+        local _ = (A_28[1] == Green);
+        local _ = (A_28[1] == Light);
+        local _ = (A_28[1] == Ocean);
+        if (A_28[1] == "Serenity") then
+        else -- didnt run (else), if id: 112
+        end;
+    end,
+    ["Name"] = Theme
+});
+local v432 = v269:CreateTab("Info", "info");
+v432:CreateSection("Info");
+v432:CreateParagraph({
+    [Title] = "Information:",
+    [Content] = "If skin did not change, select a different skin in the dropdown and reselect the skin. Remember, the skin will change next round/next time you equip the gun again. I suggest executing before the game starts. If you see some skins missing from this script, that means they are bugged and will never be fixed. Remember, this is client sided.\nDM us on Discord for support: codee_zyx or 0fml"
+});
+v432:CreateSection("Credits");
+v432:CreateParagraph({
+    [Title] = "Credits:",
+    [Content] = "Main Developer - codeEzyx\nDeveloper - 9grah/0fml\nSkin Changer Script From Zenith SoftWorks: https://(discord invite)"
+});
+Rayfield:LoadConfiguration();
