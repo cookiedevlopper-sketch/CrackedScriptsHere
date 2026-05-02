@@ -15,4 +15,4 @@ just download or copy the raw, its easy
 
 
 
-A cyro project ・ all copy of deobf script will result in a EZ © cyro project
+© A cyro project・All right reserved
