@@ -12,4 +12,7 @@ here i post script i logged or deobfuscated, all the script are in the file with
 just download or copy the raw, its easy
 
 
+
+
+
 A cyro project ・ all copy of deobf script will result in a EZ © cyro project
