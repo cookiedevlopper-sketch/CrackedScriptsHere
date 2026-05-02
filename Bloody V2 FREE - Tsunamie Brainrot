@@ -1,0 +1,4092 @@
+-- ts was logged by Cookie_Devlopper [ lil broken ]
+
+local v7667, v4287, character, v7713, P1_9, v7797, Name, v7868, P1_23, Service_7, v8200, Character, P1_41, Array_3, Name_3, Array_4, P1_44, P1_46, Service_14, v5590, Array_5, v5600, Table_Concat_Result, Name_Regex, Name_4, v5780, v5790, v5803, Array_6, Table_Concat_Result_2, v5822, Array_7, Table_Concat_Result_3, v5841, Array_8, Table_Concat_Result_4, v5860, Array_9, Table_Concat_Result_5, v5879, Array_10, Table_Concat_Result_6, v5898, Array_11, Table_Concat_Result_7, v5917, Array_12, Table_Concat_Result_8, v5936, Array_13, Table_Concat_Result_9, v5955, Array_14, Table_Concat_Result_10, v5974, Array_15, Table_Concat_Result_11, v5993, Array_16, Table_Concat_Result_12, v6012, Array_17, Table_Concat_Result_13, v6031, Array_18, Table_Concat_Result_14, v6050, Array_19, Table_Concat_Result_15, v6069, Array_20, Table_Concat_Result_16, v6088, Array_21, Table_Concat_Result_17, v6107, Array_22, Table_Concat_Result_18, v6126, Array_23, Table_Concat_Result_19, v6145, Array_24, Table_Concat_Result_20, v6164, Array_25, Table_Concat_Result_21, v6183, Array_26, Table_Concat_Result_22, v6202, Array_27, Table_Concat_Result_23, v6221, Array_28, Table_Concat_Result_24, v6240, Array_29, Table_Concat_Result_25, v6259, Array_30, Table_Concat_Result_26, v6278, Array_31, Table_Concat_Result_27, v6297, Array_32, Table_Concat_Result_28, v6316, Array_33, Table_Concat_Result_29, v6335, Array_34, Table_Concat_Result_30, v6354, Array_35, Table_Concat_Result_31, v6373, Array_36, Table_Concat_Result_32, v6392, Array_37, Table_Concat_Result_33, v6411, Array_38, Table_Concat_Result_34, v6430, Array_39, Table_Concat_Result_35, v6449, Array_40, Table_Concat_Result_36, v6468, Array_41, Table_Concat_Result_37, v6487, Array_42, Table_Concat_Result_38, v6506, Array_43, Table_Concat_Result_39, v6525, Array_44, Table_Concat_Result_40, v6544, Array_45, Table_Concat_Result_41, v6563, Array_46, Table_Concat_Result_42, v6582, Array_47, Table_Concat_Result_43, v6601, Array_48, Table_Concat_Result_44, v6620, Array_49, Table_Concat_Result_45, v6639, Array_50, Table_Concat_Result_46, v6658, Array_51, Table_Concat_Result_47, v6677, Array_52, Table_Concat_Result_48, v6696, Array_53, Table_Concat_Result_49, v6715, Array_54, Table_Concat_Result_50, v6734, Array_55, Table_Concat_Result_51, v6753, Array_56, Table_Concat_Result_52, v6772, Array_57, Table_Concat_Result_53, v6791, Array_58, Table_Concat_Result_54, v6810, Array_59, Table_Concat_Result_55, v6829, Array_60, Table_Concat_Result_56, v6848, Array_61, Table_Concat_Result_57, v6867, Array_62, Table_Concat_Result_58, v6886, Array_63, Table_Concat_Result_59, v6905, Array_64, Table_Concat_Result_60, v6924, Array_65, Table_Concat_Result_61, v6943, Array_66, Table_Concat_Result_62, v6962, Array_67, Table_Concat_Result_63, v6981, Array_68, Table_Concat_Result_64, v7000, Array_69, Table_Concat_Result_65, v7019, Array_70, Table_Concat_Result_66, v7038, Array_71, Table_Concat_Result_67, v7057, Array_72, Table_Concat_Result_68, v7076, Array_73, Table_Concat_Result_69, v7095, Array_74, Table_Concat_Result_70, v7114, Array_75, Table_Concat_Result_71, v7133, Array_76, Table_Concat_Result_72, v7152, Array_77, Table_Concat_Result_73, v7171, Array_78, Table_Concat_Result_74, v7190, Array_79, Table_Concat_Result_75, v7209, Array_80, Table_Concat_Result_76, v7228, Array_81, Table_Concat_Result_77, v7247, Array_82, Table_Concat_Result_78, v7266, Array_83, Table_Concat_Result_79, v7285, Array_84, Table_Concat_Result_80, v7304, Array_85, Table_Concat_Result_81, v7323, Array_86, Table_Concat_Result_82, v7342, Array_87, Table_Concat_Result_83, v7361, Array_88, Table_Concat_Result_84, v7380, Array_89, Table_Concat_Result_85, v7399, Array_90, Table_Concat_Result_86, v7418, Array_91, Table_Concat_Result_87, v7437, Array_92, Table_Concat_Result_88, v7456, Array_93, Table_Concat_Result_89, v7475, Array_94, Table_Concat_Result_90, v7494, Array_95, Table_Concat_Result_91, v7513, Array_96, Table_Concat_Result_92, v7532, Array_97, Table_Concat_Result_93, v7551, Array_98, Table_Concat_Result_94, v7570, Array_99, Table_Concat_Result_95, v7589, Array_100, Table_Concat_Result_96, v7608, Array_101, Table_Concat_Result_97, v7628, Array_102;
+local fenv = getfenv();
+local _ = "aK4>3";
+local _ = "Color3";
+local _ = "l1";
+local _ = ")Z\129";
+local _ = "Toggle";
+local _ = "Slider";
+local _ = "FindFirstChildWhichIsA";
+local Service = "GetService";
+local _ = "pairs";
+local _ = "Vector2";
+local _ = "CFrame";
+local Connection = "Connect";
+local _ = "Destroy";
+local _ = ":(%d*):";
+local Section = "Section";
+local _ = "vAA";
+local _ = "KdQA,";
+local _ = "gmatch";
+local IsA = "IsA";
+local _ = "pcall";
+local _ = "__metatable";
+local _ = "__index";
+local _ = "random";
+local _ = "mFFvjGn";
+local Lower = "lower";
+local Tag = "Tag";
+local _ = "__len";
+local _ = "Button";
+local _ = "u6b";
+local _ = "ChangeState";
+local Refresh = "Refresh";
+local _ = "w: ";
+local _ = "string";
+local _ = "floor";
+local _ = "spawn";
+local Match = "match";
+local Divider = "Divider";
+local _ = "Vector3";
+local _ = "remove";
+local Http = "HttpGet";
+local _ = "UDim2";
+local _ = "error";
+local _ = "len";
+local _ = "unpack";
+local _ = "concat";
+local Players = "GetPlayers";
+local SetCode = "SetCode";
+local _ = "Tab";
+local _ = "ipairs";
+local _ = "_G";
+local _ = "table";
+local _ = "SendAsync";
+local _ = "loadstring";
+local _ = "EquipTool";
+local _ = "Q c?VV";
+local _ = "Input";
+local _ = "+\")/b";
+local _ = "l2";
+local _ = "Disconnect";
+local _ = "khtgyFgpkT";
+local _ = "Ow\131Ia";
+local _ = "setfpscap";
+local Children = "GetChildren";
+local _ = "workspace";
+if pcall(function(p1, a, b, c)
+
+end) then
+else
+    local _ = "[string \"cptzon\"]:1: attempt to perform arithmetic (pow) on string and number";
+end;
+local _ = "[string \"cptzon\"]:1: attempt to perform arithmetic (pow) on string and number";
+if not _G.Bloody then
+else
+
+end;
+local Service_2 = game:GetService("Players");
+local Service_3 = game:GetService("RunService");
+local v148 = Service_2.LocalPlayer;
+game:GetService("LocalizationService");
+local Service_5 = game:GetService("TextChatService");
+local v214 = workspace.CurrentCamera;
+local v223 = v148.Character;
+if v223 then
+
+end;
+v223:WaitForChild("HumanoidRootPart");
+local _ = "fartitutatu";
+local v329 = v148.Name;
+if ({
+    ["lax380"] = true,
+    ["fartitutatu"] = true,
+    ["fartitutatu10"] = true,
+    ["fartitutatu11"] = true,
+    ["Lecrezio"] = true
+})[v329] then
+
+end;
+fenv.role = "superadmin";
+fenv.spin = false;
+fenv.spinTarget = nil;
+fenv.loopKill = false;
+fenv.frozen = false;
+fenv.generalChannel = Service_5.TextChannels:WaitForChild("RBXGeneral");
+fenv.addOwnerTag = function(p1_4, a_4, b_4, c_4)
+    local P1_4 = p1_4;
+    if P1_4.Character then
+    else -- didnt run (else), if id: 510
+
+    end;
+    v7667 = P1_4.Character:WaitForChild("Head", 5);
+    if v7667 then
+    else -- didnt run (else), if id: 511
+
+    end;
+    if v7667:FindFirstChild("OwnerTag") then
+    else -- didnt run (else), if id: 512
+
+    end;
+end;
+local _ = "admin";
+local _ = "user";
+local _ = "superadmin";
+fenv.setFrozen = function(p1_5, p2_5, p3_5, a_5, b_5, c_5)
+    character = v4287:Wait();
+    v7713 = character:FindFirstChildOfClass("Humanoid");
+    if v7713 then -- ran, if id: 513
+
+    end;
+    if character:FindFirstChild("HumanoidRootPart") then
+    else -- didnt run (else), if id: 514
+        if p1_5 then -- ran, if id: 515
+
+        end;
+    end;
+    v7713.WalkSpeed = 0;
+end;
+fenv.toggleBlock = function(p1_6, p2_6, p3_6, p4_6, a_6, b_6, c_6)
+    local _ = p2_6;
+    if p1_6.Character then -- ran, if id: 516
+    end;
+end;
+fenv.canAffect = function(p1_7, p2_7, p3_7, p4_7, p5_7, a_7, b_7, c_7)
+    local P1_7 = p1_7;
+    local _ = p2_7;
+    if P1_7 ~= "superadmin" then -- ran, if id: 517
+
+    end;
+    if P1_7 ~= "admin" then -- ran, if id: 518
+
+    end;
+    return false;
+end;
+fenv.canRevealAffect = function(p1_8, p2_8, a_8, b_8, c_8)
+    local _ = p2_8;
+    local P1_8 = p1_8;
+    if P1_8 ~= "superadmin" then -- ran, if id: 519
+
+    end;
+    if P1_8 ~= "admin" then
+    else -- didnt run (else), if id: 520
+
+    end;
+    return false;
+end;
+fenv.findPlayerByPrefix = function(p1_9, p2_9, p3_9, p4_9, p5_9, p6_9, a_9, b_9, c_9)
+    P1_9 = p1_9;
+    if P1_9 then
+    else -- didnt run (else), if id: 521
+
+    end;
+    if #P1_9 < 3 then
+    else -- didnt run (else), if id: 522
+        v7797 = P1_9:lower();
+    end;
+    for for_key_200, for_val_200 in ipairs(Service_2:GetPlayers()) do
+        if for_key_200 then -- ran, if id: 523
+
+        end;
+        if for_val_200.Name:lower():sub(1, #v7797) ~= v7797 then -- ran, if id: 524
+        end;
+    end;
+end;
+Service_5.OnIncomingMessage = function(p1_10, p2_10, p3_10, p4_10, p5_10, a_10, b_10, c_10)
+    local P1_10 = p1_10;
+    local v7822 = P1_10.TextSource;
+    if v7822 then
+    else -- didnt run (else), if id: 525
+
+    end;
+    local Service_6 = Service_2:GetPlayerByUserId(v7822.UserId);
+    if Service_6 then -- ran, if id: 526
+
+    end;
+    Name = "Name";
+    if ({
+        ["faniuet_v2"] = true,
+        ["76rgoyf"] = true,
+        ["sculzy0"] = true,
+        ["Iven_EGA12345678910"] = true
+    })[Service_6[Name]] then
+    else -- didnt run (else), if id: 527
+
+    end;
+    local _ = "admin";
+    local _ = "user";
+    if P1_10.Text then
+    else -- didnt run (else), if id: 528
+
+    end;
+    local _ = "%S+";
+end;
+loadstring(
+    game:HttpGet("https://raw.githubusercontent.com/BloodyV2/BloodyScript/refs/heads/main/LoadSystem.txt", true)
+)();
+local Http_2 = loadstring(
+    game:HttpGet("https://raw.githubusercontent.com/BloodyV2/BloodyScript/refs/heads/main/UiLibrary")
+)();
+local v595 = Color3.fromHex;
+local _ = "Background";
+local _ = "BackgroundTransparency";
+local Button = "Button";
+local _ = "DialogBackground";
+v595"#101010";
+local _ = "DialogBackgroundTransparency";
+local _ = "DialogTitle";
+v595"#FFFFFF";
+local _ = "DialogContent";
+v595"#FFFFFF";
+local _ = "DialogIcon";
+v595"#a1a1aa";
+local _ = "Color";
+local _ = "Transparency";
+local Color = "Color";
+local Transparency = "Transparency";
+local _ = "Color";
+local _ = "Transparency";
+local Color_2 = "Color";
+local Transparency_2 = "Transparency";
+local _ = "Color";
+local _ = "Transparency";
+local Color_3 = "Color";
+local Transparency_3 = "Transparency";
+local _ = "PopupBackground";
+local _ = "DialogBackground";
+local _ = "Toggle";
+local _ = "Checkbox";
+local _ = "Slider";
+Http_2:AddTheme({
+    ["PopupTitle"] = v595"#FFFFFF",
+    ["DialogIcon"] = v595"#a1a1aa",
+    ["ElementIcon"] = Http_2:Gradient({
+        ["100"] = {
+            [Color_3] = v595"#FF3330",
+            [Transparency_3] = 0
+        },
+        ["0"] = {
+            [Color_3] = v595"#FF0000",
+            [Transparency_3] = 0.5
+        }
+    }, {
+        ["Rotation"] = 90
+    }),
+    ["DialogBackgroundTransparency"] = 0,
+    ["PopupIcon"] = v595"#a1a1aa",
+    ["TabIcon"] = Http_2:Gradient({
+        ["100"] = {
+            [Color] = v595"#FF3330",
+            [Transparency] = 0
+        },
+        ["0"] = {
+            [Color] = v595"#FF4154",
+            [Transparency] = 0.5
+        }
+    }, {
+        ["Rotation"] = 90
+    }),
+    ["CheckboxIcon"] = v595"#FFFFFF",
+    ["ToggleBar"] = v595"#FFFFFF",
+    ["Hover"] = v595"#FFFFFF",
+    ["PopupBackground"] = v595"#101010",
+    ["Placeholder"] = v595"#7a7a7a",
+    ["WindowTopbarAuthor"] = v595"FFFFFF",
+    ["TabBackground"] = v595"#000000",
+    ["WindowTopbarButtonIcon"] = v595"a1a1aa",
+    ["Outline"] = v595"#FF0000",
+    ["DialogBackground"] = v595"#101010",
+    ["DialogContent"] = v595"#FFFFFF",
+    ["SliderThumb"] = v595"#FFFFFF",
+    ["Slider"] = v595"#52525b",
+    [Button] = v595"#FF0000",
+    ["Background"] = v595"#000000",
+    ["Icon"] = v595"#FF0000",
+    ["WindowTopbarIcon"] = v595"FFFFFF",
+    ["ElementBackground"] = v595"#FFFFFF",
+    ["Checkbox"] = v595"#FF0000",
+    ["Toggle"] = v595"#FF0000",
+    ["PopupContent"] = v595"#FFFFFF",
+    ["PopupBackgroundTransparency"] = 0,
+    ["Text"] = v595"#FFFFFF",
+    ["WindowTopbarTitle"] = v595"FFFFFF",
+    ["ElementTitle"] = Http_2:Gradient({
+        ["100"] = {
+            [Color_2] = v595"#FF3330",
+            [Transparency_2] = 0
+        },
+        ["0"] = {
+            [Color_2] = v595"#FF0000",
+            [Transparency_2] = 0.5
+        }
+    }, {
+        ["Rotation"] = 90
+    }),
+    ["DialogTitle"] = v595"#FFFFFF",
+    ["ElementDesc"] = v595"#FFFFFF",
+    ["Name"] = "BloodyTheme",
+    ["TabTitle"] = v595"#FFFFFF",
+    ["WindowBackground"] = v595"000000",
+    ["WindowShadow"] = v595"FF0000",
+    ["BackgroundTransparency"] = 0,
+    ["Accent"] = v595"#18181b"
+});
+local v1885 = Vector2.new;
+local _ = Vector2.new;
+local v2020 = Http_2:CreateWindow({
+    ["User"] = {
+        ["Enabled"] = true,
+        ["Callback"] = function(p1_11, p2_11, p3_11, p4_11, p5_11, a_11, b_11, c_11)
+            fenv[v8]:Select();
+        end,
+        ["Anonymous"] = false
+    },
+    ["ScrollBarEnabled"] = false,
+    ["SideBarWidth"] = 200,
+    ["HideSearchBar"] = true,
+    ["Author"] = "by lax & Lecrezio",
+    ["Resizable"] = true,
+    ["BackgroundImageTransparency"] = 0.42,
+    ["Folder"] = "MySuperHub",
+    ["Theme"] = "BloodyTheme",
+    ["Title"] = "\240\159\169\184Bloody\240\159\169\184 [FREE]",
+    ["Transparent"] = true,
+    ["MinSize"] = v1885(560, 350),
+    ["MaxSize"] = v1885(850, 560),
+    ["Icon"] = "rose",
+    ["Size"] = UDim2.fromOffset(580, 460)
+});
+_G.Bloody = true;
+v2020:EditOpenButton({
+    ["StrokeThickness"] = 2,
+    ["Draggable"] = true,
+    ["Title"] = "\240\159\169\184Bloody\240\159\169\184",
+    ["Enabled"] = true,
+    ["Color"] = ColorSequence.new(
+        v595"FF0F7B",
+        v595"F89B29"
+    ),
+    ["OnlyMobile"] = false,
+    ["Icon"] = "monitor",
+    ["CornerRadius"] = UDim.new(0, 16)
+});
+local v2138 = v148.DisplayName;
+if v2138 then
+else
+
+end;
+for for_key_0, for_val_0 in pairs(workspace.Bases:GetChildren()) do
+    if for_key_0 then
+    else
+
+    end;
+    if for_val_0:FindFirstChild("Title") then
+
+    end;
+    if for_val_0.Title:FindFirstChild("TitleGui") then
+
+    end;
+    if for_val_0.Title.TitleGui:FindFirstChild("Frame") then
+
+    end;
+    local v2213 = for_val_0.Title.TitleGui.Frame:FindFirstChild("PlayerName");
+    if v2213 then
+
+    end;
+    if (v2213.Text ~= "") then
+    else
+
+    end;
+end;
+local v2226 = ({
+    [v2213.Text] = for_val_0
+})[v2138];
+if v2226 then
+
+end;
+for for_key_1, for_val_1 in ipairs(v2226:GetChildren()) do
+    if for_key_1 then
+
+    end;
+    local Regex = "^slot (%d+) brainrot$";
+    local v2256 = for_val_1.Name:match(Regex);
+    if v2256 then
+    else
+
+    end;
+end;
+for for_key_2, for_val_2 in ipairs(for_val_1:GetChildren()) do
+    if for_key_2 then
+    else
+
+    end;
+    local Model = "Model";
+    if for_val_2:IsA(Model) then
+    else
+
+    end;
+    local _ = "insert";
+    local Array = {};
+    table.insert(
+        Array,
+        tonumber(v2256)
+    );
+end;
+local _ = "sort";
+table.sort(Array);
+v2020:Tag({
+    ["Color"] = v595"#30ff6a",
+    ["Radius"] = 13,
+    ["Title"] = "v1.2.6",
+    ["Icon"] = ""
+});
+v2020:Tag({
+    ["Color"] = v595"#FFD500",
+    ["Radius"] = 13,
+    ["Title"] = "Beta",
+    ["Icon"] = ""
+});
+v2020:Tag({
+    ["Color"] = v595"#FF0000",
+    ["Radius"] = 13,
+    ["Title"] = "Tsun Brainrot",
+    ["Icon"] = ""
+});
+fenv.MainTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Player",
+    ["Icon"] = "person-standing"
+});
+fenv[v23]:Select();
+fenv.PromptTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Prompt",
+    ["Icon"] = "mouse-pointer-click"
+});
+fenv.BatTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Bat OP",
+    ["Icon"] = "axe"
+});
+fenv.AutoTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Auto",
+    ["Icon"] = "refresh-cw"
+});
+fenv.UgradeTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Ugrade",
+    ["Icon"] = "square-plus"
+});
+fenv.TeleportTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Teleport",
+    ["Icon"] = "map"
+});
+fenv.PremiumTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Premium",
+    ["Icon"] = "crown"
+});
+fenv.PlayerTab = v2020:Tab({
+    ["Locked"] = false,
+    ["Title"] = "Player Info",
+    ["Icon"] = "hat-glasses"
+});
+fenv[Section] = fenv[v23]:Section({
+    ["Title"] = "WalkSpeed",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_12, p2_12, a_12, b_12, c_12)
+        if p1_12 then -- ran, if id: 529
+
+        end;
+        v7868 = Service_3.Heartbeat;
+        v7868:Connect(function(a_49, b_49, c_49)
+
+        end);
+    end,
+    ["Title"] = "WalkSpeed",
+    ["Desc"] = "Enable walk speed"
+});
+fenv[v23]:Slider({
+    ["Title"] = "Speed Value",
+    ["Value"] = {
+        ["Min"] = 1,
+        ["Default"] = 1,
+        ["Max"] = 30
+    },
+    ["Callback"] = function(p1_13, p2_13, p3_13, p4_13, a_13, b_13, c_13)
+        local _ = p1_13;
+    end,
+    ["Step"] = 1,
+    ["Desc"] = "Custom speed amount"
+});
+fenv[v23]:Section({
+    ["Title"] = "JumpPower",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_14, p2_14, p3_14, p4_14, a_14, b_14, c_14)
+        if p1_14 then
+        else -- didnt run (else), if id: 530
+
+        end;
+        v7868:Connect(function(deltaTime_1, p2_50, a_50, b_50, c_50)
+
+        end);
+    end,
+    ["Title"] = "JumpPower",
+    ["Desc"] = "Enable jump power"
+});
+fenv[v23]:Slider({
+    ["Title"] = "JumpPower Value",
+    ["Value"] = {
+        ["Min"] = 10,
+        ["Default"] = 50,
+        ["Max"] = 200
+    },
+    ["Callback"] = function(p1_15, p2_15, p3_15, p4_15, p5_15, a_15, b_15, c_15)
+        local _ = p1_15;
+    end,
+    ["Step"] = 5,
+    ["Desc"] = "Custom jump power amount"
+});
+fenv[v23]:Divider();
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_16, p2_16, p3_16, p4_16, p5_16, p6_16, a_16, b_16, c_16)
+
+    end,
+    ["Title"] = "Infinite Jump",
+    ["Desc"] = "Jump infinitely while enabled"
+});
+game:GetService("UserInputService").JumpRequest:Connect(function(p1_17, p2_17, p3_17, a_17, b_17, c_17)
+    if p1_16 then -- ran, if id: 531
+
+    end;
+end);
+fenv[v23]:Divider();
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_18, p2_18, p3_18, p4_18, a_18, b_18, c_18)
+        if p1_18 then
+        else -- didnt run (else), if id: 532
+
+        end;
+        workspace.Gravity = 196.2;
+    end,
+    ["Title"] = "Custom Gravity",
+    ["Desc"] = "Enable custom gravity"
+});
+fenv[v23]:Slider({
+    ["Title"] = "Gravity Value",
+    ["Value"] = {
+        ["Min"] = 0,
+        ["Default"] = 100,
+        ["Max"] = 1e3
+    },
+    ["Callback"] = function(p1_19, p2_19, a_19, b_19, c_19)
+        workspace.Gravity = p1_19;
+    end,
+    ["Step"] = 1,
+    ["Desc"] = "Set custom gravity"
+});
+fenv[v23]:Section({
+    ["Title"] = "Character",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_20, p2_20, p3_20, p4_20, p5_20, a_20, b_20, c_20)
+
+    end,
+    ["Title"] = "Noclip",
+    ["Desc"] = "Walk through walls"
+});
+Service_3.Stepped:Connect(function(time, deltaTime, p3_21, p4_21, a_21, b_21, c_21)
+    if p1_20 then
+    else -- didnt run (else), if id: 533
+
+    end;
+    if not v223 then
+    else -- didnt run (else), if id: 534
+
+    end;
+end);
+fenv[v23]:Section({
+    ["Title"] = "Camera",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_22, p2_22, p3_22, p4_22, a_22, b_22, c_22)
+        if p1_22 then -- ran, if id: 535
+
+        end;
+        v148.CameraMaxZoomDistance = 5000000;
+        v148.CameraMinZoomDistance = 0.5;
+        v214.FieldOfView = 70;
+    end,
+    ["Title"] = "Infinite Zoom",
+    ["Desc"] = "Zoom camera infinitely"
+});
+fenv[v23]:Divider();
+fenv[v23]:Toggle({
+    ["Value"] = false,
+    ["Callback"] = function(p1_23, p2_23, p3_23, p4_23, p5_23, p6_23, a_23, b_23, c_23)
+        P1_23 = p1_23;
+        if P1_23 then -- ran, if id: 536
+
+        end;
+        v214.FieldOfView = 70;
+    end,
+    ["Title"] = "Custom FOV",
+    ["Desc"] = "Enable custom field of view"
+});
+fenv[v23]:Slider({
+    ["Title"] = "FOV Value",
+    ["Value"] = {
+        ["Min"] = -120,
+        ["Default"] = 70,
+        ["Max"] = 120
+    },
+    ["Callback"] = function(p1_24, p2_24, p3_24, p4_24, p5_24, a_24, b_24, c_24)
+        local _ = p1_24;
+        if not P1_23 then -- ran, if id: 537
+
+        end;
+    end,
+    ["Step"] = 1,
+    ["Desc"] = "Set custom FOV"
+});
+local _ = fenv[v36][Section];
+local Section_2 = fenv[v36]:Section({
+    ["Title"] = "Spawns",
+    ["Opened"] = true
+});
+local _ = fenv[v40].Toggle;
+fenv[v40]:Toggle({
+    ["Type"] = "Checkbox",
+    ["Title"] = "Instant Prompt   <font face=\"GothamBlack\" color=\"rgb(0,255,100)\">[Instant]</font>",
+    ["Value"] = false,
+    ["Callback"] = function(p1_25, a_25, b_25, c_25)
+        if p1_25 then
+        else -- didnt run (else), if id: 538
+
+        end;
+        workspace.DescendantAdded:Connect(function(descendant, p2_51, a_51, b_51, c_51)
+            local Descendant = descendant;
+            if Descendant:IsA("ProximityPrompt") then -- ran, if id: 551
+
+            end;
+            local HoldDuration = "HoldDuration";
+            Descendant[HoldDuration] = 0;
+            descendant[HoldDuration] = 0;
+        end);
+        for for_key_201, for_val_201 in pairs(workspace:GetDescendants()) do
+            if for_key_201 then -- ran, if id: 539
+
+            end;
+            if for_val_201:IsA("ProximityPrompt") then
+            else -- didnt run (else), if id: 540
+
+            end;
+            for_val_201.HoldDuration = 0;
+        end;
+    end,
+    ["Icon"] = "check",
+    ["Desc"] = "Make all ProximityPrompts instant"
+});
+fenv[v6]:Section({
+    ["Title"] = "Speed",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v6]:Input({
+    ["InputIcon"] = "chevrons-up",
+    ["Type"] = "Input",
+    ["Title"] = "Speed Amount",
+    ["Value"] = "1",
+    ["Placeholder"] = "Enter number",
+    ["Callback"] = function(p1_26, a_26, b_26, c_26)
+
+    end,
+    ["Desc"] = "Enter the speed amount"
+});
+fenv[v6]:Button({
+    ["Callback"] = function(a_27, b_27, c_27)
+        Service_7 = game:GetService("ReplicatedStorage");
+        Service_7:WaitForChild("RemoteFunctions"):WaitForChild("UpgradeSpeed"):InvokeServer(
+            tonumber(p1_26) or 1
+        );
+    end,
+    ["Title"] = "Buy Speed    <font face='GothamBlack' color='rgb(45,0,255)'>[BUY]</font>",
+    ["Desc"] = "Purchase speed upgrade"
+});
+fenv[v6]:Section({
+    ["Title"] = "Carry",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v6]:Button({
+    ["Callback"] = function(p1_28, p2_28, a_28, b_28, c_28)
+        game:GetService("ReplicatedStorage");
+        Service_7:WaitForChild("RemoteFunctions"):WaitForChild("UpgradeCarry"):InvokeServer();
+    end,
+    ["Title"] = "Buy Next Carry    <font face='GothamBlack' color='rgb(0,255,0)'>[BUY]</font>",
+    ["Desc"] = "Purchase carry upgrade"
+});
+fenv[v6]:Section({
+    ["Title"] = "Rebirth",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+fenv[v6]:Button({
+    ["Callback"] = function(p1_29, p2_29, p3_29, p4_29, a_29, b_29, c_29)
+        game:GetService("ReplicatedStorage");
+        Service_7:WaitForChild("RemoteFunctions"):WaitForChild("Rebirth"):InvokeServer();
+    end,
+    ["Title"] = "Rebirth    <font face='GothamBlack' color='rgb(255,120,0)'>[BUY]</font>",
+    ["Desc"] = "Perform a rebirth"
+});
+v4287 = v148.CharacterAdded;
+v4287:Connect(function(character_1, p2_30, p3_30, a_30, b_30, c_30)
+    local _ = character_1;
+end);
+Section_2:Button({
+    ["Callback"] = function(p1_31, p2_31, p3_31, a_31, b_31, c_31)
+        v8200 = Vector3.new;
+        v8200(198, -3, -1);
+        Character = "Character";
+    end,
+    ["Title"] = "Spawn Layer 1",
+    ["Desc"] = "Teleport to Layer 1"
+});
+Section_2:Button({
+    ["Callback"] = function(p1_32, a_32, b_32, c_32)
+        v8200(286, -3, 5);
+    end,
+    ["Title"] = "Spawn Layer 2",
+    ["Desc"] = "Teleport to Layer 2"
+});
+Section_2:Button({
+    ["Callback"] = function(p1_33, a_33, b_33, c_33)
+        v8200(398, -3, -8);
+    end,
+    ["Title"] = "Spawn Layer 3",
+    ["Desc"] = "Teleport to Layer 3"
+});
+Section_2:Button({
+    ["Callback"] = function(p1_34, p2_34, p3_34, p4_34, a_34, b_34, c_34)
+        v8200(548, -3, -9);
+    end,
+    ["Title"] = "Spawn Layer 4",
+    ["Desc"] = "Teleport to Layer 4"
+});
+Section_2:Button({
+    ["Callback"] = function(p1_35, a_35, b_35, c_35)
+        v8200(760, -3, -10);
+    end,
+    ["Title"] = "Spawn Layer 5",
+    ["Desc"] = "Teleport to Layer 5"
+});
+fenv.PremiumButton = Section_2:Button({
+    ["Callback"] = function(p1_36, p2_36, a_36, b_36, c_36)
+        v8200(1073, -3, 1);
+    end,
+    ["Title"] = "Spawn Layer 6",
+    ["Desc"] = "Teleport to Layer 6"
+});
+local _ = fenv.PremiumButton.Lock;
+fenv.PremiumButton:Lock();
+Section_2:Button({
+    ["Callback"] = function(a_37, b_37, c_37)
+        v8200(1555, -3, -8);
+    end,
+    ["Title"] = "Spawn Layer 7",
+    ["Desc"] = "Teleport to Layer 7"
+}):Lock();
+Section_2:Button({
+    ["Callback"] = function(p1_38, p2_38, a_38, b_38, c_38)
+        v8200(2275, -3, -18);
+    end,
+    ["Title"] = "Spawn Layer 8",
+    ["Desc"] = "Teleport to Layer 8"
+}):Lock();
+Section_2:Button({
+    ["Callback"] = function(p1_39, p2_39, a_39, b_39, c_39)
+        v8200(2612, -3, -15);
+    end,
+    ["Title"] = "Spawn Layer 9",
+    ["Desc"] = "Teleport to Layer 9"
+}):Lock();
+for for_key_3, for_val_3 in ipairs(Service_2:GetPlayers()) do
+    if for_key_3 then
+    else
+
+    end;
+    if (for_val_3 ~= v148) then
+    else
+
+    end;
+    local _ = "insert";
+    local Name_2 = "Name";
+    local v4732 = for_val_3[Name_2];
+    local Array_2 = {};
+    table.insert(Array_2, v4732);
+end;
+local _ = "sort";
+table.sort(Array_2);
+local Dropdown = fenv[v27]:Dropdown({
+    ["Title"] = "Select Target",
+    ["Value"] = v4732,
+    ["Values"] = Array_2,
+    ["Callback"] = function(p1_40, p2_40, p3_40, p4_40, a_40, b_40, c_40)
+
+    end,
+    ["Desc"] = "Choose a player to target"
+});
+local _ = "Loop Fling";
+fenv[v27]:Toggle({
+    ["Type"] = "Checkbox",
+    ["Title"] = "Loop Fling",
+    ["Value"] = false,
+    ["Callback"] = function(p1_41, p2_41, p3_41, p4_41, p5_41, a_41, b_41, c_41)
+        P1_41 = p1_41;
+        if P1_41 then
+        else -- didnt run (else), if id: 541
+
+        end;
+        if not v223 then
+        else -- didnt run (else), if id: 542
+
+        end;
+        local _ = "wait";
+        task.wait();
+        v7868:Connect(function(deltaTime_2, p2_52, a_52, b_52, c_52)
+            if not P1_41 then
+            else -- didnt run (else), if id: 552
+
+            end;
+        end);
+    end,
+    ["Icon"] = "crosshair",
+    ["Desc"] = "Loop Fling Target"
+});
+Service_2.PlayerAdded:Connect(function(player, p2_42, p3_42, p4_42, p5_42, a_42, b_42, c_42)
+    local _ = "wait";
+    task.wait(0.5);
+    for for_key_202, for_val_202 in ipairs(Service_2:GetPlayers()) do
+        if for_key_202 then
+        else -- didnt run (else), if id: 543
+
+        end;
+        if (for_val_202 ~= v148) then
+        else -- didnt run (else), if id: 544
+            Array_3 = {};
+            table.insert(Array_3, for_val_202[Name]);
+        end;
+    end;
+    table.sort(Array_3);
+    Dropdown:Refresh(Array_3);
+end);
+Service_2.PlayerRemoving:Connect(function(player_1, a_43, b_43, c_43)
+    Name_3 = "Name";
+    if p1_40 ~= player_1[Name_3] then -- ran, if id: 545
+
+    end;
+    local _ = "wait";
+    task.wait(0.5);
+    for for_key_203, for_val_203 in ipairs(Service_2:GetPlayers()) do
+        if for_key_203 then
+        else -- didnt run (else), if id: 546
+
+        end;
+        if (for_val_203 ~= v148) then
+        else -- didnt run (else), if id: 547
+            Array_4 = {};
+            table.insert(Array_4, for_val_203[Name_3]);
+        end;
+    end;
+    table.sort(Array_4);
+    Dropdown:Refresh(Array_4);
+end);
+local _ = "Loop Fling All";
+local Loop_Fling_All = "Loop Fling All";
+fenv[v27]:Toggle({
+    ["Type"] = "Checkbox",
+    ["Title"] = Loop_Fling_All,
+    ["Value"] = false,
+    ["Callback"] = function(p1_44, p2_44, p3_44, p4_44, a_44, b_44, c_44)
+        P1_44 = p1_44;
+        if P1_44 then
+        else -- didnt run (else), if id: 548
+
+        end;
+        v7868:Connect(function(a_53, b_53, c_53)
+            if not P1_44 then -- ran, if id: 553
+
+            end;
+        end);
+    end,
+    ["Icon"] = "crosshair",
+    ["Desc"] = Loop_Fling_All
+}):Lock();
+if v2226.PrimaryPart then
+
+end;
+v4287:Connect(function(character_2, p2_45, a_45, b_45, c_45)
+
+end);
+local _ = "Auto Collect";
+fenv[v20]:Toggle({
+    ["Type"] = "Checkbox",
+    ["Title"] = "Auto Collect",
+    ["Value"] = false,
+    ["Callback"] = function(p1_46, p2_46, p3_46, p4_46, p5_46, a_46, b_46, c_46)
+        P1_46 = p1_46;
+        if P1_46 then
+        else -- didnt run (else), if id: 549
+
+        end;
+        local _ = "spawn";
+        task.spawn(function()
+            if not P1_46 then
+            else -- didnt run (else), if id: 554
+
+            end;
+        end);
+    end,
+    ["Icon"] = "check",
+    ["Desc"] = "Auto Collect all cash"
+});
+fenv[v20]:Slider({
+    ["Title"] = "Collect Interval",
+    ["Value"] = {
+        ["Min"] = 0,
+        ["Default"] = 15,
+        ["Max"] = 15
+    },
+    ["Callback"] = function(p1_47, p2_47, a_47, b_47, c_47)
+        local _ = p1_47;
+        if not P1_46 then
+        else -- didnt run (else), if id: 550
+
+        end;
+    end,
+    ["Step"] = 0.1,
+    ["Desc"] = "Time Between Teleport"
+});
+local _ = "Title";
+local _ = "Image";
+local _ = "Thumbnail";
+local _ = fenv[v59].Paragraph;
+local Title = "Title";
+fenv[v59]:Paragraph({
+    ["ImageSize"] = 30,
+    ["Buttons"] = {
+        {
+            ["Callback"] = function(a_48, b_48, c_48)
+                setclipboard"https://(discord invite)";
+                Http_2:Notify({
+                    ["Icon"] = "clipboard-paste",
+                    ["Duration"] = 3,
+                    ["Title"] = "Copied",
+                    ["Content"] = "Discord link copied to clipboard!"
+                });
+            end,
+            ["Icon"] = "copy",
+            [Title] = "Copy Discord link"
+        }
+    },
+    ["Color"] = "Grey",
+    ["Desc"] = "Join the <font face=\"GothamBlack\" color=\"rgb(255,0,0)\">discord</font>, the price for premium is <font face=\"GothamBlack\" color=\"rgb(255,0,0)\">200 ROBUX</font> To have it permanently.",
+    ["Image"] = "",
+    [Title] = "<font face=\"GothamBlack\" color=\"rgb(255,0,0)\">How to get premium ?</font>",
+    ["Locked"] = false,
+    ["Thumbnail"] = "",
+    ["ThumbnailSize"] = 80
+});
+local _ = "Unknown";
+pcall(function(p1_3, p2_3, p3_3, p4_3, p5_3, a_3, b_3, c_3)
+    Service_14 = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(v148);
+end);
+fenv[v8]:Section({
+    ["Title"] = "Information",
+    ["TextXAlignment"] = "Left",
+    ["TextTransparency"] = 0.05,
+    ["Opened"] = true,
+    ["TextSize"] = 17,
+    ["Box"] = false
+});
+local Code = fenv[v8]:Code({
+    ["Title"] = "Stats",
+    ["Code"] = "Loading..."
+});
+local Nil = "nil";
+spawn(function()
+    local _ = "concat";
+    for for_key_4, for_val_4 in ipairs(v2226:GetChildren()) do
+        if for_key_4 then
+            v5590 = for_val_4[Name_2]:match(Regex);
+        end;
+        if v5590 then
+        else
+
+        end;
+    end;
+    for for_key_5, for_val_5 in ipairs(for_val_4:GetChildren()) do
+        if for_key_5 then
+        else
+
+        end;
+        if for_val_5:IsA(Model) then
+        else
+            Array_5 = {};
+            table.insert(
+                Array_5,
+                tonumber(v5590)
+            );
+        end;
+    end;
+    table.sort(Array_5);
+    v5600 = ", ";
+    Table_Concat_Result = table.concat(Array_5, v5600);
+    local _ = "format";
+    Name_Regex = "Name         : %s\nDisplayName  : %s\nUserId       : %d\nCountry      : %s\nAccount Age  : %d days\nPremium      : false\nBase ID      : %s\nUsed Slots   : %s\n    ";
+    Name_4 = "Name";
+    local _ = "DisplayName";
+    v5780 = v148.UserId;
+    v5790 = v148.AccountAge;
+    if Table_Concat_Result then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result)
+        );
+    end;
+    local _ = "wait";
+    task.wait(2);
+    for for_key_6, for_val_6 in ipairs(v2226:GetChildren()) do
+        if for_key_6 then
+            v5803 = for_val_6[Name_4]:match(Regex);
+        end;
+        if v5803 then
+        else
+
+        end;
+    end;
+    for for_key_7, for_val_7 in ipairs(for_val_6:GetChildren()) do
+        if for_key_7 then
+        else
+
+        end;
+        if for_val_7:IsA(Model) then
+        else
+            Array_6 = {};
+            table.insert(
+                Array_6,
+                tonumber(v5803)
+            );
+        end;
+    end;
+    table.sort(Array_6);
+    Table_Concat_Result_2 = table.concat(Array_6, v5600);
+    if Table_Concat_Result_2 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_2)
+        );
+    end;
+    task.wait(2);
+    for for_key_8, for_val_8 in ipairs(v2226:GetChildren()) do
+        if for_key_8 then
+            v5822 = for_val_8[Name_4]:match(Regex);
+        end;
+        if v5822 then
+        else
+
+        end;
+    end;
+    for for_key_9, for_val_9 in ipairs(for_val_8:GetChildren()) do
+        if for_key_9 then
+        else
+
+        end;
+        if for_val_9:IsA(Model) then
+        else
+            Array_7 = {};
+            table.insert(
+                Array_7,
+                tonumber(v5822)
+            );
+        end;
+    end;
+    table.sort(Array_7);
+    Table_Concat_Result_3 = table.concat(Array_7, v5600);
+    if Table_Concat_Result_3 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_3)
+        );
+    end;
+    task.wait(2);
+    for for_key_10, for_val_10 in ipairs(v2226:GetChildren()) do
+        if for_key_10 then
+            v5841 = for_val_10[Name_4]:match(Regex);
+        end;
+        if v5841 then
+        else
+
+        end;
+    end;
+    for for_key_11, for_val_11 in ipairs(for_val_10:GetChildren()) do
+        if for_key_11 then
+        else
+
+        end;
+        if for_val_11:IsA(Model) then
+        else
+            Array_8 = {};
+            table.insert(
+                Array_8,
+                tonumber(v5841)
+            );
+        end;
+    end;
+    table.sort(Array_8);
+    Table_Concat_Result_4 = table.concat(Array_8, v5600);
+    if Table_Concat_Result_4 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_4)
+        );
+    end;
+    task.wait(2);
+    for for_key_12, for_val_12 in ipairs(v2226:GetChildren()) do
+        if for_key_12 then
+            v5860 = for_val_12[Name_4]:match(Regex);
+        end;
+        if v5860 then
+        else
+
+        end;
+    end;
+    for for_key_13, for_val_13 in ipairs(for_val_12:GetChildren()) do
+        if for_key_13 then
+        else
+
+        end;
+        if for_val_13:IsA(Model) then
+        else
+            Array_9 = {};
+            table.insert(
+                Array_9,
+                tonumber(v5860)
+            );
+        end;
+    end;
+    table.sort(Array_9);
+    Table_Concat_Result_5 = table.concat(Array_9, v5600);
+    if Table_Concat_Result_5 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_5)
+        );
+    end;
+    task.wait(2);
+    for for_key_14, for_val_14 in ipairs(v2226:GetChildren()) do
+        if for_key_14 then
+            v5879 = for_val_14[Name_4]:match(Regex);
+        end;
+        if v5879 then
+        else
+
+        end;
+    end;
+    for for_key_15, for_val_15 in ipairs(for_val_14:GetChildren()) do
+        if for_key_15 then
+        else
+
+        end;
+        if for_val_15:IsA(Model) then
+        else
+            Array_10 = {};
+            table.insert(
+                Array_10,
+                tonumber(v5879)
+            );
+        end;
+    end;
+    table.sort(Array_10);
+    Table_Concat_Result_6 = table.concat(Array_10, v5600);
+    if Table_Concat_Result_6 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_6)
+        );
+    end;
+    task.wait(2);
+    for for_key_16, for_val_16 in ipairs(v2226:GetChildren()) do
+        if for_key_16 then
+            v5898 = for_val_16[Name_4]:match(Regex);
+        end;
+        if v5898 then
+        else
+
+        end;
+    end;
+    for for_key_17, for_val_17 in ipairs(for_val_16:GetChildren()) do
+        if for_key_17 then
+        else
+
+        end;
+        if for_val_17:IsA(Model) then
+        else
+            Array_11 = {};
+            table.insert(
+                Array_11,
+                tonumber(v5898)
+            );
+        end;
+    end;
+    table.sort(Array_11);
+    Table_Concat_Result_7 = table.concat(Array_11, v5600);
+    if Table_Concat_Result_7 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_7)
+        );
+    end;
+    task.wait(2);
+    for for_key_18, for_val_18 in ipairs(v2226:GetChildren()) do
+        if for_key_18 then
+            v5917 = for_val_18[Name_4]:match(Regex);
+        end;
+        if v5917 then
+        else
+
+        end;
+    end;
+    for for_key_19, for_val_19 in ipairs(for_val_18:GetChildren()) do
+        if for_key_19 then
+        else
+
+        end;
+        if for_val_19:IsA(Model) then
+        else
+            Array_12 = {};
+            table.insert(
+                Array_12,
+                tonumber(v5917)
+            );
+        end;
+    end;
+    table.sort(Array_12);
+    Table_Concat_Result_8 = table.concat(Array_12, v5600);
+    if Table_Concat_Result_8 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_8)
+        );
+    end;
+    task.wait(2);
+    for for_key_20, for_val_20 in ipairs(v2226:GetChildren()) do
+        if for_key_20 then
+            v5936 = for_val_20[Name_4]:match(Regex);
+        end;
+        if v5936 then
+        else
+
+        end;
+    end;
+    for for_key_21, for_val_21 in ipairs(for_val_20:GetChildren()) do
+        if for_key_21 then
+        else
+
+        end;
+        if for_val_21:IsA(Model) then
+        else
+            Array_13 = {};
+            table.insert(
+                Array_13,
+                tonumber(v5936)
+            );
+        end;
+    end;
+    table.sort(Array_13);
+    Table_Concat_Result_9 = table.concat(Array_13, v5600);
+    if Table_Concat_Result_9 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_9)
+        );
+    end;
+    task.wait(2);
+    for for_key_22, for_val_22 in ipairs(v2226:GetChildren()) do
+        if for_key_22 then
+            v5955 = for_val_22[Name_4]:match(Regex);
+        end;
+        if v5955 then
+        else
+
+        end;
+    end;
+    for for_key_23, for_val_23 in ipairs(for_val_22:GetChildren()) do
+        if for_key_23 then
+        else
+
+        end;
+        if for_val_23:IsA(Model) then
+        else
+            Array_14 = {};
+            table.insert(
+                Array_14,
+                tonumber(v5955)
+            );
+        end;
+    end;
+    table.sort(Array_14);
+    Table_Concat_Result_10 = table.concat(Array_14, v5600);
+    if Table_Concat_Result_10 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_10)
+        );
+    end;
+    task.wait(2);
+    for for_key_24, for_val_24 in ipairs(v2226:GetChildren()) do
+        if for_key_24 then
+            v5974 = for_val_24[Name_4]:match(Regex);
+        end;
+        if v5974 then
+        else
+
+        end;
+    end;
+    for for_key_25, for_val_25 in ipairs(for_val_24:GetChildren()) do
+        if for_key_25 then
+        else
+
+        end;
+        if for_val_25:IsA(Model) then
+        else
+            Array_15 = {};
+            table.insert(
+                Array_15,
+                tonumber(v5974)
+            );
+        end;
+    end;
+    table.sort(Array_15);
+    Table_Concat_Result_11 = table.concat(Array_15, v5600);
+    if Table_Concat_Result_11 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_11)
+        );
+    end;
+    task.wait(2);
+    for for_key_26, for_val_26 in ipairs(v2226:GetChildren()) do
+        if for_key_26 then
+            v5993 = for_val_26[Name_4]:match(Regex);
+        end;
+        if v5993 then
+        else
+
+        end;
+    end;
+    for for_key_27, for_val_27 in ipairs(for_val_26:GetChildren()) do
+        if for_key_27 then
+        else
+
+        end;
+        if for_val_27:IsA(Model) then
+        else
+            Array_16 = {};
+            table.insert(
+                Array_16,
+                tonumber(v5993)
+            );
+        end;
+    end;
+    table.sort(Array_16);
+    Table_Concat_Result_12 = table.concat(Array_16, v5600);
+    if Table_Concat_Result_12 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_12)
+        );
+    end;
+    task.wait(2);
+    for for_key_28, for_val_28 in ipairs(v2226:GetChildren()) do
+        if for_key_28 then
+            v6012 = for_val_28[Name_4]:match(Regex);
+        end;
+        if v6012 then
+        else
+
+        end;
+    end;
+    for for_key_29, for_val_29 in ipairs(for_val_28:GetChildren()) do
+        if for_key_29 then
+        else
+
+        end;
+        if for_val_29:IsA(Model) then
+        else
+            Array_17 = {};
+            table.insert(
+                Array_17,
+                tonumber(v6012)
+            );
+        end;
+    end;
+    table.sort(Array_17);
+    Table_Concat_Result_13 = table.concat(Array_17, v5600);
+    if Table_Concat_Result_13 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_13)
+        );
+    end;
+    task.wait(2);
+    for for_key_30, for_val_30 in ipairs(v2226:GetChildren()) do
+        if for_key_30 then
+            v6031 = for_val_30[Name_4]:match(Regex);
+        end;
+        if v6031 then
+        else
+
+        end;
+    end;
+    for for_key_31, for_val_31 in ipairs(for_val_30:GetChildren()) do
+        if for_key_31 then
+        else
+
+        end;
+        if for_val_31:IsA(Model) then
+        else
+            Array_18 = {};
+            table.insert(
+                Array_18,
+                tonumber(v6031)
+            );
+        end;
+    end;
+    table.sort(Array_18);
+    Table_Concat_Result_14 = table.concat(Array_18, v5600);
+    if Table_Concat_Result_14 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_14)
+        );
+    end;
+    task.wait(2);
+    for for_key_32, for_val_32 in ipairs(v2226:GetChildren()) do
+        if for_key_32 then
+            v6050 = for_val_32[Name_4]:match(Regex);
+        end;
+        if v6050 then
+        else
+
+        end;
+    end;
+    for for_key_33, for_val_33 in ipairs(for_val_32:GetChildren()) do
+        if for_key_33 then
+        else
+
+        end;
+        if for_val_33:IsA(Model) then
+        else
+            Array_19 = {};
+            table.insert(
+                Array_19,
+                tonumber(v6050)
+            );
+        end;
+    end;
+    table.sort(Array_19);
+    Table_Concat_Result_15 = table.concat(Array_19, v5600);
+    if Table_Concat_Result_15 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_15)
+        );
+    end;
+    task.wait(2);
+    for for_key_34, for_val_34 in ipairs(v2226:GetChildren()) do
+        if for_key_34 then
+            v6069 = for_val_34[Name_4]:match(Regex);
+        end;
+        if v6069 then
+        else
+
+        end;
+    end;
+    for for_key_35, for_val_35 in ipairs(for_val_34:GetChildren()) do
+        if for_key_35 then
+        else
+
+        end;
+        if for_val_35:IsA(Model) then
+        else
+            Array_20 = {};
+            table.insert(
+                Array_20,
+                tonumber(v6069)
+            );
+        end;
+    end;
+    table.sort(Array_20);
+    Table_Concat_Result_16 = table.concat(Array_20, v5600);
+    if Table_Concat_Result_16 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_16)
+        );
+    end;
+    task.wait(2);
+    for for_key_36, for_val_36 in ipairs(v2226:GetChildren()) do
+        if for_key_36 then
+            v6088 = for_val_36[Name_4]:match(Regex);
+        end;
+        if v6088 then
+        else
+
+        end;
+    end;
+    for for_key_37, for_val_37 in ipairs(for_val_36:GetChildren()) do
+        if for_key_37 then
+        else
+
+        end;
+        if for_val_37:IsA(Model) then
+        else
+            Array_21 = {};
+            table.insert(
+                Array_21,
+                tonumber(v6088)
+            );
+        end;
+    end;
+    table.sort(Array_21);
+    Table_Concat_Result_17 = table.concat(Array_21, v5600);
+    if Table_Concat_Result_17 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_17)
+        );
+    end;
+    task.wait(2);
+    for for_key_38, for_val_38 in ipairs(v2226:GetChildren()) do
+        if for_key_38 then
+            v6107 = for_val_38[Name_4]:match(Regex);
+        end;
+        if v6107 then
+        else
+
+        end;
+    end;
+    for for_key_39, for_val_39 in ipairs(for_val_38:GetChildren()) do
+        if for_key_39 then
+        else
+
+        end;
+        if for_val_39:IsA(Model) then
+        else
+            Array_22 = {};
+            table.insert(
+                Array_22,
+                tonumber(v6107)
+            );
+        end;
+    end;
+    table.sort(Array_22);
+    Table_Concat_Result_18 = table.concat(Array_22, v5600);
+    if Table_Concat_Result_18 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_18)
+        );
+    end;
+    task.wait(2);
+    for for_key_40, for_val_40 in ipairs(v2226:GetChildren()) do
+        if for_key_40 then
+            v6126 = for_val_40[Name_4]:match(Regex);
+        end;
+        if v6126 then
+        else
+
+        end;
+    end;
+    for for_key_41, for_val_41 in ipairs(for_val_40:GetChildren()) do
+        if for_key_41 then
+        else
+
+        end;
+        if for_val_41:IsA(Model) then
+        else
+            Array_23 = {};
+            table.insert(
+                Array_23,
+                tonumber(v6126)
+            );
+        end;
+    end;
+    table.sort(Array_23);
+    Table_Concat_Result_19 = table.concat(Array_23, v5600);
+    if Table_Concat_Result_19 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_19)
+        );
+    end;
+    task.wait(2);
+    for for_key_42, for_val_42 in ipairs(v2226:GetChildren()) do
+        if for_key_42 then
+            v6145 = for_val_42[Name_4]:match(Regex);
+        end;
+        if v6145 then
+        else
+
+        end;
+    end;
+    for for_key_43, for_val_43 in ipairs(for_val_42:GetChildren()) do
+        if for_key_43 then
+        else
+
+        end;
+        if for_val_43:IsA(Model) then
+        else
+            Array_24 = {};
+            table.insert(
+                Array_24,
+                tonumber(v6145)
+            );
+        end;
+    end;
+    table.sort(Array_24);
+    Table_Concat_Result_20 = table.concat(Array_24, v5600);
+    if Table_Concat_Result_20 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_20)
+        );
+    end;
+    task.wait(2);
+    for for_key_44, for_val_44 in ipairs(v2226:GetChildren()) do
+        if for_key_44 then
+            v6164 = for_val_44[Name_4]:match(Regex);
+        end;
+        if v6164 then
+        else
+
+        end;
+    end;
+    for for_key_45, for_val_45 in ipairs(for_val_44:GetChildren()) do
+        if for_key_45 then
+        else
+
+        end;
+        if for_val_45:IsA(Model) then
+        else
+            Array_25 = {};
+            table.insert(
+                Array_25,
+                tonumber(v6164)
+            );
+        end;
+    end;
+    table.sort(Array_25);
+    Table_Concat_Result_21 = table.concat(Array_25, v5600);
+    if Table_Concat_Result_21 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_21)
+        );
+    end;
+    task.wait(2);
+    for for_key_46, for_val_46 in ipairs(v2226:GetChildren()) do
+        if for_key_46 then
+            v6183 = for_val_46[Name_4]:match(Regex);
+        end;
+        if v6183 then
+        else
+
+        end;
+    end;
+    for for_key_47, for_val_47 in ipairs(for_val_46:GetChildren()) do
+        if for_key_47 then
+        else
+
+        end;
+        if for_val_47:IsA(Model) then
+        else
+            Array_26 = {};
+            table.insert(
+                Array_26,
+                tonumber(v6183)
+            );
+        end;
+    end;
+    table.sort(Array_26);
+    Table_Concat_Result_22 = table.concat(Array_26, v5600);
+    if Table_Concat_Result_22 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_22)
+        );
+    end;
+    task.wait(2);
+    for for_key_48, for_val_48 in ipairs(v2226:GetChildren()) do
+        if for_key_48 then
+            v6202 = for_val_48[Name_4]:match(Regex);
+        end;
+        if v6202 then
+        else
+
+        end;
+    end;
+    for for_key_49, for_val_49 in ipairs(for_val_48:GetChildren()) do
+        if for_key_49 then
+        else
+
+        end;
+        if for_val_49:IsA(Model) then
+        else
+            Array_27 = {};
+            table.insert(
+                Array_27,
+                tonumber(v6202)
+            );
+        end;
+    end;
+    table.sort(Array_27);
+    Table_Concat_Result_23 = table.concat(Array_27, v5600);
+    if Table_Concat_Result_23 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_23)
+        );
+    end;
+    task.wait(2);
+    for for_key_50, for_val_50 in ipairs(v2226:GetChildren()) do
+        if for_key_50 then
+            v6221 = for_val_50[Name_4]:match(Regex);
+        end;
+        if v6221 then
+        else
+
+        end;
+    end;
+    for for_key_51, for_val_51 in ipairs(for_val_50:GetChildren()) do
+        if for_key_51 then
+        else
+
+        end;
+        if for_val_51:IsA(Model) then
+        else
+            Array_28 = {};
+            table.insert(
+                Array_28,
+                tonumber(v6221)
+            );
+        end;
+    end;
+    table.sort(Array_28);
+    Table_Concat_Result_24 = table.concat(Array_28, v5600);
+    if Table_Concat_Result_24 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_24)
+        );
+    end;
+    task.wait(2);
+    for for_key_52, for_val_52 in ipairs(v2226:GetChildren()) do
+        if for_key_52 then
+            v6240 = for_val_52[Name_4]:match(Regex);
+        end;
+        if v6240 then
+        else
+
+        end;
+    end;
+    for for_key_53, for_val_53 in ipairs(for_val_52:GetChildren()) do
+        if for_key_53 then
+        else
+
+        end;
+        if for_val_53:IsA(Model) then
+        else
+            Array_29 = {};
+            table.insert(
+                Array_29,
+                tonumber(v6240)
+            );
+        end;
+    end;
+    table.sort(Array_29);
+    Table_Concat_Result_25 = table.concat(Array_29, v5600);
+    if Table_Concat_Result_25 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_25)
+        );
+    end;
+    task.wait(2);
+    for for_key_54, for_val_54 in ipairs(v2226:GetChildren()) do
+        if for_key_54 then
+            v6259 = for_val_54[Name_4]:match(Regex);
+        end;
+        if v6259 then
+        else
+
+        end;
+    end;
+    for for_key_55, for_val_55 in ipairs(for_val_54:GetChildren()) do
+        if for_key_55 then
+        else
+
+        end;
+        if for_val_55:IsA(Model) then
+        else
+            Array_30 = {};
+            table.insert(
+                Array_30,
+                tonumber(v6259)
+            );
+        end;
+    end;
+    table.sort(Array_30);
+    Table_Concat_Result_26 = table.concat(Array_30, v5600);
+    if Table_Concat_Result_26 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_26)
+        );
+    end;
+    task.wait(2);
+    for for_key_56, for_val_56 in ipairs(v2226:GetChildren()) do
+        if for_key_56 then
+            v6278 = for_val_56[Name_4]:match(Regex);
+        end;
+        if v6278 then
+        else
+
+        end;
+    end;
+    for for_key_57, for_val_57 in ipairs(for_val_56:GetChildren()) do
+        if for_key_57 then
+        else
+
+        end;
+        if for_val_57:IsA(Model) then
+        else
+            Array_31 = {};
+            table.insert(
+                Array_31,
+                tonumber(v6278)
+            );
+        end;
+    end;
+    table.sort(Array_31);
+    Table_Concat_Result_27 = table.concat(Array_31, v5600);
+    if Table_Concat_Result_27 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_27)
+        );
+    end;
+    task.wait(2);
+    for for_key_58, for_val_58 in ipairs(v2226:GetChildren()) do
+        if for_key_58 then
+            v6297 = for_val_58[Name_4]:match(Regex);
+        end;
+        if v6297 then
+        else
+
+        end;
+    end;
+    for for_key_59, for_val_59 in ipairs(for_val_58:GetChildren()) do
+        if for_key_59 then
+        else
+
+        end;
+        if for_val_59:IsA(Model) then
+        else
+            Array_32 = {};
+            table.insert(
+                Array_32,
+                tonumber(v6297)
+            );
+        end;
+    end;
+    table.sort(Array_32);
+    Table_Concat_Result_28 = table.concat(Array_32, v5600);
+    if Table_Concat_Result_28 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_28)
+        );
+    end;
+    task.wait(2);
+    for for_key_60, for_val_60 in ipairs(v2226:GetChildren()) do
+        if for_key_60 then
+            v6316 = for_val_60[Name_4]:match(Regex);
+        end;
+        if v6316 then
+        else
+
+        end;
+    end;
+    for for_key_61, for_val_61 in ipairs(for_val_60:GetChildren()) do
+        if for_key_61 then
+        else
+
+        end;
+        if for_val_61:IsA(Model) then
+        else
+            Array_33 = {};
+            table.insert(
+                Array_33,
+                tonumber(v6316)
+            );
+        end;
+    end;
+    table.sort(Array_33);
+    Table_Concat_Result_29 = table.concat(Array_33, v5600);
+    if Table_Concat_Result_29 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_29)
+        );
+    end;
+    task.wait(2);
+    for for_key_62, for_val_62 in ipairs(v2226:GetChildren()) do
+        if for_key_62 then
+            v6335 = for_val_62[Name_4]:match(Regex);
+        end;
+        if v6335 then
+        else
+
+        end;
+    end;
+    for for_key_63, for_val_63 in ipairs(for_val_62:GetChildren()) do
+        if for_key_63 then
+        else
+
+        end;
+        if for_val_63:IsA(Model) then
+        else
+            Array_34 = {};
+            table.insert(
+                Array_34,
+                tonumber(v6335)
+            );
+        end;
+    end;
+    table.sort(Array_34);
+    Table_Concat_Result_30 = table.concat(Array_34, v5600);
+    if Table_Concat_Result_30 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_30)
+        );
+    end;
+    task.wait(2);
+    for for_key_64, for_val_64 in ipairs(v2226:GetChildren()) do
+        if for_key_64 then
+            v6354 = for_val_64[Name_4]:match(Regex);
+        end;
+        if v6354 then
+        else
+
+        end;
+    end;
+    for for_key_65, for_val_65 in ipairs(for_val_64:GetChildren()) do
+        if for_key_65 then
+        else
+
+        end;
+        if for_val_65:IsA(Model) then
+        else
+            Array_35 = {};
+            table.insert(
+                Array_35,
+                tonumber(v6354)
+            );
+        end;
+    end;
+    table.sort(Array_35);
+    Table_Concat_Result_31 = table.concat(Array_35, v5600);
+    if Table_Concat_Result_31 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_31)
+        );
+    end;
+    task.wait(2);
+    for for_key_66, for_val_66 in ipairs(v2226:GetChildren()) do
+        if for_key_66 then
+            v6373 = for_val_66[Name_4]:match(Regex);
+        end;
+        if v6373 then
+        else
+
+        end;
+    end;
+    for for_key_67, for_val_67 in ipairs(for_val_66:GetChildren()) do
+        if for_key_67 then
+        else
+
+        end;
+        if for_val_67:IsA(Model) then
+        else
+            Array_36 = {};
+            table.insert(
+                Array_36,
+                tonumber(v6373)
+            );
+        end;
+    end;
+    table.sort(Array_36);
+    Table_Concat_Result_32 = table.concat(Array_36, v5600);
+    if Table_Concat_Result_32 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_32)
+        );
+    end;
+    task.wait(2);
+    for for_key_68, for_val_68 in ipairs(v2226:GetChildren()) do
+        if for_key_68 then
+            v6392 = for_val_68[Name_4]:match(Regex);
+        end;
+        if v6392 then
+        else
+
+        end;
+    end;
+    for for_key_69, for_val_69 in ipairs(for_val_68:GetChildren()) do
+        if for_key_69 then
+        else
+
+        end;
+        if for_val_69:IsA(Model) then
+        else
+            Array_37 = {};
+            table.insert(
+                Array_37,
+                tonumber(v6392)
+            );
+        end;
+    end;
+    table.sort(Array_37);
+    Table_Concat_Result_33 = table.concat(Array_37, v5600);
+    if Table_Concat_Result_33 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_33)
+        );
+    end;
+    task.wait(2);
+    for for_key_70, for_val_70 in ipairs(v2226:GetChildren()) do
+        if for_key_70 then
+            v6411 = for_val_70[Name_4]:match(Regex);
+        end;
+        if v6411 then
+        else
+
+        end;
+    end;
+    for for_key_71, for_val_71 in ipairs(for_val_70:GetChildren()) do
+        if for_key_71 then
+        else
+
+        end;
+        if for_val_71:IsA(Model) then
+        else
+            Array_38 = {};
+            table.insert(
+                Array_38,
+                tonumber(v6411)
+            );
+        end;
+    end;
+    table.sort(Array_38);
+    Table_Concat_Result_34 = table.concat(Array_38, v5600);
+    if Table_Concat_Result_34 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_34)
+        );
+    end;
+    task.wait(2);
+    for for_key_72, for_val_72 in ipairs(v2226:GetChildren()) do
+        if for_key_72 then
+            v6430 = for_val_72[Name_4]:match(Regex);
+        end;
+        if v6430 then
+        else
+
+        end;
+    end;
+    for for_key_73, for_val_73 in ipairs(for_val_72:GetChildren()) do
+        if for_key_73 then
+        else
+
+        end;
+        if for_val_73:IsA(Model) then
+        else
+            Array_39 = {};
+            table.insert(
+                Array_39,
+                tonumber(v6430)
+            );
+        end;
+    end;
+    table.sort(Array_39);
+    Table_Concat_Result_35 = table.concat(Array_39, v5600);
+    if Table_Concat_Result_35 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_35)
+        );
+    end;
+    task.wait(2);
+    for for_key_74, for_val_74 in ipairs(v2226:GetChildren()) do
+        if for_key_74 then
+            v6449 = for_val_74[Name_4]:match(Regex);
+        end;
+        if v6449 then
+        else
+
+        end;
+    end;
+    for for_key_75, for_val_75 in ipairs(for_val_74:GetChildren()) do
+        if for_key_75 then
+        else
+
+        end;
+        if for_val_75:IsA(Model) then
+        else
+            Array_40 = {};
+            table.insert(
+                Array_40,
+                tonumber(v6449)
+            );
+        end;
+    end;
+    table.sort(Array_40);
+    Table_Concat_Result_36 = table.concat(Array_40, v5600);
+    if Table_Concat_Result_36 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_36)
+        );
+    end;
+    task.wait(2);
+    for for_key_76, for_val_76 in ipairs(v2226:GetChildren()) do
+        if for_key_76 then
+            v6468 = for_val_76[Name_4]:match(Regex);
+        end;
+        if v6468 then
+        else
+
+        end;
+    end;
+    for for_key_77, for_val_77 in ipairs(for_val_76:GetChildren()) do
+        if for_key_77 then
+        else
+
+        end;
+        if for_val_77:IsA(Model) then
+        else
+            Array_41 = {};
+            table.insert(
+                Array_41,
+                tonumber(v6468)
+            );
+        end;
+    end;
+    table.sort(Array_41);
+    Table_Concat_Result_37 = table.concat(Array_41, v5600);
+    if Table_Concat_Result_37 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_37)
+        );
+    end;
+    task.wait(2);
+    for for_key_78, for_val_78 in ipairs(v2226:GetChildren()) do
+        if for_key_78 then
+            v6487 = for_val_78[Name_4]:match(Regex);
+        end;
+        if v6487 then
+        else
+
+        end;
+    end;
+    for for_key_79, for_val_79 in ipairs(for_val_78:GetChildren()) do
+        if for_key_79 then
+        else
+
+        end;
+        if for_val_79:IsA(Model) then
+        else
+            Array_42 = {};
+            table.insert(
+                Array_42,
+                tonumber(v6487)
+            );
+        end;
+    end;
+    table.sort(Array_42);
+    Table_Concat_Result_38 = table.concat(Array_42, v5600);
+    if Table_Concat_Result_38 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_38)
+        );
+    end;
+    task.wait(2);
+    for for_key_80, for_val_80 in ipairs(v2226:GetChildren()) do
+        if for_key_80 then
+            v6506 = for_val_80[Name_4]:match(Regex);
+        end;
+        if v6506 then
+        else
+
+        end;
+    end;
+    for for_key_81, for_val_81 in ipairs(for_val_80:GetChildren()) do
+        if for_key_81 then
+        else
+
+        end;
+        if for_val_81:IsA(Model) then
+        else
+            Array_43 = {};
+            table.insert(
+                Array_43,
+                tonumber(v6506)
+            );
+        end;
+    end;
+    table.sort(Array_43);
+    Table_Concat_Result_39 = table.concat(Array_43, v5600);
+    if Table_Concat_Result_39 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_39)
+        );
+    end;
+    task.wait(2);
+    for for_key_82, for_val_82 in ipairs(v2226:GetChildren()) do
+        if for_key_82 then
+            v6525 = for_val_82[Name_4]:match(Regex);
+        end;
+        if v6525 then
+        else
+
+        end;
+    end;
+    for for_key_83, for_val_83 in ipairs(for_val_82:GetChildren()) do
+        if for_key_83 then
+        else
+
+        end;
+        if for_val_83:IsA(Model) then
+        else
+            Array_44 = {};
+            table.insert(
+                Array_44,
+                tonumber(v6525)
+            );
+        end;
+    end;
+    table.sort(Array_44);
+    Table_Concat_Result_40 = table.concat(Array_44, v5600);
+    if Table_Concat_Result_40 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_40)
+        );
+    end;
+    task.wait(2);
+    for for_key_84, for_val_84 in ipairs(v2226:GetChildren()) do
+        if for_key_84 then
+            v6544 = for_val_84[Name_4]:match(Regex);
+        end;
+        if v6544 then
+        else
+
+        end;
+    end;
+    for for_key_85, for_val_85 in ipairs(for_val_84:GetChildren()) do
+        if for_key_85 then
+        else
+
+        end;
+        if for_val_85:IsA(Model) then
+        else
+            Array_45 = {};
+            table.insert(
+                Array_45,
+                tonumber(v6544)
+            );
+        end;
+    end;
+    table.sort(Array_45);
+    Table_Concat_Result_41 = table.concat(Array_45, v5600);
+    if Table_Concat_Result_41 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_41)
+        );
+    end;
+    task.wait(2);
+    for for_key_86, for_val_86 in ipairs(v2226:GetChildren()) do
+        if for_key_86 then
+            v6563 = for_val_86[Name_4]:match(Regex);
+        end;
+        if v6563 then
+        else
+
+        end;
+    end;
+    for for_key_87, for_val_87 in ipairs(for_val_86:GetChildren()) do
+        if for_key_87 then
+        else
+
+        end;
+        if for_val_87:IsA(Model) then
+        else
+            Array_46 = {};
+            table.insert(
+                Array_46,
+                tonumber(v6563)
+            );
+        end;
+    end;
+    table.sort(Array_46);
+    Table_Concat_Result_42 = table.concat(Array_46, v5600);
+    if Table_Concat_Result_42 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_42)
+        );
+    end;
+    task.wait(2);
+    for for_key_88, for_val_88 in ipairs(v2226:GetChildren()) do
+        if for_key_88 then
+            v6582 = for_val_88[Name_4]:match(Regex);
+        end;
+        if v6582 then
+        else
+
+        end;
+    end;
+    for for_key_89, for_val_89 in ipairs(for_val_88:GetChildren()) do
+        if for_key_89 then
+        else
+
+        end;
+        if for_val_89:IsA(Model) then
+        else
+            Array_47 = {};
+            table.insert(
+                Array_47,
+                tonumber(v6582)
+            );
+        end;
+    end;
+    table.sort(Array_47);
+    Table_Concat_Result_43 = table.concat(Array_47, v5600);
+    if Table_Concat_Result_43 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_43)
+        );
+    end;
+    task.wait(2);
+    for for_key_90, for_val_90 in ipairs(v2226:GetChildren()) do
+        if for_key_90 then
+            v6601 = for_val_90[Name_4]:match(Regex);
+        end;
+        if v6601 then
+        else
+
+        end;
+    end;
+    for for_key_91, for_val_91 in ipairs(for_val_90:GetChildren()) do
+        if for_key_91 then
+        else
+
+        end;
+        if for_val_91:IsA(Model) then
+        else
+            Array_48 = {};
+            table.insert(
+                Array_48,
+                tonumber(v6601)
+            );
+        end;
+    end;
+    table.sort(Array_48);
+    Table_Concat_Result_44 = table.concat(Array_48, v5600);
+    if Table_Concat_Result_44 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_44)
+        );
+    end;
+    task.wait(2);
+    for for_key_92, for_val_92 in ipairs(v2226:GetChildren()) do
+        if for_key_92 then
+            v6620 = for_val_92[Name_4]:match(Regex);
+        end;
+        if v6620 then
+        else
+
+        end;
+    end;
+    for for_key_93, for_val_93 in ipairs(for_val_92:GetChildren()) do
+        if for_key_93 then
+        else
+
+        end;
+        if for_val_93:IsA(Model) then
+        else
+            Array_49 = {};
+            table.insert(
+                Array_49,
+                tonumber(v6620)
+            );
+        end;
+    end;
+    table.sort(Array_49);
+    Table_Concat_Result_45 = table.concat(Array_49, v5600);
+    if Table_Concat_Result_45 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_45)
+        );
+    end;
+    task.wait(2);
+    for for_key_94, for_val_94 in ipairs(v2226:GetChildren()) do
+        if for_key_94 then
+            v6639 = for_val_94[Name_4]:match(Regex);
+        end;
+        if v6639 then
+        else
+
+        end;
+    end;
+    for for_key_95, for_val_95 in ipairs(for_val_94:GetChildren()) do
+        if for_key_95 then
+        else
+
+        end;
+        if for_val_95:IsA(Model) then
+        else
+            Array_50 = {};
+            table.insert(
+                Array_50,
+                tonumber(v6639)
+            );
+        end;
+    end;
+    table.sort(Array_50);
+    Table_Concat_Result_46 = table.concat(Array_50, v5600);
+    if Table_Concat_Result_46 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_46)
+        );
+    end;
+    task.wait(2);
+    for for_key_96, for_val_96 in ipairs(v2226:GetChildren()) do
+        if for_key_96 then
+            v6658 = for_val_96[Name_4]:match(Regex);
+        end;
+        if v6658 then
+        else
+
+        end;
+    end;
+    for for_key_97, for_val_97 in ipairs(for_val_96:GetChildren()) do
+        if for_key_97 then
+        else
+
+        end;
+        if for_val_97:IsA(Model) then
+        else
+            Array_51 = {};
+            table.insert(
+                Array_51,
+                tonumber(v6658)
+            );
+        end;
+    end;
+    table.sort(Array_51);
+    Table_Concat_Result_47 = table.concat(Array_51, v5600);
+    if Table_Concat_Result_47 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_47)
+        );
+    end;
+    task.wait(2);
+    for for_key_98, for_val_98 in ipairs(v2226:GetChildren()) do
+        if for_key_98 then
+            v6677 = for_val_98[Name_4]:match(Regex);
+        end;
+        if v6677 then
+        else
+
+        end;
+    end;
+    for for_key_99, for_val_99 in ipairs(for_val_98:GetChildren()) do
+        if for_key_99 then
+        else
+
+        end;
+        if for_val_99:IsA(Model) then
+        else
+            Array_52 = {};
+            table.insert(
+                Array_52,
+                tonumber(v6677)
+            );
+        end;
+    end;
+    table.sort(Array_52);
+    Table_Concat_Result_48 = table.concat(Array_52, v5600);
+    if Table_Concat_Result_48 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_48)
+        );
+    end;
+    task.wait(2);
+    for for_key_100, for_val_100 in ipairs(v2226:GetChildren()) do
+        if for_key_100 then
+            v6696 = for_val_100[Name_4]:match(Regex);
+        end;
+        if v6696 then
+        else
+
+        end;
+    end;
+    for for_key_101, for_val_101 in ipairs(for_val_100:GetChildren()) do
+        if for_key_101 then
+        else
+
+        end;
+        if for_val_101:IsA(Model) then
+        else
+            Array_53 = {};
+            table.insert(
+                Array_53,
+                tonumber(v6696)
+            );
+        end;
+    end;
+    table.sort(Array_53);
+    Table_Concat_Result_49 = table.concat(Array_53, v5600);
+    if Table_Concat_Result_49 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_49)
+        );
+    end;
+    task.wait(2);
+    for for_key_102, for_val_102 in ipairs(v2226:GetChildren()) do
+        if for_key_102 then
+            v6715 = for_val_102[Name_4]:match(Regex);
+        end;
+        if v6715 then
+        else
+
+        end;
+    end;
+    for for_key_103, for_val_103 in ipairs(for_val_102:GetChildren()) do
+        if for_key_103 then
+        else
+
+        end;
+        if for_val_103:IsA(Model) then
+        else
+            Array_54 = {};
+            table.insert(
+                Array_54,
+                tonumber(v6715)
+            );
+        end;
+    end;
+    table.sort(Array_54);
+    Table_Concat_Result_50 = table.concat(Array_54, v5600);
+    if Table_Concat_Result_50 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_50)
+        );
+    end;
+    task.wait(2);
+    for for_key_104, for_val_104 in ipairs(v2226:GetChildren()) do
+        if for_key_104 then
+            v6734 = for_val_104[Name_4]:match(Regex);
+        end;
+        if v6734 then
+        else
+
+        end;
+    end;
+    for for_key_105, for_val_105 in ipairs(for_val_104:GetChildren()) do
+        if for_key_105 then
+        else
+
+        end;
+        if for_val_105:IsA(Model) then
+        else
+            Array_55 = {};
+            table.insert(
+                Array_55,
+                tonumber(v6734)
+            );
+        end;
+    end;
+    table.sort(Array_55);
+    Table_Concat_Result_51 = table.concat(Array_55, v5600);
+    if Table_Concat_Result_51 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_51)
+        );
+    end;
+    task.wait(2);
+    for for_key_106, for_val_106 in ipairs(v2226:GetChildren()) do
+        if for_key_106 then
+            v6753 = for_val_106[Name_4]:match(Regex);
+        end;
+        if v6753 then
+        else
+
+        end;
+    end;
+    for for_key_107, for_val_107 in ipairs(for_val_106:GetChildren()) do
+        if for_key_107 then
+        else
+
+        end;
+        if for_val_107:IsA(Model) then
+        else
+            Array_56 = {};
+            table.insert(
+                Array_56,
+                tonumber(v6753)
+            );
+        end;
+    end;
+    table.sort(Array_56);
+    Table_Concat_Result_52 = table.concat(Array_56, v5600);
+    if Table_Concat_Result_52 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_52)
+        );
+    end;
+    task.wait(2);
+    for for_key_108, for_val_108 in ipairs(v2226:GetChildren()) do
+        if for_key_108 then
+            v6772 = for_val_108[Name_4]:match(Regex);
+        end;
+        if v6772 then
+        else
+
+        end;
+    end;
+    for for_key_109, for_val_109 in ipairs(for_val_108:GetChildren()) do
+        if for_key_109 then
+        else
+
+        end;
+        if for_val_109:IsA(Model) then
+        else
+            Array_57 = {};
+            table.insert(
+                Array_57,
+                tonumber(v6772)
+            );
+        end;
+    end;
+    table.sort(Array_57);
+    Table_Concat_Result_53 = table.concat(Array_57, v5600);
+    if Table_Concat_Result_53 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_53)
+        );
+    end;
+    task.wait(2);
+    for for_key_110, for_val_110 in ipairs(v2226:GetChildren()) do
+        if for_key_110 then
+            v6791 = for_val_110[Name_4]:match(Regex);
+        end;
+        if v6791 then
+        else
+
+        end;
+    end;
+    for for_key_111, for_val_111 in ipairs(for_val_110:GetChildren()) do
+        if for_key_111 then
+        else
+
+        end;
+        if for_val_111:IsA(Model) then
+        else
+            Array_58 = {};
+            table.insert(
+                Array_58,
+                tonumber(v6791)
+            );
+        end;
+    end;
+    table.sort(Array_58);
+    Table_Concat_Result_54 = table.concat(Array_58, v5600);
+    if Table_Concat_Result_54 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_54)
+        );
+    end;
+    task.wait(2);
+    for for_key_112, for_val_112 in ipairs(v2226:GetChildren()) do
+        if for_key_112 then
+            v6810 = for_val_112[Name_4]:match(Regex);
+        end;
+        if v6810 then
+        else
+
+        end;
+    end;
+    for for_key_113, for_val_113 in ipairs(for_val_112:GetChildren()) do
+        if for_key_113 then
+        else
+
+        end;
+        if for_val_113:IsA(Model) then
+        else
+            Array_59 = {};
+            table.insert(
+                Array_59,
+                tonumber(v6810)
+            );
+        end;
+    end;
+    table.sort(Array_59);
+    Table_Concat_Result_55 = table.concat(Array_59, v5600);
+    if Table_Concat_Result_55 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_55)
+        );
+    end;
+    task.wait(2);
+    for for_key_114, for_val_114 in ipairs(v2226:GetChildren()) do
+        if for_key_114 then
+            v6829 = for_val_114[Name_4]:match(Regex);
+        end;
+        if v6829 then
+        else
+
+        end;
+    end;
+    for for_key_115, for_val_115 in ipairs(for_val_114:GetChildren()) do
+        if for_key_115 then
+        else
+
+        end;
+        if for_val_115:IsA(Model) then
+        else
+            Array_60 = {};
+            table.insert(
+                Array_60,
+                tonumber(v6829)
+            );
+        end;
+    end;
+    table.sort(Array_60);
+    Table_Concat_Result_56 = table.concat(Array_60, v5600);
+    if Table_Concat_Result_56 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_56)
+        );
+    end;
+    task.wait(2);
+    for for_key_116, for_val_116 in ipairs(v2226:GetChildren()) do
+        if for_key_116 then
+            v6848 = for_val_116[Name_4]:match(Regex);
+        end;
+        if v6848 then
+        else
+
+        end;
+    end;
+    for for_key_117, for_val_117 in ipairs(for_val_116:GetChildren()) do
+        if for_key_117 then
+        else
+
+        end;
+        if for_val_117:IsA(Model) then
+        else
+            Array_61 = {};
+            table.insert(
+                Array_61,
+                tonumber(v6848)
+            );
+        end;
+    end;
+    table.sort(Array_61);
+    Table_Concat_Result_57 = table.concat(Array_61, v5600);
+    if Table_Concat_Result_57 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_57)
+        );
+    end;
+    task.wait(2);
+    for for_key_118, for_val_118 in ipairs(v2226:GetChildren()) do
+        if for_key_118 then
+            v6867 = for_val_118[Name_4]:match(Regex);
+        end;
+        if v6867 then
+        else
+
+        end;
+    end;
+    for for_key_119, for_val_119 in ipairs(for_val_118:GetChildren()) do
+        if for_key_119 then
+        else
+
+        end;
+        if for_val_119:IsA(Model) then
+        else
+            Array_62 = {};
+            table.insert(
+                Array_62,
+                tonumber(v6867)
+            );
+        end;
+    end;
+    table.sort(Array_62);
+    Table_Concat_Result_58 = table.concat(Array_62, v5600);
+    if Table_Concat_Result_58 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_58)
+        );
+    end;
+    task.wait(2);
+    for for_key_120, for_val_120 in ipairs(v2226:GetChildren()) do
+        if for_key_120 then
+            v6886 = for_val_120[Name_4]:match(Regex);
+        end;
+        if v6886 then
+        else
+
+        end;
+    end;
+    for for_key_121, for_val_121 in ipairs(for_val_120:GetChildren()) do
+        if for_key_121 then
+        else
+
+        end;
+        if for_val_121:IsA(Model) then
+        else
+            Array_63 = {};
+            table.insert(
+                Array_63,
+                tonumber(v6886)
+            );
+        end;
+    end;
+    table.sort(Array_63);
+    Table_Concat_Result_59 = table.concat(Array_63, v5600);
+    if Table_Concat_Result_59 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_59)
+        );
+    end;
+    task.wait(2);
+    for for_key_122, for_val_122 in ipairs(v2226:GetChildren()) do
+        if for_key_122 then
+            v6905 = for_val_122[Name_4]:match(Regex);
+        end;
+        if v6905 then
+        else
+
+        end;
+    end;
+    for for_key_123, for_val_123 in ipairs(for_val_122:GetChildren()) do
+        if for_key_123 then
+        else
+
+        end;
+        if for_val_123:IsA(Model) then
+        else
+            Array_64 = {};
+            table.insert(
+                Array_64,
+                tonumber(v6905)
+            );
+        end;
+    end;
+    table.sort(Array_64);
+    Table_Concat_Result_60 = table.concat(Array_64, v5600);
+    if Table_Concat_Result_60 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_60)
+        );
+    end;
+    task.wait(2);
+    for for_key_124, for_val_124 in ipairs(v2226:GetChildren()) do
+        if for_key_124 then
+            v6924 = for_val_124[Name_4]:match(Regex);
+        end;
+        if v6924 then
+        else
+
+        end;
+    end;
+    for for_key_125, for_val_125 in ipairs(for_val_124:GetChildren()) do
+        if for_key_125 then
+        else
+
+        end;
+        if for_val_125:IsA(Model) then
+        else
+            Array_65 = {};
+            table.insert(
+                Array_65,
+                tonumber(v6924)
+            );
+        end;
+    end;
+    table.sort(Array_65);
+    Table_Concat_Result_61 = table.concat(Array_65, v5600);
+    if Table_Concat_Result_61 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_61)
+        );
+    end;
+    task.wait(2);
+    for for_key_126, for_val_126 in ipairs(v2226:GetChildren()) do
+        if for_key_126 then
+            v6943 = for_val_126[Name_4]:match(Regex);
+        end;
+        if v6943 then
+        else
+
+        end;
+    end;
+    for for_key_127, for_val_127 in ipairs(for_val_126:GetChildren()) do
+        if for_key_127 then
+        else
+
+        end;
+        if for_val_127:IsA(Model) then
+        else
+            Array_66 = {};
+            table.insert(
+                Array_66,
+                tonumber(v6943)
+            );
+        end;
+    end;
+    table.sort(Array_66);
+    Table_Concat_Result_62 = table.concat(Array_66, v5600);
+    if Table_Concat_Result_62 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_62)
+        );
+    end;
+    task.wait(2);
+    for for_key_128, for_val_128 in ipairs(v2226:GetChildren()) do
+        if for_key_128 then
+            v6962 = for_val_128[Name_4]:match(Regex);
+        end;
+        if v6962 then
+        else
+
+        end;
+    end;
+    for for_key_129, for_val_129 in ipairs(for_val_128:GetChildren()) do
+        if for_key_129 then
+        else
+
+        end;
+        if for_val_129:IsA(Model) then
+        else
+            Array_67 = {};
+            table.insert(
+                Array_67,
+                tonumber(v6962)
+            );
+        end;
+    end;
+    table.sort(Array_67);
+    Table_Concat_Result_63 = table.concat(Array_67, v5600);
+    if Table_Concat_Result_63 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_63)
+        );
+    end;
+    task.wait(2);
+    for for_key_130, for_val_130 in ipairs(v2226:GetChildren()) do
+        if for_key_130 then
+            v6981 = for_val_130[Name_4]:match(Regex);
+        end;
+        if v6981 then
+        else
+
+        end;
+    end;
+    for for_key_131, for_val_131 in ipairs(for_val_130:GetChildren()) do
+        if for_key_131 then
+        else
+
+        end;
+        if for_val_131:IsA(Model) then
+        else
+            Array_68 = {};
+            table.insert(
+                Array_68,
+                tonumber(v6981)
+            );
+        end;
+    end;
+    table.sort(Array_68);
+    Table_Concat_Result_64 = table.concat(Array_68, v5600);
+    if Table_Concat_Result_64 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_64)
+        );
+    end;
+    task.wait(2);
+    for for_key_132, for_val_132 in ipairs(v2226:GetChildren()) do
+        if for_key_132 then
+            v7000 = for_val_132[Name_4]:match(Regex);
+        end;
+        if v7000 then
+        else
+
+        end;
+    end;
+    for for_key_133, for_val_133 in ipairs(for_val_132:GetChildren()) do
+        if for_key_133 then
+        else
+
+        end;
+        if for_val_133:IsA(Model) then
+        else
+            Array_69 = {};
+            table.insert(
+                Array_69,
+                tonumber(v7000)
+            );
+        end;
+    end;
+    table.sort(Array_69);
+    Table_Concat_Result_65 = table.concat(Array_69, v5600);
+    if Table_Concat_Result_65 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_65)
+        );
+    end;
+    task.wait(2);
+    for for_key_134, for_val_134 in ipairs(v2226:GetChildren()) do
+        if for_key_134 then
+            v7019 = for_val_134[Name_4]:match(Regex);
+        end;
+        if v7019 then
+        else
+
+        end;
+    end;
+    for for_key_135, for_val_135 in ipairs(for_val_134:GetChildren()) do
+        if for_key_135 then
+        else
+
+        end;
+        if for_val_135:IsA(Model) then
+        else
+            Array_70 = {};
+            table.insert(
+                Array_70,
+                tonumber(v7019)
+            );
+        end;
+    end;
+    table.sort(Array_70);
+    Table_Concat_Result_66 = table.concat(Array_70, v5600);
+    if Table_Concat_Result_66 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_66)
+        );
+    end;
+    task.wait(2);
+    for for_key_136, for_val_136 in ipairs(v2226:GetChildren()) do
+        if for_key_136 then
+            v7038 = for_val_136[Name_4]:match(Regex);
+        end;
+        if v7038 then
+        else
+
+        end;
+    end;
+    for for_key_137, for_val_137 in ipairs(for_val_136:GetChildren()) do
+        if for_key_137 then
+        else
+
+        end;
+        if for_val_137:IsA(Model) then
+        else
+            Array_71 = {};
+            table.insert(
+                Array_71,
+                tonumber(v7038)
+            );
+        end;
+    end;
+    table.sort(Array_71);
+    Table_Concat_Result_67 = table.concat(Array_71, v5600);
+    if Table_Concat_Result_67 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_67)
+        );
+    end;
+    task.wait(2);
+    for for_key_138, for_val_138 in ipairs(v2226:GetChildren()) do
+        if for_key_138 then
+            v7057 = for_val_138[Name_4]:match(Regex);
+        end;
+        if v7057 then
+        else
+
+        end;
+    end;
+    for for_key_139, for_val_139 in ipairs(for_val_138:GetChildren()) do
+        if for_key_139 then
+        else
+
+        end;
+        if for_val_139:IsA(Model) then
+        else
+            Array_72 = {};
+            table.insert(
+                Array_72,
+                tonumber(v7057)
+            );
+        end;
+    end;
+    table.sort(Array_72);
+    Table_Concat_Result_68 = table.concat(Array_72, v5600);
+    if Table_Concat_Result_68 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_68)
+        );
+    end;
+    task.wait(2);
+    for for_key_140, for_val_140 in ipairs(v2226:GetChildren()) do
+        if for_key_140 then
+            v7076 = for_val_140[Name_4]:match(Regex);
+        end;
+        if v7076 then
+        else
+
+        end;
+    end;
+    for for_key_141, for_val_141 in ipairs(for_val_140:GetChildren()) do
+        if for_key_141 then
+        else
+
+        end;
+        if for_val_141:IsA(Model) then
+        else
+            Array_73 = {};
+            table.insert(
+                Array_73,
+                tonumber(v7076)
+            );
+        end;
+    end;
+    table.sort(Array_73);
+    Table_Concat_Result_69 = table.concat(Array_73, v5600);
+    if Table_Concat_Result_69 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_69)
+        );
+    end;
+    task.wait(2);
+    for for_key_142, for_val_142 in ipairs(v2226:GetChildren()) do
+        if for_key_142 then
+            v7095 = for_val_142[Name_4]:match(Regex);
+        end;
+        if v7095 then
+        else
+
+        end;
+    end;
+    for for_key_143, for_val_143 in ipairs(for_val_142:GetChildren()) do
+        if for_key_143 then
+        else
+
+        end;
+        if for_val_143:IsA(Model) then
+        else
+            Array_74 = {};
+            table.insert(
+                Array_74,
+                tonumber(v7095)
+            );
+        end;
+    end;
+    table.sort(Array_74);
+    Table_Concat_Result_70 = table.concat(Array_74, v5600);
+    if Table_Concat_Result_70 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_70)
+        );
+    end;
+    task.wait(2);
+    for for_key_144, for_val_144 in ipairs(v2226:GetChildren()) do
+        if for_key_144 then
+            v7114 = for_val_144[Name_4]:match(Regex);
+        end;
+        if v7114 then
+        else
+
+        end;
+    end;
+    for for_key_145, for_val_145 in ipairs(for_val_144:GetChildren()) do
+        if for_key_145 then
+        else
+
+        end;
+        if for_val_145:IsA(Model) then
+        else
+            Array_75 = {};
+            table.insert(
+                Array_75,
+                tonumber(v7114)
+            );
+        end;
+    end;
+    table.sort(Array_75);
+    Table_Concat_Result_71 = table.concat(Array_75, v5600);
+    if Table_Concat_Result_71 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_71)
+        );
+    end;
+    task.wait(2);
+    for for_key_146, for_val_146 in ipairs(v2226:GetChildren()) do
+        if for_key_146 then
+            v7133 = for_val_146[Name_4]:match(Regex);
+        end;
+        if v7133 then
+        else
+
+        end;
+    end;
+    for for_key_147, for_val_147 in ipairs(for_val_146:GetChildren()) do
+        if for_key_147 then
+        else
+
+        end;
+        if for_val_147:IsA(Model) then
+        else
+            Array_76 = {};
+            table.insert(
+                Array_76,
+                tonumber(v7133)
+            );
+        end;
+    end;
+    table.sort(Array_76);
+    Table_Concat_Result_72 = table.concat(Array_76, v5600);
+    if Table_Concat_Result_72 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_72)
+        );
+    end;
+    task.wait(2);
+    for for_key_148, for_val_148 in ipairs(v2226:GetChildren()) do
+        if for_key_148 then
+            v7152 = for_val_148[Name_4]:match(Regex);
+        end;
+        if v7152 then
+        else
+
+        end;
+    end;
+    for for_key_149, for_val_149 in ipairs(for_val_148:GetChildren()) do
+        if for_key_149 then
+        else
+
+        end;
+        if for_val_149:IsA(Model) then
+        else
+            Array_77 = {};
+            table.insert(
+                Array_77,
+                tonumber(v7152)
+            );
+        end;
+    end;
+    table.sort(Array_77);
+    Table_Concat_Result_73 = table.concat(Array_77, v5600);
+    if Table_Concat_Result_73 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_73)
+        );
+    end;
+    task.wait(2);
+    for for_key_150, for_val_150 in ipairs(v2226:GetChildren()) do
+        if for_key_150 then
+            v7171 = for_val_150[Name_4]:match(Regex);
+        end;
+        if v7171 then
+        else
+
+        end;
+    end;
+    for for_key_151, for_val_151 in ipairs(for_val_150:GetChildren()) do
+        if for_key_151 then
+        else
+
+        end;
+        if for_val_151:IsA(Model) then
+        else
+            Array_78 = {};
+            table.insert(
+                Array_78,
+                tonumber(v7171)
+            );
+        end;
+    end;
+    table.sort(Array_78);
+    Table_Concat_Result_74 = table.concat(Array_78, v5600);
+    if Table_Concat_Result_74 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_74)
+        );
+    end;
+    task.wait(2);
+    for for_key_152, for_val_152 in ipairs(v2226:GetChildren()) do
+        if for_key_152 then
+            v7190 = for_val_152[Name_4]:match(Regex);
+        end;
+        if v7190 then
+        else
+
+        end;
+    end;
+    for for_key_153, for_val_153 in ipairs(for_val_152:GetChildren()) do
+        if for_key_153 then
+        else
+
+        end;
+        if for_val_153:IsA(Model) then
+        else
+            Array_79 = {};
+            table.insert(
+                Array_79,
+                tonumber(v7190)
+            );
+        end;
+    end;
+    table.sort(Array_79);
+    Table_Concat_Result_75 = table.concat(Array_79, v5600);
+    if Table_Concat_Result_75 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_75)
+        );
+    end;
+    task.wait(2);
+    for for_key_154, for_val_154 in ipairs(v2226:GetChildren()) do
+        if for_key_154 then
+            v7209 = for_val_154[Name_4]:match(Regex);
+        end;
+        if v7209 then
+        else
+
+        end;
+    end;
+    for for_key_155, for_val_155 in ipairs(for_val_154:GetChildren()) do
+        if for_key_155 then
+        else
+
+        end;
+        if for_val_155:IsA(Model) then
+        else
+            Array_80 = {};
+            table.insert(
+                Array_80,
+                tonumber(v7209)
+            );
+        end;
+    end;
+    table.sort(Array_80);
+    Table_Concat_Result_76 = table.concat(Array_80, v5600);
+    if Table_Concat_Result_76 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_76)
+        );
+    end;
+    task.wait(2);
+    for for_key_156, for_val_156 in ipairs(v2226:GetChildren()) do
+        if for_key_156 then
+            v7228 = for_val_156[Name_4]:match(Regex);
+        end;
+        if v7228 then
+        else
+
+        end;
+    end;
+    for for_key_157, for_val_157 in ipairs(for_val_156:GetChildren()) do
+        if for_key_157 then
+        else
+
+        end;
+        if for_val_157:IsA(Model) then
+        else
+            Array_81 = {};
+            table.insert(
+                Array_81,
+                tonumber(v7228)
+            );
+        end;
+    end;
+    table.sort(Array_81);
+    Table_Concat_Result_77 = table.concat(Array_81, v5600);
+    if Table_Concat_Result_77 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_77)
+        );
+    end;
+    task.wait(2);
+    for for_key_158, for_val_158 in ipairs(v2226:GetChildren()) do
+        if for_key_158 then
+            v7247 = for_val_158[Name_4]:match(Regex);
+        end;
+        if v7247 then
+        else
+
+        end;
+    end;
+    for for_key_159, for_val_159 in ipairs(for_val_158:GetChildren()) do
+        if for_key_159 then
+        else
+
+        end;
+        if for_val_159:IsA(Model) then
+        else
+            Array_82 = {};
+            table.insert(
+                Array_82,
+                tonumber(v7247)
+            );
+        end;
+    end;
+    table.sort(Array_82);
+    Table_Concat_Result_78 = table.concat(Array_82, v5600);
+    if Table_Concat_Result_78 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_78)
+        );
+    end;
+    task.wait(2);
+    for for_key_160, for_val_160 in ipairs(v2226:GetChildren()) do
+        if for_key_160 then
+            v7266 = for_val_160[Name_4]:match(Regex);
+        end;
+        if v7266 then
+        else
+
+        end;
+    end;
+    for for_key_161, for_val_161 in ipairs(for_val_160:GetChildren()) do
+        if for_key_161 then
+        else
+
+        end;
+        if for_val_161:IsA(Model) then
+        else
+            Array_83 = {};
+            table.insert(
+                Array_83,
+                tonumber(v7266)
+            );
+        end;
+    end;
+    table.sort(Array_83);
+    Table_Concat_Result_79 = table.concat(Array_83, v5600);
+    if Table_Concat_Result_79 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_79)
+        );
+    end;
+    task.wait(2);
+    for for_key_162, for_val_162 in ipairs(v2226:GetChildren()) do
+        if for_key_162 then
+            v7285 = for_val_162[Name_4]:match(Regex);
+        end;
+        if v7285 then
+        else
+
+        end;
+    end;
+    for for_key_163, for_val_163 in ipairs(for_val_162:GetChildren()) do
+        if for_key_163 then
+        else
+
+        end;
+        if for_val_163:IsA(Model) then
+        else
+            Array_84 = {};
+            table.insert(
+                Array_84,
+                tonumber(v7285)
+            );
+        end;
+    end;
+    table.sort(Array_84);
+    Table_Concat_Result_80 = table.concat(Array_84, v5600);
+    if Table_Concat_Result_80 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_80)
+        );
+    end;
+    task.wait(2);
+    for for_key_164, for_val_164 in ipairs(v2226:GetChildren()) do
+        if for_key_164 then
+            v7304 = for_val_164[Name_4]:match(Regex);
+        end;
+        if v7304 then
+        else
+
+        end;
+    end;
+    for for_key_165, for_val_165 in ipairs(for_val_164:GetChildren()) do
+        if for_key_165 then
+        else
+
+        end;
+        if for_val_165:IsA(Model) then
+        else
+            Array_85 = {};
+            table.insert(
+                Array_85,
+                tonumber(v7304)
+            );
+        end;
+    end;
+    table.sort(Array_85);
+    Table_Concat_Result_81 = table.concat(Array_85, v5600);
+    if Table_Concat_Result_81 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_81)
+        );
+    end;
+    task.wait(2);
+    for for_key_166, for_val_166 in ipairs(v2226:GetChildren()) do
+        if for_key_166 then
+            v7323 = for_val_166[Name_4]:match(Regex);
+        end;
+        if v7323 then
+        else
+
+        end;
+    end;
+    for for_key_167, for_val_167 in ipairs(for_val_166:GetChildren()) do
+        if for_key_167 then
+        else
+
+        end;
+        if for_val_167:IsA(Model) then
+        else
+            Array_86 = {};
+            table.insert(
+                Array_86,
+                tonumber(v7323)
+            );
+        end;
+    end;
+    table.sort(Array_86);
+    Table_Concat_Result_82 = table.concat(Array_86, v5600);
+    if Table_Concat_Result_82 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_82)
+        );
+    end;
+    task.wait(2);
+    for for_key_168, for_val_168 in ipairs(v2226:GetChildren()) do
+        if for_key_168 then
+            v7342 = for_val_168[Name_4]:match(Regex);
+        end;
+        if v7342 then
+        else
+
+        end;
+    end;
+    for for_key_169, for_val_169 in ipairs(for_val_168:GetChildren()) do
+        if for_key_169 then
+        else
+
+        end;
+        if for_val_169:IsA(Model) then
+        else
+            Array_87 = {};
+            table.insert(
+                Array_87,
+                tonumber(v7342)
+            );
+        end;
+    end;
+    table.sort(Array_87);
+    Table_Concat_Result_83 = table.concat(Array_87, v5600);
+    if Table_Concat_Result_83 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_83)
+        );
+    end;
+    task.wait(2);
+    for for_key_170, for_val_170 in ipairs(v2226:GetChildren()) do
+        if for_key_170 then
+            v7361 = for_val_170[Name_4]:match(Regex);
+        end;
+        if v7361 then
+        else
+
+        end;
+    end;
+    for for_key_171, for_val_171 in ipairs(for_val_170:GetChildren()) do
+        if for_key_171 then
+        else
+
+        end;
+        if for_val_171:IsA(Model) then
+        else
+            Array_88 = {};
+            table.insert(
+                Array_88,
+                tonumber(v7361)
+            );
+        end;
+    end;
+    table.sort(Array_88);
+    Table_Concat_Result_84 = table.concat(Array_88, v5600);
+    if Table_Concat_Result_84 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_84)
+        );
+    end;
+    task.wait(2);
+    for for_key_172, for_val_172 in ipairs(v2226:GetChildren()) do
+        if for_key_172 then
+            v7380 = for_val_172[Name_4]:match(Regex);
+        end;
+        if v7380 then
+        else
+
+        end;
+    end;
+    for for_key_173, for_val_173 in ipairs(for_val_172:GetChildren()) do
+        if for_key_173 then
+        else
+
+        end;
+        if for_val_173:IsA(Model) then
+        else
+            Array_89 = {};
+            table.insert(
+                Array_89,
+                tonumber(v7380)
+            );
+        end;
+    end;
+    table.sort(Array_89);
+    Table_Concat_Result_85 = table.concat(Array_89, v5600);
+    if Table_Concat_Result_85 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_85)
+        );
+    end;
+    task.wait(2);
+    for for_key_174, for_val_174 in ipairs(v2226:GetChildren()) do
+        if for_key_174 then
+            v7399 = for_val_174[Name_4]:match(Regex);
+        end;
+        if v7399 then
+        else
+
+        end;
+    end;
+    for for_key_175, for_val_175 in ipairs(for_val_174:GetChildren()) do
+        if for_key_175 then
+        else
+
+        end;
+        if for_val_175:IsA(Model) then
+        else
+            Array_90 = {};
+            table.insert(
+                Array_90,
+                tonumber(v7399)
+            );
+        end;
+    end;
+    table.sort(Array_90);
+    Table_Concat_Result_86 = table.concat(Array_90, v5600);
+    if Table_Concat_Result_86 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_86)
+        );
+    end;
+    task.wait(2);
+    for for_key_176, for_val_176 in ipairs(v2226:GetChildren()) do
+        if for_key_176 then
+            v7418 = for_val_176[Name_4]:match(Regex);
+        end;
+        if v7418 then
+        else
+
+        end;
+    end;
+    for for_key_177, for_val_177 in ipairs(for_val_176:GetChildren()) do
+        if for_key_177 then
+        else
+
+        end;
+        if for_val_177:IsA(Model) then
+        else
+            Array_91 = {};
+            table.insert(
+                Array_91,
+                tonumber(v7418)
+            );
+        end;
+    end;
+    table.sort(Array_91);
+    Table_Concat_Result_87 = table.concat(Array_91, v5600);
+    if Table_Concat_Result_87 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_87)
+        );
+    end;
+    task.wait(2);
+    for for_key_178, for_val_178 in ipairs(v2226:GetChildren()) do
+        if for_key_178 then
+            v7437 = for_val_178[Name_4]:match(Regex);
+        end;
+        if v7437 then
+        else
+
+        end;
+    end;
+    for for_key_179, for_val_179 in ipairs(for_val_178:GetChildren()) do
+        if for_key_179 then
+        else
+
+        end;
+        if for_val_179:IsA(Model) then
+        else
+            Array_92 = {};
+            table.insert(
+                Array_92,
+                tonumber(v7437)
+            );
+        end;
+    end;
+    table.sort(Array_92);
+    Table_Concat_Result_88 = table.concat(Array_92, v5600);
+    if Table_Concat_Result_88 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_88)
+        );
+    end;
+    task.wait(2);
+    for for_key_180, for_val_180 in ipairs(v2226:GetChildren()) do
+        if for_key_180 then
+            v7456 = for_val_180[Name_4]:match(Regex);
+        end;
+        if v7456 then
+        else
+
+        end;
+    end;
+    for for_key_181, for_val_181 in ipairs(for_val_180:GetChildren()) do
+        if for_key_181 then
+        else
+
+        end;
+        if for_val_181:IsA(Model) then
+        else
+            Array_93 = {};
+            table.insert(
+                Array_93,
+                tonumber(v7456)
+            );
+        end;
+    end;
+    table.sort(Array_93);
+    Table_Concat_Result_89 = table.concat(Array_93, v5600);
+    if Table_Concat_Result_89 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_89)
+        );
+    end;
+    task.wait(2);
+    for for_key_182, for_val_182 in ipairs(v2226:GetChildren()) do
+        if for_key_182 then
+            v7475 = for_val_182[Name_4]:match(Regex);
+        end;
+        if v7475 then
+        else
+
+        end;
+    end;
+    for for_key_183, for_val_183 in ipairs(for_val_182:GetChildren()) do
+        if for_key_183 then
+        else
+
+        end;
+        if for_val_183:IsA(Model) then
+        else
+            Array_94 = {};
+            table.insert(
+                Array_94,
+                tonumber(v7475)
+            );
+        end;
+    end;
+    table.sort(Array_94);
+    Table_Concat_Result_90 = table.concat(Array_94, v5600);
+    if Table_Concat_Result_90 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_90)
+        );
+    end;
+    task.wait(2);
+    for for_key_184, for_val_184 in ipairs(v2226:GetChildren()) do
+        if for_key_184 then
+            v7494 = for_val_184[Name_4]:match(Regex);
+        end;
+        if v7494 then
+        else
+
+        end;
+    end;
+    for for_key_185, for_val_185 in ipairs(for_val_184:GetChildren()) do
+        if for_key_185 then
+        else
+
+        end;
+        if for_val_185:IsA(Model) then
+        else
+            Array_95 = {};
+            table.insert(
+                Array_95,
+                tonumber(v7494)
+            );
+        end;
+    end;
+    table.sort(Array_95);
+    Table_Concat_Result_91 = table.concat(Array_95, v5600);
+    if Table_Concat_Result_91 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_91)
+        );
+    end;
+    task.wait(2);
+    for for_key_186, for_val_186 in ipairs(v2226:GetChildren()) do
+        if for_key_186 then
+            v7513 = for_val_186[Name_4]:match(Regex);
+        end;
+        if v7513 then
+        else
+
+        end;
+    end;
+    for for_key_187, for_val_187 in ipairs(for_val_186:GetChildren()) do
+        if for_key_187 then
+        else
+
+        end;
+        if for_val_187:IsA(Model) then
+        else
+            Array_96 = {};
+            table.insert(
+                Array_96,
+                tonumber(v7513)
+            );
+        end;
+    end;
+    table.sort(Array_96);
+    Table_Concat_Result_92 = table.concat(Array_96, v5600);
+    if Table_Concat_Result_92 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_92)
+        );
+    end;
+    task.wait(2);
+    for for_key_188, for_val_188 in ipairs(v2226:GetChildren()) do
+        if for_key_188 then
+            v7532 = for_val_188[Name_4]:match(Regex);
+        end;
+        if v7532 then
+        else
+
+        end;
+    end;
+    for for_key_189, for_val_189 in ipairs(for_val_188:GetChildren()) do
+        if for_key_189 then
+        else
+
+        end;
+        if for_val_189:IsA(Model) then
+        else
+            Array_97 = {};
+            table.insert(
+                Array_97,
+                tonumber(v7532)
+            );
+        end;
+    end;
+    table.sort(Array_97);
+    Table_Concat_Result_93 = table.concat(Array_97, v5600);
+    if Table_Concat_Result_93 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_93)
+        );
+    end;
+    task.wait(2);
+    for for_key_190, for_val_190 in ipairs(v2226:GetChildren()) do
+        if for_key_190 then
+            v7551 = for_val_190[Name_4]:match(Regex);
+        end;
+        if v7551 then
+        else
+
+        end;
+    end;
+    for for_key_191, for_val_191 in ipairs(for_val_190:GetChildren()) do
+        if for_key_191 then
+        else
+
+        end;
+        if for_val_191:IsA(Model) then
+        else
+            Array_98 = {};
+            table.insert(
+                Array_98,
+                tonumber(v7551)
+            );
+        end;
+    end;
+    table.sort(Array_98);
+    Table_Concat_Result_94 = table.concat(Array_98, v5600);
+    if Table_Concat_Result_94 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_94)
+        );
+    end;
+    task.wait(2);
+    for for_key_192, for_val_192 in ipairs(v2226:GetChildren()) do
+        if for_key_192 then
+            v7570 = for_val_192[Name_4]:match(Regex);
+        end;
+        if v7570 then
+        else
+
+        end;
+    end;
+    for for_key_193, for_val_193 in ipairs(for_val_192:GetChildren()) do
+        if for_key_193 then
+        else
+
+        end;
+        if for_val_193:IsA(Model) then
+        else
+            Array_99 = {};
+            table.insert(
+                Array_99,
+                tonumber(v7570)
+            );
+        end;
+    end;
+    table.sort(Array_99);
+    Table_Concat_Result_95 = table.concat(Array_99, v5600);
+    if Table_Concat_Result_95 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_95)
+        );
+    end;
+    task.wait(2);
+    for for_key_194, for_val_194 in ipairs(v2226:GetChildren()) do
+        if for_key_194 then
+            v7589 = for_val_194[Name_4]:match(Regex);
+        end;
+        if v7589 then
+        else
+
+        end;
+    end;
+    for for_key_195, for_val_195 in ipairs(for_val_194:GetChildren()) do
+        if for_key_195 then
+        else
+
+        end;
+        if for_val_195:IsA(Model) then
+        else
+            Array_100 = {};
+            table.insert(
+                Array_100,
+                tonumber(v7589)
+            );
+        end;
+    end;
+    table.sort(Array_100);
+    Table_Concat_Result_96 = table.concat(Array_100, v5600);
+    if Table_Concat_Result_96 then
+        Code:SetCode(
+            string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_96)
+        );
+    end;
+    task.wait(2);
+    for for_key_196, for_val_196 in ipairs(v2226:GetChildren()) do
+        if for_key_196 then
+            v7608 = for_val_196[Name_4]:match(Regex);
+        end;
+        if v7608 then
+        else
+
+        end;
+    end;
+    for for_key_197, for_val_197 in ipairs(for_val_196:GetChildren()) do
+        if for_key_197 then
+        else
+
+        end;
+        if for_val_197:IsA(Model) then
+        else
+            Array_101 = {};
+            table.insert(
+                Array_101,
+                tonumber(v7608)
+            );
+        end;
+    end;
+    table.sort(Array_101);
+    Table_Concat_Result_97 = table.concat(Array_101, v5600);
+    if Table_Concat_Result_97 then
+        string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_97);
+    end;
+end);
+for for_key_198, for_val_198 in ipairs(v2226:GetChildren()) do
+    if for_key_198 then
+        v7628 = for_val_198[Name_4]:match(Regex);
+    end;
+    if v7628 then
+    else
+
+    end;
+end;
+for for_key_199, for_val_199 in ipairs(for_val_198:GetChildren()) do
+    if for_key_199 then
+    else
+
+    end;
+    if for_val_199:IsA(Model) then
+    else
+        Array_102 = {};
+        table.insert(
+            Array_102,
+            tonumber(v7628)
+        );
+    end;
+end;
+table.sort(Array_102);
+local Table_Concat_Result_98 = table.concat(Array_102, v5600);
+if Table_Concat_Result_98 then
+    Code:SetCode(
+        string.format(Name_Regex, v329, v2138, v5780, Service_14, v5790, Nil, Table_Concat_Result_98)
+    );
+end;
